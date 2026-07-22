@@ -13,3 +13,13 @@
 # Add below lines to exclude OS settings and caches
 .trash/
 .DS_Store
+
+# FreeCAD Backup Files
+*.FCBak
+*.fcstd1
+*.bak
+#auto_saved_files#
+
+# Temporary and Lock Files
+*.lck
+*~
