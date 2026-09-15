@@ -37,19 +37,19 @@ It then supplies your:
 
 # Key Specifications
 
-|Specification|Value|
-|---|---|
-|Model|LSLC125-12|
-|Manufacturer|Lucas|
-|Battery type|AGM|
-|Chemistry|Lead-acid|
-|Nominal voltage|12V|
-|Capacity|125Ah|
-|Energy capacity|~1,500Wh|
-|Terminal type|TBC — verify on supplied battery|
-|Maintenance|Maintenance-free|
-|Recommended use|Leisure / deep-cycle|
-|Charging|Suitable for regulated 12V lead-acid charging systems|
+| Specification   | Value                                                 |
+| --------------- | ----------------------------------------------------- |
+| Model           | LSLC125-12                                            |
+| Manufacturer    | Lucas                                                 |
+| Battery type    | AGM                                                   |
+| Chemistry       | Lead-acid                                             |
+| Nominal voltage | 12V                                                   |
+| Capacity        | 125Ah                                                 |
+| Energy capacity | ~1,500Wh                                              |
+| Terminal type   | TBC — verify on supplied battery                      |
+| Maintenance     | Maintenance-free                                      |
+| Recommended use | Leisure / deep-cycle                                  |
+| Charging        | Suitable for regulated 12V lead-acid charging systems |
 
 **Energy calculation:**
 
