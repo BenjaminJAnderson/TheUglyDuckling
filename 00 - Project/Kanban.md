@@ -6,7 +6,8 @@ kanban-plugin: board
 
 ## BACKLOG
 
-- [ ] [[Bed]] - Research thing
+- [ ] Plan purchase list for shower
+- [ ] Plan purchase list for kitchen
 
 
 ## IDEAS
