@@ -1,3 +1,11 @@
+---
+tags: [systems, electrical, inverter]
+status: research
+updated: 2026-10-21
+---
+
+# Xantrex PROwatt SW 2000i Inverter
+
 **Category:** DC → AC Power Inverter  
 **Manufacturer:** Xantrex  
 **Model:** PROwatt SW 2000i  
@@ -25,7 +33,7 @@ It is designed for mobile applications such as:
 
 ---
 
-# Key Specifications
+## Key Specifications
 
 |Specification|Value|
 |---|---|
@@ -50,7 +58,7 @@ It is designed for mobile applications such as:
 
 ---
 
-# How It Works
+## How It Works
 
 Basic operation:
 
@@ -78,7 +86,7 @@ The inverter uses electronic switching circuits to:
 
 ---
 
-# Power Requirements
+## Power Requirements
 
 A 2000W inverter can draw significant current from a 12V battery system.
 
@@ -114,7 +122,7 @@ Recommended fuse:
 
 ---
 
-# Battery Requirements
+## Battery Requirements
 
 A 2000W inverter is demanding on a battery.
 
@@ -168,7 +176,7 @@ A 2000W load could theoretically run:
 
 ---
 
-# Suitable Loads
+## Suitable Loads
 
 ## Good Uses
 
@@ -197,7 +205,7 @@ Although the inverter has a 3000W surge rating, some motors can briefly exceed t
 
 ---
 
-# Integration Into Ambulance Conversion
+## Integration Into Ambulance Conversion
 
 Likely wiring:
 
@@ -229,7 +237,7 @@ The inverter should have:
 
 ---
 
-# Relationship To Existing Components
+## Relationship To Existing Components
 
 Current planned system:
 
@@ -258,7 +266,7 @@ would better match this inverter.
 
 ---
 
-# Advantages
+## Advantages
 
 ✅ Pure sine wave output  
 ✅ Can run sensitive electronics  
@@ -270,7 +278,7 @@ would better match this inverter.
 
 ---
 
-# Limitations
+## Limitations
 
 ❌ Large DC current requirements  
 ❌ Inefficient for small loads (USB charging etc.)  
@@ -280,7 +288,7 @@ would better match this inverter.
 
 ---
 
-# Build Notes
+## Build Notes
 
 Recommended usage strategy:
 
@@ -304,12 +312,16 @@ use direct 12V circuits instead.
 
 ---
 
-# Obsidian Tags
 
-`#Electrical` `#Inverter` `#230VSystem` `#Xantrex` `#PureSineWave` `#PowerManagement`
+## References
 
----
+- [Xantrex PROwatt SW Series Product Page](https://xantrex.com/products/inverters/prowattswi/)
 
-# References
+## Related
 
-[Xantrex PROwatt SW Series Product Page][https://xantrex.com/products/inverters/prowattswi/]
+- [[Electrics Overview]]
+- [[Sterling Power Pro Charge Ultra 12V 60A]]
+- [[Victron Energy Battery Protect 12-24V 65A (BP-65)]]
+- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]]
+- [[Lucas LSLC125-12 AGM Leisure Battery]]
+- [[Dashboard]]

@@ -1,3 +1,11 @@
+---
+tags: [systems, electrical, battery, agm]
+status: research
+updated: 2026-10-21
+---
+
+# Fullriver DC115-12 AGM Deep-Cycle Leisure Battery
+
 **Category:** Leisure / Auxiliary Battery  
 **Manufacturer:** Fullriver  
 **Model:** DC115-12 / DC115-12A  
@@ -36,11 +44,11 @@ It then supplies:
 - Other auxiliary equipment
     
 
-Fullriver specifically markets the DC series for leisure, marine, renewable-energy and backup-power applications. ([fullriver.com](https://fullriver.com/product/DC115-12A.html?utm_source=chatgpt.com "Batteries"))
+Fullriver specifically markets the DC series for leisure, marine, renewable-energy and backup-power applications. ([fullriver.com](https://fullriver.com/product/DC115-12A.html "Batteries"))
 
 ---
 
-# Key Specifications
+## Key Specifications
 
 |Specification|Value|
 |---|--:|
@@ -67,11 +75,11 @@ Fullriver specifically markets the DC series for leisure, marine, renewable-ener
 |Discharge temperature|-15°C to +50°C|
 |Charge temperature|-15°C to +40°C|
 
-The manufacturer's current datasheet lists slightly different physical dimensions from Tayna's listing, so I would use **330 × 173 × 220mm** for the design envelope. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf?utm_source=chatgpt.com "DC115-12A DATA SHEET"))
+The manufacturer's current datasheet lists slightly different physical dimensions from Tayna's listing, so I would use **330 × 173 × 220mm** for the design envelope. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf "DC115-12A DATA SHEET"))
 
 ---
 
-# Capacity
+## Capacity
 
 The headline capacity is **115Ah**, measured at the 20-hour discharge rate.
 
@@ -97,7 +105,7 @@ So I would think of this battery as providing roughly **0.7kWh of routinely usab
 
 ---
 
-# An Important Specification: Capacity Depends on Discharge Rate
+## An Important Specification: Capacity Depends on Discharge Rate
 
 The DC115-12 demonstrates an important characteristic of lead-acid batteries:
 
@@ -113,7 +121,7 @@ This becomes particularly relevant to your **2,000W Xantrex inverter**.
 
 ---
 
-# Running The Xantrex PROwatt SW 2000i
+## Running The Xantrex PROwatt SW 2000i
 
 At 2,000W:
 
@@ -125,7 +133,7 @@ After accounting for inverter losses, the battery could be supplying roughly **1
 
 That's an extremely heavy load for a 115Ah AGM battery.
 
-The battery is capable of enormous short-duration currents — Fullriver specifies up to **1,100A for 5 seconds** — but that doesn't mean it is suitable for continuously powering a 2kW load. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf?utm_source=chatgpt.com "DC115-12A DATA SHEET"))
+The battery is capable of enormous short-duration currents — Fullriver specifies up to **1,100A for 5 seconds** — but that doesn't mean it is suitable for continuously powering a 2kW load. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf "DC115-12A DATA SHEET"))
 
 The problem is primarily:
 
@@ -146,13 +154,13 @@ So:
 
 ---
 
-# Charging
+## Charging
 
 This battery has a particularly important specification for your build:
 
 ### Maximum charge current: 30A
 
-Fullriver specifies **30A maximum charging current** for the DC115-12A. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf?utm_source=chatgpt.com "DC115-12A DATA SHEET"))
+Fullriver specifies **30A maximum charging current** for the DC115-12A. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf "DC115-12A DATA SHEET"))
 
 This has major implications for your planned charging system.
 
@@ -188,7 +196,7 @@ This is a very important reason why, if you use this battery, I would strongly f
 
 ---
 
-# Your Lucas + Fullriver Combination
+## Your Lucas + Fullriver Combination
 
 You previously listed:
 
@@ -245,7 +253,7 @@ I would **not buy another battery until you've decided which battery you're comm
 
 ---
 
-# Your Solar System
+## Your Solar System
 
 You've chosen:
 
@@ -282,7 +290,7 @@ That's much better aligned with the battery's specifications.
 
 ---
 
-# Weight
+## Weight
 
 One of the biggest disadvantages is weight.
 
@@ -304,7 +312,7 @@ For comparison, a similarly sized LiFePO4 bank can provide substantially more us
 
 ---
 
-# Physical Size
+## Physical Size
 
 The battery is approximately:
 
@@ -312,7 +320,7 @@ The battery is approximately:
 330mm × 173mm × 220mm
 ```
 
-with approximately **12.5mm minimum spacing between batteries** specified by Fullriver. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf?utm_source=chatgpt.com "DC115-12A DATA SHEET"))
+with approximately **12.5mm minimum spacing between batteries** specified by Fullriver. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf "DC115-12A DATA SHEET"))
 
 If using two batteries, allow enough room for:
 
@@ -333,17 +341,17 @@ The battery weighs 32.7kg, so the mounting system needs to be **very secure** in
 
 ---
 
-# AGM Characteristics
+## AGM Characteristics
 
 AGM means **Absorbent Glass Mat**.
 
 The electrolyte is held within a fibreglass separator rather than freely sloshing around inside the battery.
 
-The DC series uses high-purity lead construction and is designed to be resistant to vibration and repeated cycling. Fullriver also describes the series as maintenance-free. ([Tayna](https://www.tayna.co.uk/leisure-batteries/fullriver/dc115-12/?utm_source=chatgpt.com "DC115-12 FullRiver DC Series Deep Cycle AGM Leisure Battery 115Ah"))
+The DC series uses high-purity lead construction and is designed to be resistant to vibration and repeated cycling. Fullriver also describes the series as maintenance-free. ([Tayna](https://www.tayna.co.uk/leisure-batteries/fullriver/dc115-12/ "DC115-12 FullRiver DC Series Deep Cycle AGM Leisure Battery 115Ah"))
 
 ---
 
-# Charging Specifications
+## Charging Specifications
 
 Fullriver specifies:
 
@@ -359,11 +367,11 @@ Fullriver specifies:
 
 **30A**
 
-The Sterling charger therefore needs to be configured with the **appropriate AGM charging profile**, rather than simply being left on a generic setting. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf?utm_source=chatgpt.com "DC115-12A DATA SHEET"))
+The Sterling charger therefore needs to be configured with the **appropriate AGM charging profile**, rather than simply being left on a generic setting. ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf "DC115-12A DATA SHEET"))
 
 ---
 
-# Advantages
+## Advantages
 
 ✅ Genuine deep-cycle AGM design  
 ✅ High short-term discharge capability  
@@ -378,7 +386,7 @@ The Sterling charger therefore needs to be configured with the **appropriate AGM
 
 ---
 
-# Limitations
+## Limitations
 
 ❌ **32.7kg per battery**  
 ❌ Only ~115Ah at the standard C20 rating  
@@ -391,7 +399,7 @@ The Sterling charger therefore needs to be configured with the **appropriate AGM
 
 ---
 
-# Ambulance Build Assessment
+## Ambulance Build Assessment
 
 ### As a single battery
 
@@ -432,7 +440,7 @@ This is a much better match to the battery specifications.
 
 ---
 
-# One Thing I Would Reconsider
+## One Thing I Would Reconsider
 
 Looking at **your entire electrical system rather than this battery in isolation**, I think the battery choice deserves another discussion.
 
@@ -459,16 +467,21 @@ Before you purchase the final battery bank, I think it would be worth comparing 
 
 ---
 
-# Obsidian Tags
 
-`#Electrical` `#Battery` `#AGM` `#LeadAcid` `#12VSystem` `#Fullriver` `#LeisureBattery` `#DeepCycle`
+## References
 
-# References
+- Fullriver — DC115-12A official specifications ([fullriver.com](https://fullriver.com/product/DC115-12A.html "Batteries"))
+    
+- Fullriver — DC115-12A official datasheet ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf "DC115-12A DATA SHEET"))
+    
+- Tayna — Fullriver DC115-12 product listing ([Tayna](https://www.tayna.co.uk/leisure-batteries/fullriver/dc115-12/ "DC115-12 FullRiver DC Series Deep Cycle AGM Leisure Battery 115Ah"))
+    
+- Sterling Power — Pro Charge Ultra [Official product page](https://sterling-power.com/products/pro-charge-ultra)
 
-- Fullriver — DC115-12A official specifications ([fullriver.com](https://fullriver.com/product/DC115-12A.html?utm_source=chatgpt.com "Batteries"))
-    
-- Fullriver — DC115-12A official datasheet ([fullriver.com](https://fullriver.com/upload/article/20260402/69cdb744b6469.pdf?utm_source=chatgpt.com "DC115-12A DATA SHEET"))
-    
-- Tayna — Fullriver DC115-12 product listing ([Tayna](https://www.tayna.co.uk/leisure-batteries/fullriver/dc115-12/?utm_source=chatgpt.com "DC115-12 FullRiver DC Series Deep Cycle AGM Leisure Battery 115Ah"))
-    
-- Sterling Power — Pro Charge Ultra [Official product page](https://sterling-power.com/products/pro-charge-ultra?utm_source=chatgpt.com)
+## Related
+
+- [[Electrics Overview]]
+- [[Lucas LSLC125-12 AGM Leisure Battery]]
+- [[Xantrex PROwatt SW 2000i Inverter]]
+- [[Sterling Power Pro Charge Ultra 12V 60A]]
+- [[Dashboard]]

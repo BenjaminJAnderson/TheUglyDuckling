@@ -1,3 +1,11 @@
+---
+tags: [systems, electrical, charger, shore-power]
+status: research
+updated: 2026-10-21
+---
+
+# Sterling Power Pro Charge Ultra 12V 60A
+
 **Category:** AC → DC Battery Charger  
 **Manufacturer:** Sterling Power  
 **Model:** Pro Charge Ultra 12V / 60A  
@@ -27,7 +35,7 @@ The 60A model can supply up to **60A of charging current** to a 12V battery syst
 
 ---
 
-# Key Specifications
+## Key Specifications
 
 |Specification|Value|
 |---|---|
@@ -54,7 +62,7 @@ The manufacturer's published figures give approximately **900W mains power consu
 
 ---
 
-# What Does "60A" Actually Mean?
+## What Does "60A" Actually Mean?
 
 The charger can provide up to **60A to the battery at the charging voltage**.
 
@@ -78,7 +86,7 @@ So the Pro Charge Ultra's ~900W maximum consumption leaves substantial capacity 
 
 ---
 
-# Three Isolated Outputs
+## Three Isolated Outputs
 
 One particularly useful feature is that the PCU1260 has **three isolated charging outputs**.
 
@@ -106,7 +114,7 @@ If you don't need the additional outputs, they don't have to be used.
 
 ---
 
-# Battery Chemistry
+## Battery Chemistry
 
 The charger has **11 preset charging algorithms**, including profiles for:
 
@@ -129,7 +137,7 @@ This makes it considerably more flexible than a basic mains battery charger.
 
 ---
 
-# Charging Stages
+## Charging Stages
 
 The charger automatically manages the charging process rather than simply supplying a constant voltage.
 
@@ -152,7 +160,7 @@ This means you can leave the charger connected to the leisure batteries while th
 
 ---
 
-# Power Factor Correction
+## Power Factor Correction
 
 The Pro Charge Ultra has active **Power Factor Correction (PFC)**.
 
@@ -162,7 +170,7 @@ This is particularly useful in a camper because the charger makes relatively eff
 
 ---
 
-# Programmable Power Reduction
+## Programmable Power Reduction
 
 An excellent feature for van use is the ability to reduce the charger's output to:
 
@@ -181,7 +189,7 @@ For example, if you're on a campsite with a weak hookup and simultaneously runni
 
 ---
 
-# Battery Temperature Sensor
+## Battery Temperature Sensor
 
 The charger includes a **battery temperature sensor**.
 
@@ -191,7 +199,7 @@ This is particularly useful for lead-acid batteries.
 
 ---
 
-# Automatic Battery Maintenance
+## Automatic Battery Maintenance
 
 The Pro Charge Ultra periodically performs a battery-health cycle, including desulphation/equalisation functions where appropriate.
 
@@ -201,7 +209,7 @@ The manufacturer states this occurs approximately every **7–10 days**. ([Sterl
 
 ---
 
-# Installation
+## Installation
 
 A simplified installation would be:
 
@@ -230,7 +238,7 @@ The **60A DC output should be appropriately fused** close to the battery/DC dist
 
 ---
 
-# Integration With Your Ambulance
+## Integration With Your Ambulance
 
 This is the component that provides **shore-power charging** in your system.
 
@@ -275,7 +283,7 @@ That's a very sensible arrangement for an expedition-style ambulance because you
 
 ---
 
-# Important Consideration: 60A vs Your Batteries
+## Important Consideration: 60A vs Your Batteries
 
 Sterling recommends roughly **10% of battery capacity** as a general starting point for charger sizing, while acknowledging that larger chargers can be appropriate when faster charging is desired. ([Sterling Power Products](https://sterling-power.com/products/pro-charge-ultra "Pro Charge Ultra (10A to 60A and 12V, 24V, 32V, 36V, 48V models availa – Sterling Power Products"))
 
@@ -293,7 +301,7 @@ This will become particularly important if you retain the **Lucas LSLC125-12 and
 
 ---
 
-# Advantages
+## Advantages
 
 ✅ 60A charging capability  
 ✅ Very flexible battery chemistry settings  
@@ -310,7 +318,7 @@ This will become particularly important if you retain the **Lucas LSLC125-12 and
 
 ---
 
-# Limitations
+## Limitations
 
 ❌ Relatively expensive compared with basic mains chargers  
 ❌ Fan-cooled, so it isn't completely silent  
@@ -321,7 +329,7 @@ This will become particularly important if you retain the **Lucas LSLC125-12 and
 
 ---
 
-# Build Notes
+## Build Notes
 
 ### Recommended location
 
@@ -354,7 +362,7 @@ but reduce it when:
 
 ---
 
-# My Assessment
+## My Assessment
 
 **Very good choice for your electrical system.**
 
@@ -366,14 +374,19 @@ The main thing I would revisit later is whether **60A is the correct charging ra
 
 ---
 
-# Obsidian Tags
 
-`#Electrical` `#BatteryCharging` `#ACtoDC` `#12VSystem` `#SterlingPower` `#ShorePower` `#BatteryCharger`
-
-# References
+## References
 
 - Sterling Power — Pro Charge Ultra  
-    [Official product page](https://sterling-power.com/products/pro-charge-ultra?utm_source=chatgpt.com)
+    [Official product page](https://sterling-power.com/products/pro-charge-ultra)
     
 - Sterling Power — Pro Charge Ultra technical specifications and manuals  
     [Technical information / downloads](https://sterling-power.com/products/pro-charge-ultra)
+
+## Related
+
+- [[Electrics Overview]]
+- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]]
+- [[Lucas LSLC125-12 AGM Leisure Battery]]
+- [[Xantrex PROwatt SW 2000i Inverter]]
+- [[Dashboard]]
