@@ -1,3 +1,11 @@
+---
+tags: [systems, electrical, battery, agm]
+status: research
+updated: 2026-10-21
+---
+
+# Lucas LSLC125-12 AGM Leisure Battery
+
 **Category:** Leisure / Auxiliary Battery  
 **Manufacturer:** Lucas  
 **Model:** LSLC125-12  
@@ -35,7 +43,7 @@ It then supplies your:
 
 ---
 
-# Key Specifications
+## Key Specifications
 
 | Specification   | Value                                                 |
 | --------------- | ----------------------------------------------------- |
@@ -63,7 +71,7 @@ However, you should not treat all 1,500Wh as practically usable.
 
 ---
 
-# Usable Capacity
+## Usable Capacity
 
 Because this is a lead-acid AGM battery, regularly discharging it to 0% is undesirable.
 
@@ -87,7 +95,7 @@ The exact usable capacity will depend on discharge rate, temperature and the man
 
 ---
 
-# What Is AGM?
+## What Is AGM?
 
 AGM stands for **Absorbent Glass Mat**.
 
@@ -114,7 +122,7 @@ It is still fundamentally a **lead-acid battery**, however, and therefore has ma
 
 ---
 
-# Weight vs Energy
+## Weight vs Energy
 
 One of the major disadvantages of this battery chemistry is its energy density.
 
@@ -130,7 +138,7 @@ This makes AGM considerably less space-efficient than LiFePO4.
 
 ---
 
-# Running Your Inverter
+## Running Your Inverter
 
 This is particularly important for your **Xantrex PROwatt SW 2000i**.
 
@@ -165,7 +173,7 @@ So **a single LSLC125-12 is not a good battery for sustained 2kW inverter loads.
 
 ---
 
-# Your Proposed Battery Bank
+## Your Proposed Battery Bank
 
 You previously selected:
 
@@ -211,7 +219,7 @@ depending on the final battery-bank design.
 
 ---
 
-# Charging
+## Charging
 
 Your **Sterling Pro Charge Ultra 12V-60A** can supply up to 60A.
 
@@ -238,7 +246,7 @@ This is one reason your final battery-bank capacity matters when configuring the
 
 ---
 
-# Solar Charging
+## Solar Charging
 
 Your planned solar system is:
 
@@ -264,7 +272,7 @@ A 250Ah bank would be much more comfortable:
 
 ---
 
-# Important Compatibility Issue
+## Important Compatibility Issue
 
 Your proposed charging system could potentially deliver approximately:
 
@@ -283,7 +291,7 @@ This is something we should account for when we eventually design the complete e
 
 ---
 
-# Advantages
+## Advantages
 
 ✅ AGM is maintenance-free  
 ✅ Good vibration resistance  
@@ -296,7 +304,7 @@ This is something we should account for when we eventually design the complete e
 
 ---
 
-# Limitations
+## Limitations
 
 ❌ Heavy  
 ❌ Low usable energy compared with LiFePO4  
@@ -309,7 +317,7 @@ This is something we should account for when we eventually design the complete e
 
 ---
 
-# Ambulance Build Assessment
+## Ambulance Build Assessment
 
 ### As a single battery:
 
@@ -339,7 +347,7 @@ However, before buying multiple AGM batteries, I'd seriously consider whether **
 
 ---
 
-# Important Note About The Exact Battery
+## Important Note About The Exact Battery
 
 The Go Batteries product page gives the basic product information, but I would like to get the **manufacturer's actual LSLC125-12 technical datasheet** before treating things such as:
 
@@ -364,17 +372,22 @@ Those figures are important enough that I don't want to invent them or assume ge
 
 ---
 
-# Obsidian Tags
 
-`#Electrical` `#Battery` `#AGM` `#LeadAcid` `#12VSystem` `#Lucas` `#LeisureBattery`
-
-# References
+## References
 
 - Go Batteries — Lucas LSLC125-12 AGM 12V 125Ah  
-    [Product page](https://www.gobatteries.co.uk/product/battery-types/leisure-batteries/caravan/lslc125-12-lucas-agm-battery-12v-125ah/?utm_source=chatgpt.com)
+    [Product page](https://www.gobatteries.co.uk/product/battery-types/leisure-batteries/caravan/lslc125-12-lucas-agm-battery-12v-125ah/)
     
 - Sterling Power — Pro Charge Ultra  
-    [Pro Charge Ultra product page](https://sterling-power.com/products/pro-charge-ultra?utm_source=chatgpt.com)
+    [Pro Charge Ultra product page](https://sterling-power.com/products/pro-charge-ultra)
     
 - Xantrex — PROwatt SW  
-    [PROwatt SW product page](https://xantrex.com/products/inverters/prowattswi/?utm_source=chatgpt.com)
+    [PROwatt SW product page](https://xantrex.com/products/inverters/prowattswi/)
+
+## Related
+
+- [[Electrics Overview]]
+- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]]
+- [[Xantrex PROwatt SW 2000i Inverter]]
+- [[Sterling Power Pro Charge Ultra 12V 60A]]
+- [[Dashboard]]

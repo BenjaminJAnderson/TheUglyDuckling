@@ -1,3 +1,11 @@
+---
+tags: [systems, electrical, battery-protection]
+status: research
+updated: 2026-10-21
+---
+
+# Victron Energy Battery Protect 12-24V 65A (BP-65)
+
 **Category:** DC Battery Protection / Low Voltage Disconnect  
 **Manufacturer:** Victron Energy  
 **Model:** BatteryProtect BP-65  
@@ -19,7 +27,7 @@ Typical uses:
 
 ---
 
-# Key Specifications
+## Key Specifications
 
 |Specification|Value|
 |---|---|
@@ -42,7 +50,7 @@ Typical uses:
 
 ---
 
-# How It Works
+## How It Works
 
 ```
 Battery Positive
@@ -75,7 +83,7 @@ Default thresholds:
 The thresholds can be programmed to suit different battery chemistries.
 
 ---
-# Lithium Battery Compatibility
+## Lithium Battery Compatibility
 
 The BatteryProtect has a dedicated lithium mode.
 
@@ -84,7 +92,7 @@ Important because lithium batteries have a very flat discharge curve and can be 
 It can also accept an external control signal from a Battery Management System (BMS), allowing the BMS to disconnect loads.
 
 ---
-# Installation Notes
+## Installation Notes
 
 ## Correct placement
 
@@ -121,7 +129,7 @@ The device only allows current flow from the **Battery terminal to Load terminal
 
 ---
 
-# Suitability For Fiat Ducato Ambulance Conversion
+## Suitability For Fiat Ducato Ambulance Conversion
 
 ## Possible uses
 
@@ -161,13 +169,13 @@ However, it is better not to run continuously at the maximum rating. For a campe
 
 ---
 
-# Integration With My System
+## Integration With My System
 
 Current planned electrical system:
 
 - 12V leisure batteries
     
-- Victron inverter
+- Xantrex inverter
     
 - Solar charging
     
@@ -210,7 +218,7 @@ Battery
 
 ---
 
-# Advantages
+## Advantages
 
 ✅ Very low standby consumption  
 ✅ No mechanical relay to fail  
@@ -222,7 +230,7 @@ Battery
 ✅ Victron ecosystem compatibility
 
 ---
-# Limitations
+## Limitations
 
 ❌ No built-in current monitoring  
 ❌ No Bluetooth/app monitoring (unlike Smart BatteryProtect)  
@@ -231,7 +239,7 @@ Battery
 ❌ Not a battery monitor — it only measures voltage
 
 ---
-# Related Components
+## Related Components
 
 Often paired with:
 - **Victron SmartShunt** → monitors battery state of charge/current flow
@@ -241,7 +249,7 @@ Often paired with:
 
 ---
 
-# Decision Notes For Build
+## Decision Notes For Build
 
 **Do I need this component?**
 
@@ -259,13 +267,16 @@ For the current planned system, this is best used as a **protected DC loads disc
 
 ---
 
-**Obsidian tags:**
+## References
 
-`#Electrical` `#12VSystem` `#BatteryProtection` `#Victron` `#SafetyDevice` `#DCDistribution`
+- [Victron BatteryProtect datasheet](https://www.victronenergy.com/upload/documents/Datasheet-Battery-Protect-65-A--100-A--220-A-EN-.pdf)
+- [Victron Smart BatteryProtect manual](https://www.victronenergy.com/upload/documents/BatteryProtect_12V_24V/114439-Smart_BatteryProtect-pdf-en.pdf)
+- [Victron BatteryProtect product page](https://www.victronenergy.jp/battery_protect/battery-protect)
 
----
-https://www.victronenergy.com/upload/documents/Datasheet-Battery-Protect-65-A--100-A--220-A-EN-.pdf
+## Related
 
-https://www.victronenergy.com/upload/documents/BatteryProtect_12V_24V/114439-Smart_BatteryProtect-pdf-en.pdf
-
-https://www.victronenergy.jp/battery_protect/battery-protect
+- [[Electrics Overview]]
+- [[Xantrex PROwatt SW 2000i Inverter]]
+- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]]
+- [[Lucas LSLC125-12 AGM Leisure Battery]]
+- [[Dashboard]]
