@@ -14,7 +14,7 @@ Current phase: **kitchen, shower and toilet area**, plus the supporting water, w
   - Walls are 3×2 CLS battens at 300 mm centres, fixed to structural ribs, with plywood-backed **2 mm black PVC hygienic cladding**.
   - Three walls, approximately **1970 × 700 mm**, using Hygienic Plastic Supplies SKU `B2104` (3050 × 1220 × 2 mm, £49.99 + VAT per sheet); three sheets minimum.
   - The plywood backing provides stiffness and impact resistance; its thickness and grade are TBC. The cladding is bonded and/or mechanically fixed to the plywood; joints use H-trims and neutral-cure silicone.
-  - The Loopz base slides into place and is sealed with a waterproof rubber trim that can be removed for servicing.
+  - The Loopz base slides into place and is sealed with a **JA Seals Multi Seal 2.5 m** compression trim fixed to the walls; the base remains free for servicing. Confirm the rubber type and wet-area suitability before ordering.
   - The unit can be removed for servicing or storage.
   - Design figures: 60 W / 5 A, 10 kg unit plus 6 kg water, 45 °C maximum water temperature, 100 kg maximum deck load.
 - **Shower ventilation:** new 12 V roof extractor with humidity sensor/timer. The old black roof extractor is not reused.

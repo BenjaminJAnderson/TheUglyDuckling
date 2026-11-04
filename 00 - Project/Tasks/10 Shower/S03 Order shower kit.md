@@ -7,7 +7,7 @@ effort_days: 1
 progress: 0
 after:
   - "FS:[[M01 Design freeze]]"
-updated: 2026-10-29
+updated: 2026-11-04
 ---
 
 # S03 Order shower kit
@@ -21,13 +21,15 @@ The Loopz Plus and shower build materials are ordered with delivery dates record
 - [ ] Loopz Plus ordered
 - [ ] 3×2 CLS, noggins and structural fixings ordered
 - [ ] Panels, H-trims, sealant and stainless fixings ordered
-- [ ] Rubber trim, removable clamp and threshold materials ordered
+- [ ] JA Seals Multi Seal 2.5 m ordered after the supplier material check
+- [ ] Loopz travel strap or latch and threshold materials ordered
 - [ ] Delivery dates recorded
 - [ ] [[Shopping List]] statuses updated
 
 ## Notes
 
 - Use the conservative Loopz figures until Hamwells confirms otherwise.
+- Confirm the JA Seals Multi Seal rubber type, profile, mould resistance and wet-area suitability before ordering.
 - This task feeds [[M02 Long-lead orders placed]].
 
 ## Links

@@ -6,9 +6,9 @@ end: 2027-01-30
 effort_days: 1
 progress: 0
 after:
-  - "FS:[[S07 Fit Loopz base, rubber trim, clamp and threshold]]"
+  - "FS:[[S07 Fit Loopz base, Multi Seal trim, travel strap and threshold]]"
   - "FS:[[W04 Install tanks, pipework and pump]]"
-updated: 2026-10-29
+updated: 2026-11-04
 ---
 
 # S08 Fit shower fittings, drain and HepvO

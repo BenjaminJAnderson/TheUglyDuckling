@@ -60,7 +60,7 @@ A running log of significant build and documentation decisions.
 
 **Decision:** Use the Hamwells Loopz Plus.
 
-**Consequences:** The Loopz base becomes the shower floor. Walls use 3×2 CLS battens with a rubber trim sealing the base. The wall finish was revised on 2026-11-02 to plywood-backed 2 mm black PVC cladding. The unit slides in and out. It needs a 12 V supply, a fill method, a drain to the grey tank and ventilation. It does not heat water.
+**Consequences:** The Loopz base becomes the shower floor. Walls use 3×2 CLS battens with a removable compression trim sealing the base; the trim was specified on 2026-11-04, see the entry below. The wall finish was revised on 2026-11-02 to plywood-backed 2 mm black PVC cladding. The unit slides in and out. It needs a 12 V supply, a fill method, a drain to the grey tank and ventilation. It does not heat water.
 
 ## 2026-10-21 — Kettle-only hot water
 
@@ -236,6 +236,19 @@ A running log of significant build and documentation decisions.
 The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a black lockable cap in the rear upstand directly behind the kitchen sink. Ten-litre bottles rest on the counter and are poured over the sink, so spills drain to the grey tank. The 40 mm fill hose must fall continuously to the tank. The waste tank is drilled for a 40 mm sink inlet, a 3/4" Loopz inlet, a 3/8" breather and a 3/4" drain tap.
 
 **Consequences:** The tanks cost £84 more than the previous set before the separately sourced waste fittings, but the waste tank is 15 L larger and should fit the measured space. The Sprinter/Crafter brackets must be adapted or redrilled for the Ducato/WAS chassis and checked for strength. The service-hatch orientation and drill positions need Autocraft confirmation. The 60 L tank is 800 mm long, so length and cleaning access still need checking. The internal filler removes the need for an external fill point but introduces a 40 mm hose route, a breather/overflow path that must terminate outside, and a spill path into the sink. The 75 L nominal capacity still conflicts with its 67.5 L external envelope. See [[Water]] and [[Shopping List]].
+
+## 2026-11-04 — JA Seals Multi Seal for the Loopz base perimeter
+
+**Context:** The Loopz base must be sealed to the shower walls while remaining removable for servicing. The previous design called for a generic waterproof rubber trim, but no product was selected. The proposed product is the JA Seals Multi Seal 2.5 m, a garage-door compression seal for gaps up to 25 mm supplied with double-sided tape and self-tapping screws.
+
+**Options considered:**
+- JA Seals Multi Seal as the primary mechanical compression seal, fixed to the walls only.
+- Neutral-cure silicone or a butyl/MS-polymer seal as the primary barrier, with the Multi Seal as a removable cover trim.
+- A shower-specific seal such as Sealux Aquastrap EPDM/butyl.
+
+**Decision:** Use one **JA Seals Multi Seal 2.5 m**, **£24 inc VAT**, as the **primary mechanical compression seal** around the three walls. Fix it to the walls only, through the PVC cladding into the plywood backing and, where possible, the battens, using the supplied self-tapping screws; use the tape for location only. Do not screw or bond it to the Loopz base, so the unit can still slide out. Seal screw heads and corner joints with neutral-cure silicone.
+
+**Consequences:** The trim is a garage-door product, not a waterproof sealant. Its material, mould resistance and suitability for intermittent wet use are not stated and must be confirmed with JA Seals before ordering. The base-to-wall gap must be measured and fall within the trim's rated gap of up to 25 mm with slight compression; the 2.5 m length covers the three 700 mm walls but leaves only about 0.4 m for corners. Dry-fit the base and trim, test removal, and prove the joint in [[S09 Shower watertightness test]]. If it fails, revert to a neutral-cure silicone/MS-polymer primary seal with a removable trim, or a shower-specific product. See [[Shower]] and [[Shopping List]].
 
 ## Related
 

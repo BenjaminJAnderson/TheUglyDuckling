@@ -1,7 +1,7 @@
 ---
 tags: [interior, wet-area, moc]
 status: planning
-updated: 2026-11-02
+updated: 2026-11-04
 ---
 
 # Kitchen, Shower & Toilet
@@ -13,7 +13,7 @@ This is the entry point for the kitchen, shower and toilet build. The three area
 ## Layout concept
 
 - The **Loopz Plus shower base** forms the floor of the shower compartment.
-- The shower compartment walls are 3×2 CLS battens at 300 mm centres with plywood-backed 2 mm black PVC cladding, three walls approximately 1970 × 700 mm, sealed with a rubber trim around the Loopz base.
+- The shower compartment walls are 3×2 CLS battens at 300 mm centres with plywood-backed 2 mm black PVC cladding, three walls approximately 1970 × 700 mm, sealed with a **JA Seals Multi Seal** compression trim fixed to the walls around the Loopz base.
 - A new **roof extractor** vents the shower.
 - The **Eberspächer D4 diesel heater** can be switched between the living space and the shower for drying.
 - The **Boxio XL MAX+ separating toilet is portable** and can be moved out of the shower compartment when the shower is in use. There is no dedicated toilet vent; odour control relies on the plug/odour trap, hemp litter and the compartment extractor.
@@ -42,13 +42,14 @@ This is the entry point for the kitchen, shower and toilet build. The three area
 - [[Decisions#2026-10-21 — 1.5 kW appliance limit]]
 - [[Decisions#2026-11-02 — Shower cladding: black 2 mm PVC on plywood backing]]
 - [[Decisions#2026-11-02 — Boxio XL MAX+ separating toilet and no dedicated toilet vent]]
+- [[Decisions#2026-11-04 — JA Seals Multi Seal for the Loopz base perimeter]]
 
 ## Open questions
 
 - Confirm the Boxio's 45 cm use height, storage position and retention; there is no dedicated toilet vent.
 - Where will the toilet be stored when the shower is in use?
 - What plywood thickness and grade should back the 2 mm PVC cladding, and how should the PVC be bonded or fixed?
-- What rubber trim and removable seal will close the Loopz base?
+- Confirm the JA Seals Multi Seal rubber type and wet-area suitability, and measure the Loopz base-to-wall gap.
 - Where will the Loopz drain connect to the grey tank?
 - What tank insulation and heating method will prevent freezing?
 - Will the 1.5 kW induction hob and 1.5 kW kettle be usable on the planned AGM bank?

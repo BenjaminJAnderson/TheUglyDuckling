@@ -1,7 +1,7 @@
 ---
 tags: [project, dashboard]
 status: active
-updated: 2026-11-02
+updated: 2026-11-04
 ---
 
 # The Ugly Duckling — Project Dashboard
@@ -74,7 +74,7 @@ Ambulance conversion into a self-sustaining, off-grid liveaboard.
 - Underslung tanks: Autocraft 75 L fresh kit and 60 L waste tank; internal topfill behind the sink, waste-tank bracket adaptation and fitment on the 2019 Ducato/WAS chassis TBC.
 - Boxio TOILET XL MAX+ separating toilet, portable within the wet area; 7 L urine / 8 L solids, 45 cm with Solo Up, 5.8 kg, no dedicated vent.
 - Loopz Plus recirculating shower, semi-permanent installation.
-- Shower walls: 3×2 CLS at 300 mm centres with plywood-backed 2 mm black PVC cladding; three walls approximately 1970 × 700 mm.
+- Shower walls: 3×2 CLS at 300 mm centres with plywood-backed 2 mm black PVC cladding; three walls approximately 1970 × 700 mm; JA Seals Multi Seal compression trim around the Loopz base.
 - New roof extractor for the shower.
 - Eberspächer D4 diesel heater with 802 controller; changeover between living space and shower drying.
 - No hot-water system; kettle only.
@@ -85,7 +85,7 @@ Ambulance conversion into a self-sustaining, off-grid liveaboard.
 
 - Boxio use/storage position, retention, stock and lead time; no dedicated toilet vent.
 - Plywood backing thickness/grade and PVC cladding fixing detail; fire certificate and heater clearance.
-- Loopz removable trim/clamp detail.
+- Confirm the Multi Seal rubber type and wet-area suitability; measure the Loopz base-to-wall gap.
 - Loopz drain fall and grey-tank vent route.
 - 60 L waste-tank fitment, Sprinter-bracket adaptation, service-hatch orientation and waste inlets; internal fill-hose route and breather/overflow.
 - Tank insulation, thermal heating mats and power budget.

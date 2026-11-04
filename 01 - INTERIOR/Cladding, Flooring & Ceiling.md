@@ -1,7 +1,7 @@
 ---
 tags: [interior, lining, insulation]
 status: idea
-updated: 2026-11-02
+updated: 2026-11-04
 ---
 
 # Cladding, Flooring & Ceiling
@@ -23,7 +23,7 @@ This page covers the interior lining, insulation, floor and ceiling. The kitchen
 ## Current design
 
 - The shower compartment walls are 3×2 CLS battens at 300 mm centres with plywood-backed 2 mm black PVC cladding, three walls approximately 1970 × 700 mm.
-- The Loopz base forms the shower floor.
+- The Loopz base forms the shower floor and is sealed to the walls with a JA Seals Multi Seal compression trim.
 - The kitchen needs wipe-clean walls and a heat-resistant splashback.
 - The ceiling needs access for wiring and vents.
 

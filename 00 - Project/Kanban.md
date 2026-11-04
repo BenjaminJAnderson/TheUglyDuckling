@@ -21,6 +21,7 @@ kanban-plugin: board
 - [ ] Price every BOM line; build the budget summary and set the total and contingency in [[Shopping List]]
 - [ ] Confirm lead times for the Loopz, tanks, panels, battery and electrical core
 - [ ] P1 — Confirm Boxio XL MAX+ stock and lead time, then order the complete set, refills and spares [[T03 Order toilet, refills and spares|T03]]
+- [ ] P1 — Confirm JA Seals Multi Seal rubber type, profile, mould resistance and wet-area suitability; measure the Loopz base-to-wall gap [[S03 Order shower kit|S03]]
 - [ ] Split the M02 orders into supplier batches and set target order dates
 - [ ] Specify and price electrical small parts: fuses, cable, lugs, busbars, consumer unit, RCBOs and labels [[E02 Complete load schedule and cable-fuse sizing|E02]]
 - [ ] Specify and price plumbing and fixing consumables: PEX/John Guest, valves, sealant, stainless fixings, trims and insulation
@@ -32,6 +33,7 @@ kanban-plugin: board
 ## READY — BUY NOW
 
 - [ ] Loopz Plus — £763; order once the S01 written confirmation is received
+- [ ] JA Seals Multi Seal 2.5 m — £24; order with the shower kit after the material check
 - [ ] CO alarm
 - [ ] Fire blanket and electrical/kitchen extinguisher
 - [ ] Kettle ≤1.5 kW once the current draw is verified
@@ -60,6 +62,7 @@ kanban-plugin: board
 - [x] Add shower purchase list
 - [x] Create the task Gantt framework
 - [x] Choose 75 L fresh and 60 L waste tanks with an internal sink-upstand topfill
+- [x] Choose JA Seals Multi Seal for the Loopz base perimeter
 
 %% kanban:settings
 ```

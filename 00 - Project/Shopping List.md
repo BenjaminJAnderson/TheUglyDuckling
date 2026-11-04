@@ -12,18 +12,18 @@ Procurement actions are scheduled in [[Project Plan]] and tracked in the `Tasks/
 
 ## Budget summary
 
-All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding and the Boxio toilet have current purchase prices; the cladding price is shown inc VAT for three sheets. The installed diesel heater is excluded.
+All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim and the Boxio toilet have current purchase prices; the cladding price is shown inc VAT for three sheets. The installed diesel heater is excluded.
 
 | Category | Priced | Estimated cost | Confidence | Notes |
 | --- | --- | --- | --- | --- |
-| Shower unit and build | Loopz Plus £763; PVC cladding £179.96 inc VAT | £942.96 + TBC | Low | Plywood, adhesive, trims, fixings and floor support unquoted |
+| Shower unit and build | Loopz Plus £763; PVC cladding £179.96 inc VAT; JA Seals trim £24 inc VAT | £966.96 + TBC | Low | Plywood, adhesive, other trims, fixings and floor support unquoted |
 | Shower ventilation | — | TBC | Low | Extractor and roof vent models TBC |
 | Diesel-heater branch | — | TBC | Low | Eberspächer parts, heat shield and CO alarm unquoted |
 | Kitchen | — | TBC | Low | Sink, hob and fridge shortlisted; prices TBC |
 | Water and waste | Autocraft 75 L fresh kit £252.40; 60 L waste tank £205 | £457.40 + TBC | Medium | 60 L fitment and bracket adaptation unconfirmed; waste fittings, sensors, heating and pump/filter checks TBC |
 | Toilet | Boxio complete set £249.99 | £249.99 + TBC | Medium | No dedicated vent; optional refill bundle/spare canister not included; retention and cleaning TBC |
 | Electrical core | — | TBC | Low | Battery chemistry and capacity undecided |
-| **Total** | **£1,650.35** | **£1,650.35 + TBC** | | Add contingency once the baseline is priced |
+| **Total** | **£1,674.35** | **£1,674.35 + TBC** | | Add contingency once the baseline is priced |
 
 Do not commit to a budget total until the `RESEARCH — SOURCE & PRICE` cards on [[Kanban]] are complete. Contingency is TBC; review it at [[M01 Design freeze]]. The optional £32.99 refill bundle and £32.99 spare 7 L canister are not included in the total.
 
@@ -39,10 +39,11 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | 4 | Autocraft | 75 L fresh kit (topfill black, universal brackets, pump/filter), 60 L waste tank with Sprinter/Crafter brackets, waste inlets, breather, drain tap, Easy Drain kit if required, extra fill/breather/waste hose | [[W03 Order tanks, pump, filter and fittings\|W03]] | 2026-11-23 | TBC |
 | 5 | Plumbing and filtration | Fresh drain tap, level sensors, PEX/John Guest, valves, accumulator, filters, HepvO, heater mats and insulation | [[W03 Order tanks, pump, filter and fittings\|W03]] | 2026-11-23 | TBC |
 | 6 | Electrical | Battery bank, main fuse, isolation switch, busbars, charger, inverter, consumer unit, RCBOs, cable, lugs and labels | [[E03 Order battery, charger, inverter and protection\|E03]] | 2026-11-23 | TBC |
-| 7 | Timber and panels | 3×2 CLS, plywood backing, 2 mm black PVC cladding, PVC adhesive, H-trims, stainless fixings, sealant, rubber trim and threshold | [[S03 Order shower kit\|S03]] | 2026-11-23 | TBC |
+| 7 | Timber and panels | 3×2 CLS, plywood backing, 2 mm black PVC cladding, PVC adhesive, H-trims, stainless fixings, sealant and threshold | [[S03 Order shower kit\|S03]] | 2026-11-23 | TBC |
 | 8 | Kitchen appliances | Sink, tap, filter, hob, fridge, kettle and extractor | [[K02 Order kitchen appliances\|K02]] | 2026-11-23 | TBC |
 | 9 | Ventilation | Shower extractor, roof vent, duct and passive inlet | [[V03 Order ventilation and heater branch components\|V03]] | 2026-11-23 | TBC |
 | 10 | Safety and general | Fire blanket, extinguisher, screws and consumables | TBC | TBC | TBC |
+| 11 | JA Seals | Multi Seal 2.5 m for the Loopz base perimeter | [[S03 Order shower kit\|S03]] | 2026-11-23 | TBC |
 
 ## Shower — shortlisted
 
@@ -52,7 +53,7 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | 3×2 CLS timber | TBC | Treated; 300 mm centres plus noggins | TBC | TBC | idea | [[Shower]] |
 | 2 mm black PVC cladding | 3 | 3050 × 1220 × 2 mm; SKU B2104; Class 0 | [Hygienic Plastic Supplies](https://www.hygienicplastic.co.uk/product/black-pvc-10-x-4-x-2mm-3050-x-1220-x-2mm-wall-cladding-sheet/) | £49.99 + VAT each | shortlisted | [[Shower]] |
 | Plywood backing | 3 | 1970 × 700 mm; thickness/grade TBC | TBC | TBC | research | [[Shower]] |
-| EPDM / silicone rubber trim | TBC | Loopz base seal | TBC | TBC | research | [[Shower]] |
+| JA Seals Multi Seal 2.5 m | 1 | Garage-door compression seal, gaps up to 25 mm; tape and screws | [JA Seals](https://www.jaseals.co.uk/multi-seal-25m_165) | £24 inc VAT | shortlisted | [[Shower]] |
 | New shower extractor | 1 | 12 V, humidity sensor/timer | TBC | TBC | research | [[Shower]] |
 | Roof vent / cowl | 1 | New penetration; insect mesh and backdraught shutter | TBC | TBC | research | [[Shower]] |
 | 12 V socket and fuse | 1 set | 7.5–10 A; outside cubicle | TBC | TBC | idea | [[Shower]] |
@@ -67,7 +68,7 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | H-trims / edge trims | TBC | PVC or aluminium | TBC | TBC | idea | [[Shower]] |
 | Stainless screws, sealing washers and rivnuts | TBC | Into battens and ribs | TBC | TBC | idea | [[Shower]] |
 | Neutral-cure silicone | TBC | Waterproof, mould-resistant | TBC | TBC | idea | [[Shower]] |
-| Removable bead / clamp | TBC | For Loopz removal | TBC | TBC | idea | [[Shower]] |
+| Loopz travel strap / latch | 1 | For travel restraint | TBC | TBC | idea | [[Shower]] |
 | Floor support / levelling | TBC | With 1° fall to drain | TBC | TBC | idea | [[Shower]] |
 | Threshold / ramp | 1 | For 10 cm base height | TBC | TBC | idea | [[Shower]] |
 | Insulation | TBC | Behind plywood | TBC | TBC | idea | [[Shower]] |

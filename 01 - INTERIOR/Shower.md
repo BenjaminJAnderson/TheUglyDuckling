@@ -1,14 +1,14 @@
 ---
 tags: [interior, shower, water, ventilation]
 status: planning
-updated: 2026-11-02
+updated: 2026-11-04
 ---
 
 # Shower
 
 ## Overview
 
-The shower uses a **Hamwells Loopz Plus** portable recirculating shower. It is installed semi-permanently: the Loopz base forms the shower-compartment floor, the walls are a battened, plywood-backed black PVC cladding build, and the base slides into place and is sealed with a waterproof rubber trim.
+The shower uses a **Hamwells Loopz Plus** portable recirculating shower. It is installed semi-permanently: the Loopz base forms the shower-compartment floor, the walls are a battened, plywood-backed black PVC cladding build, and the base slides into place and is sealed with a **JA Seals Multi Seal** compression trim fixed to the walls.
 
 The shower compartment also acts as the **drying room**, heated by a duct from the already-installed Eberspächer Airtronic D4 diesel heater.
 
@@ -19,6 +19,7 @@ The shower compartment also acts as the **drying room**, heated by a duct from t
 - Waterproof, wipe-clean walls.
 - **2 mm black PVC hygienic cladding** on a plywood backing for stiffness and impact resistance.
 - The Loopz unit must slide in and out for servicing and storage.
+- A removable compression seal fixed to the walls, not the Loopz base.
 - A 12 V DC supply for the Loopz (60 W maximum), with the socket outside the cubicle.
 - A way to fill the 6 L reservoir with fresh water.
 - A gravity drain from the Loopz to the 60 L grey tank.
@@ -71,10 +72,24 @@ The manuals and web page do not fully agree. Use the conservative figures below.
 - **1° fall towards the drain**, built into the base rather than wedging the tray.
 - The tray is 10 cm high; allow for a threshold, ramp or recessed floor.
 - The Loopz base slides into place.
-- A waterproof rubber trim seals the base to the walls and floor.
-- Use a removable bead or clamp detail so the unit can still be slid out; do not rely on permanent silicone alone.
+- A **JA Seals Multi Seal 2.5 m** compression trim seals the base to the three walls. It is fixed to the walls only; the base stays free so it can slide out.
+- Use the trim as the primary mechanical seal. Seal screw heads and corner joints with neutral-cure silicone; do not bond the trim to the base.
 - Secure the Loopz with a strap or latch for travel. The safety instructions require horizontal transport and tying down the parts.
 - Keep the heater outlet away from the Loopz plastic and electronics.
+
+#### Base perimeter seal — JA Seals Multi Seal
+
+- **Product:** [JA Seals Multi Seal 2.5 m](https://www.jaseals.co.uk/multi-seal-25m_165), **£24 inc VAT**. It is a garage-door compression seal for gaps up to 25 mm, supplied with double-sided tape and self-tapping screws.
+- **Role:** primary mechanical compression seal between the Loopz base and the three walls.
+- **Fixing:** fix to the walls only, through the 2 mm PVC cladding into the plywood backing, engaging battens where possible. Pre-drill the cladding, use the supplied screws or stainless equivalents, and do not overtighten. Use the tape for location only.
+- **Base removal:** do not screw or bond the trim to the Loopz base. The base must slide out without dismantling the trim.
+- **Compression:** position the trim so its flexible lip bears lightly on the base perimeter. Measure the actual gap first; the product covers gaps up to 25 mm, but it must not be compressed so hard that the base cannot be removed.
+- **Corners:** mitre or overlap the trim at the two rear corners and seal the joints with neutral-cure silicone.
+- **Screw sealing:** seal every screw head with neutral-cure silicone.
+- **Material check:** the product page does not state the rubber type, mould resistance or wet-area suitability. Confirm these with JA Seals before ordering, along with the profile drawing and compression range.
+- **Length:** three 700 mm walls use 2.1 m, leaving about 0.4 m for corners and offcuts. Measure before cutting; the 3.7 m pack is the fallback if the corner allowance exceeds 2.5 m.
+- **Validation:** dry-fit the base and trim, remove and refit the base at least twice, then prove the joint in [[S09 Shower watertightness test]].
+- **Fallback:** if the trim does not seal reliably, use a neutral-cure silicone or MS-polymer primary seal with a removable cover trim, or a shower-specific product such as Sealux Aquastrap.
 
 ### Water
 
@@ -146,6 +161,8 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 - Final wall dimensions and sheet cutting plan for the 2 mm PVC cladding.
 - Fire certificate and heater clearance for the black PVC cladding.
 - H-trim, edge-trim and adhesive specification.
+- Confirm the Multi Seal rubber type, mould resistance, profile and wet-area suitability with JA Seals.
+- Measure the Loopz base-to-wall gap and confirm the 2.5 m trim covers it with enough corner allowance.
 - Extractor fan model and roof-vent location.
 - Heater changeover damper/vent type and duct route.
 - Confirm Loopz maximum water temperature and weight with Hamwells.
@@ -170,8 +187,8 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 | Stainless screws and sealing washers | TBC | TBC | TBC | TBC | idea | Mechanical fixings |
 | Neutral-cure silicone | TBC | Waterproof, mould-resistant | TBC | TBC | idea | Not acetic-cure |
 | Insulation | TBC | Behind plywood | TBC | TBC | idea | Reduce condensation |
-| Waterproof rubber trim | TBC | EPDM or silicone | TBC | TBC | research | Base perimeter seal |
-| Removable bead / clamp | TBC | For Loopz removal | TBC | TBC | idea | Do not rely on silicone alone |
+| JA Seals Multi Seal 2.5 m | 1 | Garage-door compression seal, gaps up to 25 mm; tape and screws | [JA Seals](https://www.jaseals.co.uk/multi-seal-25m_165) | £24 inc VAT | shortlisted | Primary mechanical seal; walls only; confirm material |
+| Loopz travel strap / latch | 1 | For travel restraint | TBC | TBC | idea | Safety instructions require tying down |
 | Floor support / levelling | TBC | With 1° fall to drain | TBC | TBC | idea | Full tray support |
 | Threshold / ramp | 1 | For 10 cm base height | TBC | TBC | idea | |
 | Curtain and rail | 1 | TBC | TBC | TBC | idea | Fix into battens |
@@ -235,6 +252,7 @@ See [[Shopping List]].
 - [Hamwells FAQ](https://hamwells.com/pages/frequently-asked-questions)
 - [Hamwells downloads](https://hamwells.com/pages/downloads)
 - [Black PVC cladding sheet](https://www.hygienicplastic.co.uk/product/black-pvc-10-x-4-x-2mm-3050-x-1220-x-2mm-wall-cladding-sheet/)
+- [JA Seals Multi Seal 2.5 m](https://www.jaseals.co.uk/multi-seal-25m_165)
 - [Eberspächer Airtronic D4](https://eberspacherdirect.com/eberspacher-airtronic-d4-heater-12v-mk1/)
 - [Eberspächer ducting](https://eberspacherdirect.com/eberspacher-ducting/)
 - [Eberspächer outlets](https://eberspacherdirect.com/eberspacher-outlets/)
