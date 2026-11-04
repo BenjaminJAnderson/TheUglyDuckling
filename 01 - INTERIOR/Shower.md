@@ -1,14 +1,14 @@
 ---
 tags: [interior, shower, water, ventilation]
 status: planning
-updated: 2026-10-21
+updated: 2026-11-02
 ---
 
 # Shower
 
 ## Overview
 
-The shower uses a **Hamwells Loopz Plus** portable recirculating shower. It is installed semi-permanently: the Loopz base forms the shower-compartment floor, the walls are a battened plastic-panel build, and the base slides into place and is sealed with a waterproof rubber trim.
+The shower uses a **Hamwells Loopz Plus** portable recirculating shower. It is installed semi-permanently: the Loopz base forms the shower-compartment floor, the walls are a battened, plywood-backed black PVC cladding build, and the base slides into place and is sealed with a waterproof rubber trim.
 
 The shower compartment also acts as the **drying room**, heated by a duct from the already-installed Eberspächer Airtronic D4 diesel heater.
 
@@ -17,10 +17,11 @@ The shower compartment also acts as the **drying room**, heated by a duct from t
 - A stable, level floor with a 70 × 70 cm footprint for the Loopz base.
 - A **1° fall towards the Loopz drain**.
 - Waterproof, wipe-clean walls.
+- **2 mm black PVC hygienic cladding** on a plywood backing for stiffness and impact resistance.
 - The Loopz unit must slide in and out for servicing and storage.
 - A 12 V DC supply for the Loopz (60 W maximum), with the socket outside the cubicle.
 - A way to fill the 6 L reservoir with fresh water.
-- A gravity drain from the Loopz to the 45 L grey tank.
+- A gravity drain from the Loopz to the 60 L grey tank.
 - A new roof extractor for steam and moisture.
 - A ducted heat supply from the diesel heater, with a changeover switch between the living space and the shower.
 - No hot-water plumbing.
@@ -48,19 +49,21 @@ The manuals and web page do not fully agree. Use the conservative figures below.
 
 ## Current design
 
-### Wall build — Option B plastic panels
+### Wall build — black PVC on plywood backing
 
 - **3×2 CLS timber** battens at **300 mm centres**. Nominal 3×2 CLS is roughly 38 × 63 mm finished; check the supplier.
 - Battens fixed to the van's structural ribs with rivnuts/plus nuts or structural rivets. The user has confirmed the ribs are suitable.
 - Noggins at panel edges, joints, curtain-rail fixings and all fixture points.
-- **6 mm solid PVC or compact laminate panels** — mechanically fixed, not adhesive-only.
-- Stainless screws with sealing washers; pre-drill and avoid over-tightening.
-- Neutral-cure silicone sealant at joints and penetrations.
-- H-trims or edge trims at panel joints.
+- **Plywood backing panels** fixed to the battens. Thickness and grade are TBC; use a moisture-resistant or marine-grade plywood with sealed edges. The backing provides stiffness and impact resistance for the 2 mm cladding.
+- **2 mm black PVC hygienic cladding**, 3050 × 1220 mm sheets, Hygienic Plastic Supplies SKU `B2104`, **£49.99 + VAT per sheet**.
+- The supplier states the cladding is **Class 0 fire rated to EN 13501-1 B-s3,d0**, solid PVC (not foam-filled) with a satin finish. Verify the certificate before ordering.
+- **Three walls, approximately 1970 × 700 mm.** One 3050 × 1220 mm sheet yields one wall panel, so **three sheets minimum**; expect substantial offcut. Confirm final dimensions and consider the supplier's cut-to-size service.
+- Bond the PVC to the plywood with a suitable adhesive and/or fix at the edges with stainless screws and sealing washers. Confirm the fixing detail and avoid unnecessary penetrations in the wet zone.
+- H-trims or edge trims at panel joints; neutral-cure silicone at joints and penetrations.
 - Allow a few millimetres for thermal expansion at panel edges.
-- Insulation behind the panels to reduce condensation.
-- Heat shield or non-combustible protection near the diesel-heater outlet.
-- Check the panel's fire rating before buying; avoid ordinary thin PVC near the heater.
+- Insulation behind the plywood to reduce condensation.
+- Heat shield or non-combustible protection near the diesel-heater outlet; keep the cladding clear of the outlet.
+- Unwrap the PVC on delivery and store it flat; the supplier ships some sheets rolled for transit.
 
 ### Floor and Loopz base
 
@@ -78,7 +81,8 @@ The manuals and web page do not fully agree. Use the conservative figures below.
 - Fill the Loopz reservoir with **6 L** of fresh water before each shower.
 - Fill from the kitchen tap using a jug, funnel or short food-grade hose.
 - Drain the reservoir after every shower through the Loopz drain plug.
-- Drain to the **45 L grey tank** through a floor penetration.
+- Drain to the **60 L grey tank** through a floor penetration.
+- The 60 L Autocraft tank is supplied without fittings and will be drilled for a 3/4" Loopz inlet and a 40 mm sink inlet. Confirm the drill positions, service-hatch orientation and Loopz connection before ordering. See [[Water]].
 - The underslung tank should give a gravity drain. Confirm a continuous fall from the Loopz outlet to the tank when the tank is sourced.
 - Fit a **HepvO or P-trap** to stop grey-tank smells.
 - Fit a **grey-tank vent**.
@@ -127,7 +131,7 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 
 ### Travel and vibration
 
-- Use mechanical fixings into battens and structural ribs; adhesive is secondary.
+- Use mechanical fixings into the battens and structural ribs for the plywood backing; bond the PVC to the plywood with a suitable adhesive and fix the edges as confirmed.
 - Use sealing washers and stainless fixings.
 - Allow expansion gaps at panel edges and cover with trims.
 - Use flexible sealant, not rigid grout.
@@ -138,8 +142,10 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 
 ## Open questions
 
-- Exact 6 mm PVC or compact laminate panel product and fire rating.
-- H-trim and edge-trim profiles.
+- Plywood backing thickness, grade and fixing method.
+- Final wall dimensions and sheet cutting plan for the 2 mm PVC cladding.
+- Fire certificate and heater clearance for the black PVC cladding.
+- H-trim, edge-trim and adhesive specification.
 - Extractor fan model and roof-vent location.
 - Heater changeover damper/vent type and duct route.
 - Confirm Loopz maximum water temperature and weight with Hamwells.
@@ -157,11 +163,13 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 | Loopz Plus shower | 1 | 12 V, 6 L, 70 × 70 × 10 cm | [Hamwells](https://hamwells.com/products/loopz-plus-portable-recirculating-camping-shower) | £763 | shortlisted | Confirm model and contents |
 | 3×2 CLS timber | TBC | Treated, nominal 3×2 | TBC | TBC | idea | 300 mm centres plus noggins |
 | Structural fixings | TBC | Rivnuts/plus nuts or structural rivets | TBC | TBC | idea | Into van ribs |
-| 6 mm PVC / compact laminate panels | TBC | Solid, waterproof, fire-rated | TBC | TBC | research | Option B |
+| 2 mm black PVC cladding | 3 | 3050 × 1220 × 2 mm; SKU B2104; Class 0 | [Hygienic Plastic Supplies](https://www.hygienicplastic.co.uk/product/black-pvc-10-x-4-x-2mm-3050-x-1220-x-2mm-wall-cladding-sheet/) | £49.99 + VAT each | shortlisted | 3 sheets minimum; out of stock at research |
+| Plywood backing | 3 | 1970 × 700 mm; thickness and grade TBC | TBC | TBC | research | Stiffens the PVC; seal edges |
+| PVC adhesive | 1 | Suitable for PVC/plywood | TBC | TBC | research | Confirm with supplier |
 | H-trims / edge trims | TBC | PVC or aluminium | TBC | TBC | idea | Panel joints and edges |
 | Stainless screws and sealing washers | TBC | TBC | TBC | TBC | idea | Mechanical fixings |
 | Neutral-cure silicone | TBC | Waterproof, mould-resistant | TBC | TBC | idea | Not acetic-cure |
-| Insulation | TBC | Behind panels | TBC | TBC | idea | Reduce condensation |
+| Insulation | TBC | Behind plywood | TBC | TBC | idea | Reduce condensation |
 | Waterproof rubber trim | TBC | EPDM or silicone | TBC | TBC | research | Base perimeter seal |
 | Removable bead / clamp | TBC | For Loopz removal | TBC | TBC | idea | Do not rely on silicone alone |
 | Floor support / levelling | TBC | With 1° fall to drain | TBC | TBC | idea | Full tray support |
@@ -226,6 +234,7 @@ See [[Shopping List]].
 - [Loopz accessories](https://hamwells.com/collections/loopz/accessories)
 - [Hamwells FAQ](https://hamwells.com/pages/frequently-asked-questions)
 - [Hamwells downloads](https://hamwells.com/pages/downloads)
+- [Black PVC cladding sheet](https://www.hygienicplastic.co.uk/product/black-pvc-10-x-4-x-2mm-3050-x-1220-x-2mm-wall-cladding-sheet/)
 - [Eberspächer Airtronic D4](https://eberspacherdirect.com/eberspacher-airtronic-d4-heater-12v-mk1/)
 - [Eberspächer ducting](https://eberspacherdirect.com/eberspacher-ducting/)
 - [Eberspächer outlets](https://eberspacherdirect.com/eberspacher-outlets/)

@@ -1,7 +1,7 @@
 ---
 tags: [systems, heating, diesel]
 status: installed
-updated: 2026-10-21
+updated: 2026-11-02
 ---
 
 # Diesel Heater
@@ -87,7 +87,7 @@ Confirm the exact heater revision and installation details against the Eberspäc
 
 - CO alarm is essential.
 - Combustion exhaust must never enter the living space or shower.
-- Keep the hot-air outlet clear of the Loopz plastic, waterproof panels, curtains and stored items.
+- Keep the hot-air outlet clear of the Loopz plastic, PVC cladding, plywood backing, curtains and stored items.
 - Use a heat shield where the duct or outlet is close to combustible material.
 - Do not block the return air or hot-air outlets.
 - Do not run the heater with the vehicle in an enclosed space.

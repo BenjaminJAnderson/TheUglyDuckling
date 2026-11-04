@@ -1,7 +1,7 @@
 ---
 tags: [interior, kitchen]
 status: planning
-updated: 2026-10-21
+updated: 2026-11-02
 ---
 
 # Kitchen
@@ -37,7 +37,7 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 ### Water
 
 - Cold-water supply from the 75 L fresh tank via the 12 V pump and accumulator.
-- Sink drain to the 45 L grey tank, with a trap and air-admittance valve.
+- Sink drain to the 60 L grey tank, with a trap and air-admittance valve. The tank will be drilled for a 40 mm sink inlet; confirm the position before ordering. The internal fresh fill point sits in the rear upstand behind the sink. See [[Water]].
 - Drinking-water filter under the sink; dedicated drinking tap optional.
 - No hot-water supply. A kettle is used for hot water.
 - No recirculating tap. The Loopz shower is self-contained.
@@ -171,7 +171,8 @@ See [[Shopping List]]. Shortlisted items: sink, induction hob, drawer fridge.
 - [Ampsystems 12/24 V fridges](https://ampsystems.co.uk/products/12v-24v-fridges)
 - [Ampsystems 30 L drawer fridge](https://ampsystems.co.uk/products/12v-24v-fridge-and-freezer-30l-drawer)
 - [Fiamma 70 L fresh tank](https://thecampervanshop.co.uk/product/fiamma-70-l-fresh-water-tank/)
-- [Autocraft 75 L fresh / 45 L waste tank set](https://autocraftmotorcaravans.co.uk/product/complete-fresh-75l-waste-45l-water-tank-set-up-fiat-ducato-2006-2017/)
+- [Autocraft 75 L fresh tank kit](https://autocraftmotorcaravans.co.uk/product/75-litre-campervan-fresh-water-tank-kit/)
+- [Autocraft 60 L Sprinter/Crafter tank kit](https://autocraftmotorcaravans.co.uk/product/60-litre-campervan-fresh-water-tank-kit-for-mercedes-sprinter-2006-vw-crafter-2006-2017/)
 
 ## Related
 
