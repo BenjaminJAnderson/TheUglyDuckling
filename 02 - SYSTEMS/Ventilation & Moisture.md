@@ -1,20 +1,20 @@
 ---
 tags: [systems, ventilation, moisture]
 status: planning
-updated: 2026-10-21
+updated: 2026-11-02
 ---
 
 # Ventilation & Moisture
 
 ## Overview
 
-Ventilation is critical in a sealed ambulance. Cooking, showering, drying gear and the composting toilet all produce moisture, odour and condensation. The kitchen, shower and toilet need extract ventilation, and the living space needs a path for replacement air.
+Ventilation is critical in a sealed ambulance. Cooking, showering, drying gear and the separating toilet all produce moisture, odour and condensation. The kitchen and shower need extract ventilation, the toilet compartment needs an air path, and the living space needs replacement air.
 
 ## Requirements
 
 - Kitchen extractor for cooking fumes, grease and moisture.
 - Shower extractor for steam, with a **new roof vent**.
-- Toilet vent/fan for odour and moisture, terminating at the lower section of the back wall.
+- Compartment ventilation for toilet odour and moisture; no dedicated toilet vent.
 - Passive or controlled inlet air.
 - A ducted heat supply from the diesel heater to the shower for drying.
 - The ability to switch the heater between the living space and the shower.
@@ -56,10 +56,12 @@ The Eberspächer Airtronic D4 is already installed. See [[Diesel Heater]].
 
 ### Toilet
 
-- Fixed toilet vent at the **lower section of the back wall** of the shower compartment.
-- The composting toilet model is still to be chosen.
-- The vent may be an integrated fan/filter, a flexible hose to the fixed wall vent, or a docking hood at the toilet's use position.
+- **No dedicated toilet vent.** The selected Boxio XL MAX+ has no integrated fan or direct vent port.
+- Odour control relies on the Boxio plug/odour trap, hemp litter and regular emptying.
 - The toilet remains portable and moves out of the shower compartment when showering.
+- The shower/room extractor provides compartment ventilation; run it after toilet use.
+- Do not install a lower-back-wall vent, flexible hose, docking hood, carbon filter or 12 V toilet fan unless the design changes.
+- Keep the lid closed when the toilet is not in use.
 
 ### Living space
 
@@ -86,7 +88,7 @@ Heat alone is not enough: moisture needs a path out of the compartment.
 - Vent moisture at the source.
 - Wipe down wet surfaces after showering.
 - Check for leaks and damp regularly.
-- Plastic wall panels are vapour-tight; moisture can form behind them if they are cold. Insulate behind and seal penetrations.
+- The PVC cladding and plywood backing are vapour-tight; moisture can form behind them if the wall is cold. Insulate behind the plywood, seal penetrations and seal the plywood edges.
 
 ## BOM
 
@@ -98,8 +100,6 @@ Heat alone is not enough: moisture needs a path out of the compartment.
 | Shower roof vent / cowl | 1 | New penetration | TBC | TBC | research | Insect mesh and backdraught shutter |
 | Extractor duct | TBC | Insulated | TBC | TBC | idea | |
 | Passive air inlet | 1 | TBC | TBC | TBC | idea | |
-| Toilet vent / fan | 1 | Lower back wall | TBC | TBC | research | Model TBD |
-| Toilet vent cowl | 1 | External termination | TBC | TBC | research | |
 | 89 mm heater duct | TBC | High-temperature | [Eberspacher ducting](https://eberspacherdirect.com/eberspacher-ducting/) | TBC | idea | See [[Diesel Heater]] |
 | Heater changeover damper | 1 | Living space or shower | TBC | TBC | research | Do not dead-end heater |
 | High-temperature diffuser | 1 | Closable | [Eberspacher outlets](https://eberspacherdirect.com/eberspacher-outlets/) | TBC | research | |
@@ -117,11 +117,11 @@ Heat alone is not enough: moisture needs a path out of the compartment.
 
 - New extractor model, duct route and roof-vent location.
 - Heater changeover damper type and duct route.
-- Toilet vent method and final toilet model.
+- Confirm the compartment extractor is adequate for toilet odour; there is no dedicated toilet vent.
 - Roof/wall vent locations and roof penetrations.
 - Heating and insulation strategy.
 - Whether a dehumidifier is needed.
-- Fire rating of the plastic wall panels near the heater outlet.
+- Fire certificate and heater clearance for the black PVC cladding.
 
 ## Related
 

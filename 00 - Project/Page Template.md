@@ -1,7 +1,7 @@
 ---
 tags: [template]
 status: template
-updated: 2026-10-21
+updated: 2026-10-29
 ---
 
 # Page Title
@@ -45,5 +45,6 @@ Link to [[Shopping List]] and list items that need purchasing.
 ## Related
 
 - [[Dashboard]]
+- [[Project Plan]]
 - [[Water]]
 - [[Electrics Overview]]

@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical]
 status: planning
-updated: 2026-10-21
+updated: 2026-11-02
 ---
 
 # Electrics Overview
@@ -66,7 +66,6 @@ Typical 12 V loads:
 | Load | Approximate load | Notes |
 | --- | --- | --- |
 | Loopz Plus shower | 60 W / ~5 A | Only while showering |
-| Composting-toilet fan | TBC | Continuous, low power |
 | Diesel heater | TBC | Installed; fuse per Eberspächer manual |
 | Water pump | TBC | Intermittent |
 | Drawer fridge | TBC | Compressor cycling |

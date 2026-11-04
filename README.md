@@ -1,6 +1,6 @@
 # The Ugly Duckling
 
-The Ugly Duckling is an ambulance being converted into a self-sustaining, off-grid liveaboard. This repository documents the planned kitchen, shower and toilet area, including a recirculating shower, composting toilet, underslung water tanks and an 800 W solar array.
+The Ugly Duckling is an ambulance being converted into a self-sustaining, off-grid liveaboard. This repository documents the planned kitchen, shower and toilet area, including a recirculating shower, separating toilet, underslung water tanks and an 800 W solar array.
 
 ## Overview
 
@@ -19,13 +19,13 @@ The project combines an existing vehicle platform with a documented design packa
 - **800 W solar array:** Four 200 W black monocrystalline panels in a 2-series, 2-parallel configuration, with a 60 A MPPT controller and black anodised aluminium mounting extrusion.
 - **Diesel air heating:** An Eberspächer Airtronic D4 12 V Mk1 with an 802 digital controller is already mounted.
 - **CNC-cut table:** A FreeCAD table design has been toolpathed and cut, with the legs and stiffener fitted.
-- **Design documentation:** A linked Obsidian vault with a dashboard, decision log, shopping list, bill-of-materials tables and a Kanban board.
+- **Design documentation:** A linked Obsidian vault with a dashboard, project plan, dated task notes, decision log, shopping list, bill-of-materials tables and a Kanban intake board.
 
 ### Designed or shortlisted
 
 - **Recirculating shower:** A Hamwells Loopz Plus with a semi-permanent base, battened walls and removable waterproof trim. The unit has been shortlisted, not purchased.
-- **Composting toilet:** A portable separating toilet that can be moved out of the shower compartment, with a fixed vent connection at the lower back wall. The model is not yet selected.
-- **Water storage:** Underslung 75 L fresh and 45 L grey tanks, with insulation and heating still to be resolved.
+- **Separating toilet:** A portable BOXIO TOILET XL MAX+ complete set that can be moved out of the shower compartment. It has 7 L urine and 8 L solids capacity, a 40 × 30 cm footprint, 45 cm height with the Solo Up base and no dedicated vent. Stock is unconfirmed.
+- **Water storage:** Underslung 75 L fresh and 60 L waste tanks, with an internal topfill behind the kitchen sink; insulation and heating are still to be resolved.
 - **Cold-water kitchen:** A stainless sink, 1.5 kW induction hob, 30 L drawer fridge and a 1.5 kW maximum kettle, all limited by the inverter and battery budget.
 - **Electrical system:** A 12 V leisure architecture designed around a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger, Victron BatteryProtect BP-65 and a leisure battery bank whose final chemistry and capacity are still open.
 - **Drying branch:** An 89 mm duct from the diesel heater to the shower, switched by a changeover damper so the same heater can warm the living space or dry the wet area.
@@ -33,12 +33,12 @@ The project combines an existing vehicle platform with a documented design packa
 
 ## Technologies
 
-- **Obsidian and Markdown:** The documentation is an Obsidian vault with frontmatter, wikilinks and a Kanban plugin. The README uses standard Markdown links so that it renders correctly on GitHub.
+- **Obsidian and Markdown:** The documentation is an Obsidian vault with frontmatter, wikilinks, a Kanban intake board and a Task Gantt timeline. The README uses standard Markdown links so that it renders correctly on GitHub.
 - **FreeCAD:** Parametric models for the van, bed, kitchen and shower, roof, sofa, table and electrical layout, with STEP, STL and DXF exports.
 - **KiCad:** Schematic, PCB layout, project and symbol-library files for the electrical wiring guide.
 - **CNC routing and G-code:** Toolpaths for the table legs, stiffener and table.
 - **12 V DC and 230 V AC system design:** Solar charging, shore charging, battery protection, inverter loads, fusing and distribution.
-- **Referenced hardware:** Hamwells, Eberspächer, Xantrex, Sterling Power, Victron Energy, Fullriver, Lucas and Voltanic equipment, recorded with specifications and source links in the relevant pages.
+- **Referenced hardware:** Hamwells, Boxio, Eberspächer, Xantrex, Sterling Power, Victron Energy, Fullriver, Lucas, Voltanic and Hygienic Plastic Supplies equipment, recorded with specifications and source links in the relevant pages.
 
 ## Technical Details
 
@@ -46,9 +46,9 @@ The project combines an existing vehicle platform with a documented design packa
 
 The shower compartment is the centre of the current phase and is designed to double as a drying room. The Loopz Plus base forms the compartment floor, with a 1° fall towards the drain and a threshold or ramp for the 10 cm base height. The walls are designed around 3×2 CLS battens at 300 mm centres, fixed to the ambulance's structural ribs with rivnuts, plus nuts or structural rivets. Noggins support panel edges, joints, curtain rails and fixtures.
 
-The wall surface is to be 6 mm solid PVC or compact laminate, mechanically fixed with stainless screws and sealing washers. Panel joints use H-trims, and penetrations and joints are sealed with neutral-cure silicone. Insulation sits behind the panels to reduce condensation, and a heat shield is planned near the diesel-heater outlet. The panel product and its fire rating have not been finalised.
+The wall surface is to be **2 mm black PVC hygienic cladding on a plywood backing**. The selected sheet is 3050 × 1220 × 2 mm, Hygienic Plastic Supplies SKU `B2104`, at £49.99 + VAT per sheet. The supplier states that it is solid PVC, Class 0 fire rated to EN 13501-1 B-s3,d0, with a satin finish; the certificate still needs verification. Three walls are planned at approximately 1970 × 700 mm, requiring three sheets minimum with substantial offcut. The plywood backing provides stiffness and impact resistance; its thickness and grade are still to be confirmed, and its edges should be sealed. The cladding is bonded and/or mechanically fixed to the plywood, joints use H-trims, and penetrations and joints are sealed with neutral-cure silicone. Insulation sits behind the plywood to reduce condensation, and a heat shield is planned near the diesel-heater outlet.
 
-The Loopz base is designed to slide into place and be sealed around its perimeter with a removable rubber trim. A removable bead or clamp is intended to retain the base without relying on permanent silicone, so the unit can still be taken out for servicing or storage. The composting toilet is portable and moves out of the compartment when the shower is in use; its fixed vent is planned for the lower section of the back wall.
+The Loopz base is designed to slide into place and be sealed around its perimeter with a removable rubber trim. A removable bead or clamp is intended to retain the base without relying on permanent silicone, so the unit can still be taken out for servicing or storage. The Boxio separating toilet is portable and moves out of the compartment when the shower is in use. There is no dedicated toilet vent; odour control relies on the plug/odour trap, hemp litter and compartment extractor.
 
 ### Recirculating shower
 
@@ -58,9 +58,9 @@ The unit does not heat water. It draws from a 12 V socket outside the cubicle, p
 
 ### Water and waste
 
-The design stores fresh water in a 75 L underslung tank and delivers it by a 12 V diaphragm pump through an accumulator and a sediment and carbon filter to the cold kitchen tap. Grey water from the sink and the Loopz drain is to be collected in a 45 L underslung tank with a vent, level sensing and a drain valve. The kitchen drain is to include a trap and an air-admittance valve.
+The design stores fresh water in a 75 L underslung tank, filled through an internal lockable cap in the rear upstand behind the kitchen sink from 10 L bottles. A 12 V diaphragm pump delivers it through an accumulator and a sediment and carbon filter to the cold kitchen tap. Grey water from the sink and the Loopz drain is to be collected in a 60 L underslung tank with a vent, level sensing and a drain valve. The kitchen drain is to include a trap and an air-admittance valve.
 
-There is no hot-water system, no calorifier and no black-water tank. Hot water comes from a kettle, and the kitchen is cold-water only. If preheated water is used for the shower, it must be mixed down to 45 °C or below before filling the Loopz. The planned composting toilet separates urine into a portable container and solids into a removable container with cover material. Because the tanks and pipework are underslung, insulation, a heating method, low-point drains and a winterising procedure are required; candidate measures include thermostatically controlled heater pads and insulated pipework, and the final choice and power budget remain open.
+There is no hot-water system, no calorifier and no black-water tank. Hot water comes from a kettle, and the kitchen is cold-water only. If preheated water is used for the shower, it must be mixed down to 45 °C or below before filling the Loopz. The selected Boxio separating toilet collects urine in a 7 L canister and solids in an 8 L container with a Bio-Bag and hemp litter; it does not compost in situ, and the solids go to general waste. Because the tanks and pipework are underslung, insulation, a heating method, low-point drains and a winterising procedure are required; candidate measures include thermostatically controlled heater pads and insulated pipework, and the final choice and power budget remain open.
 
 ### Electrical architecture
 
@@ -72,7 +72,7 @@ The induction hob and kettle are limited to 1.5 kW each and must not run togethe
 
 The Eberspächer Airtronic D4 is rated at 4 kW nominal and is controlled by an 802 digital controller. Its 89 mm hot-air outlet is intended to feed either the living space or the shower through a changeover damper, while the 76 mm return draws from the dry living space rather than the shower. The 24 mm combustion-air intake and exhaust terminate outside. The main heater outlet must remain open so the unit is never dead-ended, and a CO alarm, high-temperature ducting, a closable diffuser and a heat shield are required.
 
-A new 12 V shower extractor with a humidity sensor or timer will duct to a new roof vent with a cowl, insect mesh and backdraught shutter. The old black roof extractor is not reused. A passive air inlet is needed so the extractor can move air, and the kitchen and toilet require their own extraction. The drying sequence is to squeegee the surfaces, extract for 10–15 minutes, direct heater air into the compartment with ventilation open, then finish with a short extract to remove the moist air.
+A new 12 V shower extractor with a humidity sensor or timer will duct to a new roof vent with a cowl, insect mesh and backdraught shutter. The old black roof extractor is not reused. A passive air inlet is needed so the extractor can move air. The kitchen requires its own extraction; toilet odour control relies on the Boxio and compartment ventilation, with no dedicated toilet vent. The drying sequence is to squeegee the surfaces, extract for 10–15 minutes, direct heater air into the compartment with ventilation open, then finish with a short extract to remove the moist air.
 
 ### CAD, CNC and electrical design
 
@@ -84,19 +84,19 @@ These are working models rather than as-built records. Dimensions, mounting poin
 
 The vault is organised by area and system. Every content page opens with one level-one heading, then uses `##` sections for requirements, the current design, open questions, bills of materials and related pages. Frontmatter records tags, status and the last update date. Bills of materials use a consistent table with item, quantity, specification, supplier, price, status and notes. Status values are `idea`, `research`, `shortlisted`, `ordered`, `received`, `installed` and `cancelled`.
 
-The [Dashboard](00%20-%20Project/Dashboard.md) is the entry point. The [Kanban](00%20-%20Project/Kanban.md) board holds the next physical and research tasks, the [Decisions](00%20-%20Project/Decisions.md) log records why choices were made, and the [Shopping List](00%20-%20Project/Shopping%20List.md) consolidates purchases without duplicating the detailed specifications.
+The [Dashboard](00%20-%20Project/Dashboard.md) is the entry point. The [Project Plan](00%20-%20Project/Project%20Plan.md) defines the scheduling framework, phase gates and critical path; committed work is stored as one dated note per task in `00 - Project/Tasks/` and displayed in the Task Gantt view. The [Kanban](00%20-%20Project/Kanban.md) board is the intake for ideas, research and unscheduled work, the [Decisions](00%20-%20Project/Decisions.md) log records why choices were made, and the [Shopping List](00%20-%20Project/Shopping%20List.md) consolidates purchases without duplicating the detailed specifications.
 
 ## Challenges and Solutions
 
 1. **Conflicting Loopz specifications.** Public material and the safety sheet disagree on power, weight, maximum water temperature and connector rating. These figures determine cable size, fusing, floor loading and safe operating temperature. The design adopts the conservative values and treats manufacturer confirmation as an outstanding action. The result is a wiring and floor design that remains valid even if the lower figures prove correct.
 
-2. **A shower and toilet sharing one small compartment.** A fixed toilet would obstruct showering, while a completely portable toilet still needs odour control. The chosen approach keeps the composting toilet portable and provides a fixed vent at the lower back wall with a removable hose or docking connection. This avoids a black-water tank, but the vent detail depends on the toilet model, which is not yet selected.
+2. **A shower and toilet sharing one small compartment.** A fixed toilet would obstruct showering, while a completely portable toilet still needs odour control. The chosen approach uses a portable Boxio separating toilet with no dedicated vent. Odour control relies on separation, the plug/odour trap, hemp litter and compartment extraction. This avoids a black-water tank and a wall penetration, but it depends on regular emptying and consistent use of the litter and lid.
 
 3. **No hot water and a shower that does not heat it.** A calorifier would add plumbing, weight, freeze risk and cost. The project instead uses a kettle for hot water and keeps the kitchen cold-water only. Shower water is either ambient or preheated and mixed down to 45 °C or below. The water system is simpler, but shower temperature depends on careful preheating.
 
 4. **A 2 kW inverter against an undecided battery bank.** The inverter can deliver 2 kW continuously, but a small AGM bank would suffer voltage sag and rapid depletion under that load. The design caps the hob and kettle at 1.5 kW each and prohibits running them together, while the component notes compare a matched AGM pair with LiFePO4. The load rules are settled; the bank itself is not.
 
-5. **Moisture behind waterproof panels near a diesel heater.** Plastic panels are vapour-tight, so moisture can form behind them if the wall is cold, and ordinary thin PVC may be unsuitable close to the heater outlet. The design uses battens, insulation behind the panels, sealed penetrations and a heat shield, with the panel fire rating still to be confirmed. This addresses condensation and clearance without committing to a product prematurely.
+5. **Moisture behind waterproof cladding near a diesel heater.** The PVC cladding and plywood backing are vapour-tight, so moisture can form behind them if the wall is cold. The design uses battens, insulation behind the plywood, sealed penetrations, sealed plywood edges and a heat shield. The selected black PVC is supplied as Class 0 fire rated to EN 13501-1 B-s3,d0; the certificate and heater clearance still need verification. This addresses condensation and clearance without treating the supplier claim as installed evidence.
 
 6. **Underslung tanks in freezing weather.** Below-floor tanks are exposed to road conditions and low temperatures. The design requires insulation and a heating method; candidate measures include thermostatically controlled 12 V heater pads, insulated pipework and low-point drain valves, with no antifreeze in the fresh tank. The requirement is captured, but the heating hardware and its effect on the power budget are unresolved.
 
@@ -118,7 +118,7 @@ No automated test suite exists because this is a documentation and fabrication p
 ### Prerequisites
 
 - A Markdown viewer or GitHub for reading the documentation.
-- [Obsidian](https://obsidian.md/) with the Kanban plugin to render the board and follow wikilinks as intended.
+- [Obsidian](https://obsidian.md/) with the Kanban and Task Gantt plugins to render the board, task timeline and wikilinks as intended.
 - [FreeCAD](https://www.freecad.org/) to open the `.FCStd` models and fabrication exports.
 - [KiCad](https://www.kicad.org/) to open the schematic and PCB project.
 
@@ -131,10 +131,11 @@ git clone git@github.com:BenjaminJAnderson/TheUglyDuckling.git
 ### Browse the documentation
 
 1. Open [Dashboard](00%20-%20Project/Dashboard.md) for the current focus and the full page map.
-2. Start with [Kitchen, Shower & Toilet](01%20-%20INTERIOR/Kitchen%2C%20Shower%20%26%20Toilet.md) for the wet-area overview.
-3. Follow the area pages for [Kitchen](01%20-%20INTERIOR/Kitchen.md), [Shower](01%20-%20INTERIOR/Shower.md) and [Toilet](01%20-%20INTERIOR/Toilet.md).
-4. Read the shared system pages for [Water](02%20-%20SYSTEMS/Water.md), [Ventilation & Moisture](02%20-%20SYSTEMS/Ventilation%20%26%20Moisture.md), [Diesel Heater](02%20-%20SYSTEMS/Diesel%20Heater.md) and [Electrics Overview](02%20-%20SYSTEMS/Electrical/Electrics%20Overview.md).
-5. Check [Decisions](00%20-%20Project/Decisions.md) before changing a design, and update [Kanban](00%20-%20Project/Kanban.md) and [Shopping List](00%20-%20Project/Shopping%20List.md) when work or purchasing status changes.
+2. Read [Project Plan](00%20-%20Project/Project%20Plan.md) for the baseline, phase gates and task conventions.
+3. Start with [Kitchen, Shower & Toilet](01%20-%20INTERIOR/Kitchen%2C%20Shower%20%26%20Toilet.md) for the wet-area overview.
+4. Follow the area pages for [Kitchen](01%20-%20INTERIOR/Kitchen.md), [Shower](01%20-%20INTERIOR/Shower.md) and [Toilet](01%20-%20INTERIOR/Toilet.md).
+5. Read the shared system pages for [Water](02%20-%20SYSTEMS/Water.md), [Ventilation & Moisture](02%20-%20SYSTEMS/Ventilation%20%26%20Moisture.md), [Diesel Heater](02%20-%20SYSTEMS/Diesel%20Heater.md) and [Electrics Overview](02%20-%20SYSTEMS/Electrical/Electrics%20Overview.md).
+6. Check [Decisions](00%20-%20Project/Decisions.md) before changing a design, and update the relevant task note, [Kanban](00%20-%20Project/Kanban.md) and [Shopping List](00%20-%20Project/Shopping%20List.md) when work or purchasing status changes.
 
 ### Work with the models
 
@@ -142,8 +143,10 @@ Open the native FreeCAD or KiCad files rather than the exported STL, STEP, DXF o
 
 ## Roadmap
 
+The dated baseline for the current wet-area phase is maintained in the [Project Plan](00%20-%20Project/Project%20Plan.md). The list below is the high-level roadmap.
+
 - [ ] Order the Loopz Plus and confirm maximum water temperature, weight and deck load with Hamwells.
-- [ ] Choose the composting toilet model and its vent connection.
+- [ ] Confirm Boxio stock and use/storage position; order the complete set and spares.
 - [ ] Build the shower walls, floor support, threshold and removable base seal.
 - [ ] Install the new shower extractor, duct and roof vent.
 - [ ] Install the diesel-heater drying branch, changeover damper, diffuser and heat shield.
@@ -151,14 +154,14 @@ Open the native FreeCAD or KiCad files rather than the exported STL, STEP, DXF o
 - [ ] Resolve tank insulation, heating and winterising.
 - [ ] Decide the final battery chemistry and capacity, then complete the 12 V and 230 V load schedule.
 - [ ] Specify and install the kitchen sink, filtration, induction hob, fridge and ventilation.
-- [ ] Confirm the fire rating of the shower panels near the heater outlet.
+- [ ] Verify the fire certificate for the black PVC cladding and confirm heater clearance.
 - [ ] Design safe roof access for solar and vent maintenance without a permanent ladder.
 
 ## Project Structure
 
 ```text
 TheUglyDuckling/
-├── 00 - Project/        Dashboard, Kanban, decisions, shopping list and page template
+├── 00 - Project/        Dashboard, project plan, tasks, Kanban, decisions, shopping list and templates
 ├── 01 - INTERIOR/       Kitchen, shower, toilet, bed, seating, cab, lining and storage
 ├── 02 - SYSTEMS/        Water, ventilation, diesel heating and electrical notes
 ├── 03 - EXTERIOR/       Solar, roof, caulking, lights, paint, antenna and ladder
@@ -176,7 +179,7 @@ TheUglyDuckling/
 
 ### Tools and references
 
-- [Obsidian](https://obsidian.md/) for the linked Markdown vault and Kanban board.
+- [Obsidian](https://obsidian.md/) for the linked Markdown vault, Kanban board and Task Gantt timeline.
 - [FreeCAD](https://www.freecad.org/) for parametric models and fabrication exports.
 - [KiCad](https://www.kicad.org/) for the electrical schematic and PCB design.
 - Product references and supplier links for Hamwells, Eberspächer, Xantrex, Sterling Power, Victron Energy, Fullriver, Lucas and Voltanic are recorded in the relevant system pages and the [Shopping List](00%20-%20Project/Shopping%20List.md).
