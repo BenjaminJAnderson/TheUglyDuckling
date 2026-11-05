@@ -1,7 +1,7 @@
 ---
 tags: [exterior, solar, electrical]
 status: installed
-updated: 2026-10-21
+updated: 2026-11-05
 ---
 
 # Solar
@@ -28,6 +28,7 @@ The ambulance has **800 W of solar** installed as **4 × 200 W panels**. The pan
 - 60 A MPPT controller.
 - 6 m × 4 mm² solar extension cables with MC4 connectors.
 - Roof penetrations sealed and protected; see [[Roof]] and [[Caulking]].
+- The planned Sterling BaBy 15 A DC-DC uses surplus leisure-bank voltage to maintain the starter battery when the leisure bank is above 13.5 V on the lithium profile. This is a maintenance function, not a bulk charge path.
 
 ## Open questions
 
@@ -38,6 +39,7 @@ The ambulance has **800 W of solar** installed as **4 × 200 W panels**. The pan
 - MPPT mounting location and ventilation.
 - Shading from the extractor, antenna or roof penetrations.
 - Monitoring and performance logging.
+- Confirm the BaBy reverse-charge behaviour, the 1.5–6 W reverse-charge quiescent figure and whether to disable reverse charging for long storage.
 - Whether the panels need tilt or can remain flat.
 
 ## BOM

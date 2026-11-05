@@ -8,7 +8,7 @@ progress: 0
 after:
   - "FS:[[M01 Design freeze]]"
   - "FS:[[E02 Complete load schedule and cable-fuse sizing]]"
-updated: 2026-10-29
+updated: 2026-11-05
 ---
 
 # E03 Order battery, charger, inverter and protection
@@ -19,9 +19,10 @@ The electrical core is ordered with delivery dates recorded.
 
 ## Done when
 
-- [ ] Battery bank ordered
+- [x] Battery bank installed: Eco-Worthy EnergyTrek 314 Ah LiFePO4
+- [x] MPPT installed and solar connected
 - [ ] Main fuse, isolation switch and busbars ordered
-- [ ] Charger and MPPT ordered
+- [ ] Shore charger and DC-DC ordered
 - [ ] Inverter ordered
 - [ ] DC fuse panel and breakers ordered
 - [ ] 230 V consumer unit and RCBOs ordered
@@ -32,9 +33,12 @@ The electrical core is ordered with delivery dates recorded.
 
 - Match cable and fuse ratings to the load schedule.
 - Check inverter surge ratings before purchase.
+- The DC-DC order is the Sterling BaBy 15 A bidirectional unit, 25 A fuses, 4–6 mm² cable and an ignition-feed fuse.
+- Confirm the BaBy's 15 A/19 A rating, warranty and reverse-charge current with Sterling before ordering.
 
 ## Links
 
 - [[Electrics Overview]]
 - [[Shopping List]]
 - [[Project Plan]]
+- [[Sterling Power BaBy 15A DC-DC Charger]]

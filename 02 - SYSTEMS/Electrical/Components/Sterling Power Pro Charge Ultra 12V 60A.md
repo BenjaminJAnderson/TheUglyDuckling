@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical, charger, shore-power]
 status: research
-updated: 2026-10-21
+updated: 2026-11-05
 ---
 
 # Sterling Power Pro Charge Ultra 12V 60A
@@ -252,7 +252,7 @@ Your overall charging architecture is shaping up roughly like this:
                          │
                          │
                          ▼
-Alternator ──► DC-DC ──► Battery Bank ◄── Pro Charge Ultra
+Alternator ──► Sterling BaBy 15 A ──► Battery Bank ◄── Pro Charge Ultra
                                       ▲
                                       │
                                  230V Shore
@@ -274,9 +274,11 @@ So the Pro Charge Ultra is **one of three major charging sources** you're planni
 
 1. ☀️ **Solar** → Voltanic panels + MPPT
     
-2. 🚐 **Engine/alternator** → DC-DC charging
+2. 🚐 **Engine/alternator** → Sterling BaBy 15 A bidirectional DC-DC
     
 3. 🔌 **Shore power** → Sterling Pro Charge Ultra
+
+The Pro Charge Ultra has three isolated outputs and can maintain the starter battery on shore power. The BaBy adds starter maintenance from solar when off-grid. Use the BaBy's ignition-feed mode so the Pro Charge Ultra's starter output cannot raise the starter voltage and trigger forward charging through the BaBy. Both chargers should use a LiFePO4 profile, and each output should be fused.
     
 
 That's a very sensible arrangement for an expedition-style ambulance because you aren't dependent on any single charging method.
@@ -370,7 +372,7 @@ It is arguably more charger than you need if you only intend to occasionally plu
 
 The **three isolated outputs, LiFePO4 support, temperature sensing, adjustable power and good efficiency** make it particularly well suited to a complicated multi-source camper electrical system.
 
-The main thing I would revisit later is whether **60A is the correct charging rate for your final battery bank**. I would determine this once we've established the final battery chemistry and total Ah capacity rather than changing the charger now.
+The installed Eco-Worthy 314 Ah LiFePO4 bank has a 200 A maximum charge current, so the 60 A Pro Charge Ultra is about 0.19C and comfortably within the battery's rating. Use the LiFePO4 profile and confirm the absorption and float voltages against the battery manufacturer's requirements.
 
 ---
 
@@ -386,7 +388,9 @@ The main thing I would revisit later is whether **60A is the correct charging ra
 ## Related
 
 - [[Electrics Overview]]
-- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]]
-- [[Lucas LSLC125-12 AGM Leisure Battery]]
+- [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
+- [[Sterling Power BaBy 15A DC-DC Charger]]
 - [[Xantrex PROwatt SW 2000i Inverter]]
+- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]] — AGM research history
+- [[Lucas LSLC125-12 AGM Leisure Battery]] — AGM research history
 - [[Dashboard]]

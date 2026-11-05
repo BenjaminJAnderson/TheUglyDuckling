@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical, battery, agm]
 status: research
-updated: 2026-10-21
+updated: 2026-11-05
 ---
 
 # Lucas LSLC125-12 AGM Leisure Battery
@@ -16,6 +16,8 @@ updated: 2026-10-21
 ## Purpose
 
 The Lucas LSLC125-12 is a **12V AGM deep-cycle leisure battery** intended for supplying power to auxiliary electrical systems such as those found in caravans, motorhomes and boats.
+
+This page is retained as AGM research history. The installed leisure bank is the [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]].
 
 In your ambulance conversion, this is part of the **12V leisure battery bank** that stores energy from:
 

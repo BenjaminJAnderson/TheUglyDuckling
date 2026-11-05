@@ -8,8 +8,8 @@ kanban-plugin: board
 - [ ] P1 — Confirm the 2 mm black PVC cladding, plywood backing and fire certificate; request a sample [[S02 Select shower panel product and fire rating|S02]]
 - [ ] P1 — Confirm 60 L waste-tank fitment, Sprinter-bracket adaptation and the internal fill route on the 2019 Ducato/WAS chassis [[W01 Select tanks, dimensions and mounting points|W01]]
 - [ ] P1 — Research 12 V thermal heating mats or pads for the underslung tanks; compare thermostats, power draw and frost protection, then choose the insulation and heating method [[W02 Define tank insulation and heating|W02]]
-- [ ] P1 — Decide battery chemistry and capacity, and select a supplier [[E01 Decide battery chemistry and capacity|E01]]
 - [ ] P1 — Complete the load schedule and cable/fuse sizing [[E02 Complete load schedule and cable-fuse sizing|E02]]
+- [ ] P1 — Check the Xantrex 3000 W surge against the 200 A battery BMS and confirm the 1.5 kW appliance limit [[E02 Complete load schedule and cable-fuse sizing|E02]]
 - [ ] P1 — Choose the shower extractor and roof-vent location [[V01 Select shower extractor and roof vent|V01]]
 - [ ] P1 — Choose heater damper, diffuser, ducting, heat shield and CO alarm [[V02 Select heater damper, diffuser, ducting and heat shield|V02]]
 - [ ] P1 — Choose kitchen sink, tap, filter and extractor; confirm hob, fridge and kettle [[K01 Select kitchen appliances|K01]]
@@ -19,7 +19,7 @@ kanban-plugin: board
 ## RESEARCH — SOURCE & PRICE
 
 - [ ] Price every BOM line; build the budget summary and set the total and contingency in [[Shopping List]]
-- [ ] Confirm lead times for the Loopz, tanks, panels, battery and electrical core
+- [ ] Confirm lead times for the Loopz, tanks, panels and electrical core; battery installed
 - [ ] P1 — Confirm Boxio XL MAX+ stock and lead time, then order the complete set, refills and spares [[T03 Order toilet, refills and spares|T03]]
 - [ ] P1 — Confirm JA Seals Multi Seal rubber type, profile, mould resistance and wet-area suitability; measure the Loopz base-to-wall gap [[S03 Order shower kit|S03]]
 - [ ] Split the M02 orders into supplier batches and set target order dates
@@ -28,7 +28,7 @@ kanban-plugin: board
 - [ ] Ask Autocraft: 60 L fitment and hatch orientation, bracket adaptation, drill positions, actual capacities and pump/filter contents
 - [ ] Shortlist ≤1.5 kW kettles with a verified current draw [[K01 Select kitchen appliances|K01]]
 - [ ] Compare water filters and kitchen extractor options [[K01 Select kitchen appliances|K01]]
-- [ ] Compare AGM pair versus LiFePO4 prices and suppliers [[E01 Decide battery chemistry and capacity|E01]]
+- [ ] Confirm the BaBy's 15 A/19 A rating, warranty and reverse-charge current with Sterling; check the existing lugs, fuse holders and ignition feed [[E03 Order battery, charger, inverter and protection|E03]]
 
 ## READY — BUY NOW
 
@@ -38,6 +38,8 @@ kanban-plugin: board
 - [ ] Fire blanket and electrical/kitchen extinguisher
 - [ ] Kettle ≤1.5 kW once the current draw is verified
 - [ ] Loopz spare microfilter, descaler and squeegee — bundle with the Loopz order
+- [ ] Sterling BaBy 15 A bidirectional DC-DC — £149; order after the specification and wiring checks, then remove the Voltanic 60 A unit
+- [ ] Sell or retain the removed Voltanic 60 A DC-DC
 
 ## ORDERED — AWAITING DELIVERY
 
@@ -63,6 +65,9 @@ kanban-plugin: board
 - [x] Create the task Gantt framework
 - [x] Choose 75 L fresh and 60 L waste tanks with an internal sink-upstand topfill
 - [x] Choose JA Seals Multi Seal for the Loopz base perimeter
+- [x] Install the Eco-Worthy 314 Ah LiFePO4 leisure battery
+- [x] Remove the old lead-acid auxiliary system and split-charge relays
+- [x] Choose the Sterling BaBy 15 A bidirectional DC-DC as the replacement for the 60 A unit
 
 %% kanban:settings
 ```

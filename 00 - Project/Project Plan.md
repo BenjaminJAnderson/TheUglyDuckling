@@ -1,7 +1,7 @@
 ---
 tags: [project, plan, scheduling]
 status: active
-updated: 2026-11-02
+updated: 2026-11-05
 ---
 
 # Project Plan
@@ -64,7 +64,7 @@ The final build block of each phase is reserved as buffer. Phase 2 may need one 
 
 1. Confirm Loopz specification and order it → receive → fit base → connect drain → water test.
 2. Confirm tank specification and order → receive → mount tanks → drain and vent → leak test.
-3. Confirm battery and load schedule → order electrical core → install bank and protection → install inverter and consumer unit → test circuits.
+3. Confirm load schedule and DC-DC wiring → order electrical core → install protection → install DC-DC → install inverter and consumer unit → test circuits.
 
 Procurement lead times are the largest schedule risk. Orders are therefore placed before fabrication starts, with M03 as the receive-and-inspect gate.
 

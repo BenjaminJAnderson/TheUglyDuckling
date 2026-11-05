@@ -1,7 +1,7 @@
 ---
 tags: [interior, kitchen]
 status: planning
-updated: 2026-11-02
+updated: 2026-11-05
 ---
 
 # Kitchen
@@ -84,7 +84,7 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 - Extractor type: recirculating charcoal filter or ducted to outside.
 - Fridge model and final ventilation path.
 - Kettle model and verified power draw.
-- Whether the induction hob and kettle can run from the AGM bank without unacceptable voltage sag.
+- Whether the induction hob and kettle can run from the installed 314 Ah LiFePO4 bank without unacceptable voltage sag or a BMS trip.
 - Worktop material and edge sealing.
 - Final drawer and bin layout.
 

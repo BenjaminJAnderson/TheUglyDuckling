@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical, inverter]
 status: research
-updated: 2026-10-21
+updated: 2026-11-05
 ---
 
 # Xantrex PROwatt SW 2000i Inverter
@@ -239,30 +239,25 @@ The inverter should have:
 
 ## Relationship To Existing Components
 
-Current planned system:
+Current system:
 
-- Leisure batteries:
-    - Lucas LSLC125-12
-    - Fullriver DC115-12
+- Leisure battery:
+    - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
+- Alternator charging:
+    - [[Sterling Power BaBy 15A DC-DC Charger]] planned replacement for the installed 60 A unit
 - Charger:
-    - Pro Charge Ultra 12V-60A
+    - Pro Charge Ultra 12V-60A planned
 - Solar:
     - 4 × Voltanic 200W panels
-    - Voltanic 60A MPPT
+    - Voltanic 60A MPPT installed
 
 The Xantrex is likely to be the **largest electrical load in the van**.
 
 Important consideration:
 
-The existing lead-acid batteries are relatively small for a 2000W inverter. The inverter can handle the power, but the batteries and cabling will determine real-world performance.
+The installed Eco-Worthy 314 Ah LiFePO4 bank has a 200 A BMS. The inverter's 2 kW continuous load is about 185 A, within the BMS rating but with little headroom for other DC loads. The 3000 W surge is about 278 A, above the battery's 240 A/10 s peak, so test the surge before relying on the full inverter rating.
 
-A future upgrade to:
-
-- 200–400Ah LiFePO4
-- Larger DC busbars
-- Proper high-current distribution
-
-would better match this inverter.
+The inverter and cabling still determine real-world performance. Keep the 1.5 kW appliance limit and do not run the hob and kettle together.
 
 ---
 
@@ -320,8 +315,9 @@ use direct 12V circuits instead.
 ## Related
 
 - [[Electrics Overview]]
+- [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
+- [[Sterling Power BaBy 15A DC-DC Charger]]
 - [[Sterling Power Pro Charge Ultra 12V 60A]]
-- [[Victron Energy Battery Protect 12-24V 65A (BP-65)]]
-- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]]
-- [[Lucas LSLC125-12 AGM Leisure Battery]]
+- [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]] — AGM research history
+- [[Lucas LSLC125-12 AGM Leisure Battery]] — AGM research history
 - [[Dashboard]]

@@ -1,7 +1,7 @@
 ---
 tags: [interior, wet-area, moc]
 status: planning
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Kitchen, Shower & Toilet
@@ -52,7 +52,7 @@ This is the entry point for the kitchen, shower and toilet build. The three area
 - Confirm the JA Seals Multi Seal rubber type and wet-area suitability, and measure the Loopz base-to-wall gap.
 - Where will the Loopz drain connect to the grey tank?
 - What tank insulation and heating method will prevent freezing?
-- Will the 1.5 kW induction hob and 1.5 kW kettle be usable on the planned AGM bank?
+- Will the 1.5 kW induction hob and 1.5 kW kettle be usable on the installed 314 Ah LiFePO4 bank and inverter without tripping the BMS?
 
 ## Related
 

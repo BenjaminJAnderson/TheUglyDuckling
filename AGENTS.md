@@ -31,7 +31,8 @@ Current phase: **kitchen, shower and toilet area**, plus the supporting water, w
 - **Kitchen:** cold water only. No recirculating tap. The induction hob and kettle are limited to **1.5 kW each** and run from the inverter.
 - **Water tanks:** Autocraft underslung **75 L fresh** kit and **60 L waste** tank, selected for planning. Fresh kit uses topfill with a black cap, universal brackets and Shurflo Trail King 7 pump/filter; the 60 L tank is bought with Sprinter/Crafter brackets, no kit and no pump, and the brackets need adapting to the Ducato/WAS chassis. The internal fill point is in the rear upstand behind the kitchen sink, filled from 10 L bottles over the sink. Fitment and service-hatch orientation are unconfirmed; confirm before ordering. Insulation, thermal heating mats and pipework protection are required to prevent freezing. The fresh drain tap, level sensors and waste-tank inlets are still open.
 - **Solar:** **800 W** installed as 4 × 200 W panels. No roof decking and no ladder.
-- **Electrical:** 12 V leisure system with a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger, 60 A MPPT and an AGM leisure bank. Final battery chemistry and capacity are still open.
+- **Electrical:** 12 V leisure system with a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger, 60 A MPPT and an installed Eco-Worthy EnergyTrek 314 Ah LiFePO4 bank. The old lead-acid auxiliary system and split-charge relays have been removed.
+- **Alternator charging:** replace the installed Voltanic 60 A DC-DC with a Sterling Power BaBy 15 A bidirectional DC-DC (BB1215, SKU `BABY`, £149 inc VAT). Use ignition-feed mode, 4–6 mm² cable and 25 A fuses at both batteries, a direct common negative and a dry mounting location. The BaBy is a maintenance and trickle source, not the bulk charger; solar remains primary. Remove and sell the 60 A unit.
 
 ## Repository map
 
@@ -88,7 +89,7 @@ updated: 2026-10-21
 
 - Keep 230 V AC and water separated; use RCD/RCBO protection and drip loops.
 - Fuse DC circuits close to the source.
-- The 2 kW inverter and 1.5 kW loads are demanding on the planned AGM bank. Check battery capacity, cable size and fuse ratings before installation.
+- The 2 kW inverter and 1.5 kW loads are demanding. The 200 A BMS is adequate for the 1.5 kW loads, but the inverter's 3000 W surge is above the battery's 240 A/10 s peak. Check battery capacity, cable size, fuse ratings and surge behaviour before installation.
 - Ventilation is critical: kitchen extractor, shower extractor and toilet compartment ventilation. The Boxio has no dedicated toilet vent.
 - Insulate and heat the underslung tanks and pipework for winter use.
 - Do not edit CAD, GCODE, STL, DXF or KiCad files unless explicitly asked.

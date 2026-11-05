@@ -7,7 +7,7 @@ effort_days: 1
 progress: 0
 after:
   - "FS:[[M03 Long-lead received and inspected]]"
-updated: 2026-10-29
+updated: 2026-11-05
 ---
 
 # E04 Install battery bank, main fuse, isolation and busbars
@@ -28,6 +28,8 @@ The battery bank and high-current distribution are safely installed.
 
 ## Notes
 
+- The Eco-Worthy 314 Ah LiFePO4 battery is installed; confirm its mounting, restraint and ventilation against the final layout.
+- The main fuse, isolation switch, busbars and high-current cable work remain to be checked.
 - Keep 230 V AC and water separated.
 - Do not energise the system until the charger and protection are installed.
 

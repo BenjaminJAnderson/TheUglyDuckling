@@ -1,7 +1,7 @@
 ---
 tags: [project, decisions]
 status: active
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Decisions
@@ -250,6 +250,33 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 
 **Consequences:** The trim is a garage-door product, not a waterproof sealant. Its material, mould resistance and suitability for intermittent wet use are not stated and must be confirmed with JA Seals before ordering. The base-to-wall gap must be measured and fall within the trim's rated gap of up to 25 mm with slight compression; the 2.5 m length covers the three 700 mm walls but leaves only about 0.4 m for corners. Dry-fit the base and trim, test removal, and prove the joint in [[S09 Shower watertightness test]]. If it fails, revert to a neutral-cure silicone/MS-polymer primary seal with a removable trim, or a shower-specific product. See [[Shower]] and [[Shopping List]].
 
+## 2026-11-05 — Record installed 314 Ah LiFePO4 leisure bank
+
+**Context:** The documentation still described the leisure bank as undecided and compared AGM candidates. A 12 V LiFePO4 battery is now installed, and the DC-DC choice depends on its charge profile and low-temperature behaviour.
+
+**Options considered:**
+- Keep the AGM research as the current design.
+- Record the installed Eco-Worthy battery as the leisure bank.
+- Replace it with a different chemistry or capacity.
+
+**Decision:** Record the installed **Eco-Worthy EnergyTrek 12 V 314 Ah LiFePO4 battery** as the leisure bank. Its published figures are 12.8 V, 314 Ah, 4,019 Wh, a 200 A BMS, 200 A maximum charge and discharge, 0–55 °C charging, low-temperature charging protection below approximately -7 °C, Bluetooth monitoring, SOC LEDs, M8 terminals, 414 × 215 × 260 mm and 27.4 kg. The product URL says 300 Ah, but the product page and specification table state 314 Ah; the listing discrepancy is recorded rather than resolved by assumption.
+
+**Consequences:** The MPPT, Pro Charge Ultra and DC-DC must all use a LiFePO4 profile. The 60 A MPPT remains the bulk charger. The old lead-acid auxiliary system and split-charge relays have been removed, so the DC-DC is the only alternator-to-leisure path. The BaBy's 15 A DC-DC is a maintenance and trickle source at about 0.048C for this bank. The BaBy's 0 °C low-temperature trip is more conservative than the battery BMS cutoff and is acceptable. The Xantrex 2000 W inverter's 3000 W surge is about 278 A at 12 V, above the battery's 240 A/10 s peak, so the inverter surge and 1.5 kW appliance limit must be tested and recorded in [[E02 Complete load schedule and cable-fuse sizing]]. The AGM component pages remain as research history. See [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]], [[Electrics Overview]] and [[Shopping List]].
+
+## 2026-11-05 — Replace the installed 60 A DC-DC with a 15 A bidirectional BaBy
+
+**Context:** A Voltanic 60 A DC-DC is installed and connects the alternator to the LiFePO4 leisure bank. The vehicle spends most of its time stationary, the 800 W solar array is the primary charge source, and the 60 A alternator load, cable size and fusing are unnecessary for the actual travel pattern. The installed unit cannot maintain the starter battery from surplus leisure-bank charge when parked. Separate trickle chargers were considered but add cost and cabling.
+
+**Options considered:**
+- Keep the installed Voltanic 60 A DC-DC.
+- Fit the Sterling Power BaBy 15 A bidirectional DC-DC and maintainer.
+- Fit a Sterling Saturn 25 A or 40 A bidirectional unit.
+- Keep the 60 A unit and add a separate trickle or echo charger.
+
+**Decision:** Replace the installed Voltanic 60 A DC-DC with the **Sterling Power BaBy 15 A bidirectional DC-DC** (BB1215, SKU `BABY`), **£149 inc VAT**. Remove the 60 A unit and sell or retain it; do not run both. Use the BaBy's ignition-feed mode, a direct common negative, 4–6 mm² cable and 25 A fuses at both batteries. Mount it in the confirmed dry location and fit the included temperature sensor to the leisure battery negative.
+
+**Consequences:** Alternator charging drops to about 15 A nominal, or 19 A maximum per the manual. On the 314 Ah bank this is about 0.048C: roughly 10.5 hours for 50% depth of discharge and 16.7 hours for 80%. The BaBy is therefore a maintenance and trickle source, not the bulk charger; solar remains primary. Reverse charging maintains the starter battery when the leisure bank is above 13.5 V, so a full LiFePO4 bank at rest may not maintain it overnight. Use ignition-feed mode to stop the Pro Charge Ultra's starter output from triggering forward charging. Connect the BaBy output and reverse-charge path to the battery busbar or main fuse side. Replace the 60 A fuses with 25 A fuses and check whether the existing lugs fit the BaBy's 6.1 mm terminals. Confirm the 15 A versus 19 A rating, the 5-year versus 2-year warranty and the reverse-charge current with Sterling. See [[Sterling Power BaBy 15A DC-DC Charger]], [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]], [[E05 Install charger, inverter, consumer unit and circuits]] and [[Shopping List]].
+
 ## Related
 
 - [[Dashboard]]
@@ -263,3 +290,5 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 - [[Ventilation & Moisture]]
 - [[Diesel Heater]]
 - [[Electrics Overview]]
+- [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
+- [[Sterling Power BaBy 15A DC-DC Charger]]

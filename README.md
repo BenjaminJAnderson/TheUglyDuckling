@@ -6,7 +6,7 @@ The Ugly Duckling is an ambulance being converted into a self-sustaining, off-gr
 
 The project is a full-time liveaboard conversion rather than a weekend camper. The ambulance body, roof and existing services provide the platform; the interior is being designed around limited space, finite water and energy, and winter conditions. The current phase covers the kitchen, shower and toilet, together with the water, waste, ventilation and electrical systems that support them.
 
-The repository is the working design record. It holds requirements, bills of materials, supplier links, open questions, a decision log and a Kanban board, alongside FreeCAD models, CNC toolpaths and a KiCad wiring project. It deliberately distinguishes installed equipment from shortlisted or researched equipment: the solar array and diesel heater are installed and the table has been modelled and cut, while most of the wet-area systems remain at design stage.
+The repository is the working design record. It holds requirements, bills of materials, supplier links, open questions, a decision log and a Kanban board, alongside FreeCAD models, CNC toolpaths and a KiCad wiring project. It deliberately distinguishes installed equipment from shortlisted or researched equipment: the solar array, LiFePO4 leisure battery and diesel heater are installed and the table has been modelled and cut, while most of the wet-area systems remain at design stage.
 
 The work is documentation-led. Significant choices are recorded with their context and consequences before fabrication, so that dimensions, power budgets and safety constraints can be checked as the build progresses.
 
@@ -17,6 +17,7 @@ The project combines an existing vehicle platform with a documented design packa
 ### Installed and completed
 
 - **800 W solar array:** Four 200 W black monocrystalline panels in a 2-series, 2-parallel configuration, with a 60 A MPPT controller and black anodised aluminium mounting extrusion.
+- **Leisure battery:** An Eco-Worthy EnergyTrek 12 V 314 Ah LiFePO4 battery with a 200 A BMS, Bluetooth monitoring, SOC LEDs and low-temperature charging protection. The old lead-acid auxiliary system and split-charge relays have been removed.
 - **Diesel air heating:** An Eberspächer Airtronic D4 12 V Mk1 with an 802 digital controller is already mounted.
 - **CNC-cut table:** A FreeCAD table design has been toolpathed and cut, with the legs and stiffener fitted.
 - **Design documentation:** A linked Obsidian vault with a dashboard, project plan, dated task notes, decision log, shopping list, bill-of-materials tables and a Kanban intake board.
@@ -27,7 +28,7 @@ The project combines an existing vehicle platform with a documented design packa
 - **Separating toilet:** A portable BOXIO TOILET XL MAX+ complete set that can be moved out of the shower compartment. It has 7 L urine and 8 L solids capacity, a 40 × 30 cm footprint, 45 cm height with the Solo Up base and no dedicated vent. Stock is unconfirmed.
 - **Water storage:** Underslung 75 L fresh and 60 L waste tanks, with an internal topfill behind the kitchen sink; insulation and heating are still to be resolved.
 - **Cold-water kitchen:** A stainless sink, 1.5 kW induction hob, 30 L drawer fridge and a 1.5 kW maximum kettle, all limited by the inverter and battery budget.
-- **Electrical system:** A 12 V leisure architecture designed around a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger, Victron BatteryProtect BP-65 and a leisure battery bank whose final chemistry and capacity are still open.
+- **Electrical system (partly installed):** The installed 314 Ah LiFePO4 bank is supported by a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger and a planned Sterling BaBy 15 A bidirectional DC-DC to replace the installed 60 A unit for alternator charging and starter maintenance.
 - **Drying branch:** An 89 mm duct from the diesel heater to the shower, switched by a changeover damper so the same heater can warm the living space or dry the wet area.
 - **Shower ventilation:** A new 12 V roof extractor with humidity sensing or timer control and a new roof vent; the existing black roof extractor is not reused.
 
@@ -37,8 +38,8 @@ The project combines an existing vehicle platform with a documented design packa
 - **FreeCAD:** Parametric models for the van, bed, kitchen and shower, roof, sofa, table and electrical layout, with STEP, STL and DXF exports.
 - **KiCad:** Schematic, PCB layout, project and symbol-library files for the electrical wiring guide.
 - **CNC routing and G-code:** Toolpaths for the table legs, stiffener and table.
-- **12 V DC and 230 V AC system design:** Solar charging, shore charging, battery protection, inverter loads, fusing and distribution.
-- **Referenced hardware:** Hamwells, Boxio, Eberspächer, Xantrex, Sterling Power, Victron Energy, Fullriver, Lucas, Voltanic and Hygienic Plastic Supplies equipment, recorded with specifications and source links in the relevant pages.
+- **12 V DC and 230 V AC system design:** Solar charging, shore charging, alternator DC-DC charging, battery protection, inverter loads, fusing and distribution.
+- **Referenced hardware:** Hamwells, Boxio, Eberspächer, Xantrex, Sterling Power, Eco-Worthy, Fullriver, Lucas, Voltanic and Hygienic Plastic Supplies equipment, recorded with specifications and source links in the relevant pages.
 
 ## Technical Details
 
@@ -64,9 +65,9 @@ There is no hot-water system, no calorifier and no black-water tank. Hot water c
 
 ### Electrical architecture
 
-The installed solar array is wired 2S2P and feeds a 60 A MPPT controller. A Sterling Pro Charge Ultra 12 V / 60 A charger is planned for shore power, while alternator or DC-DC charging remains an open question. The planned 12 V bank supplies DC loads through a fuse panel and a Victron BatteryProtect BP-65, with the inverter bypassing the BatteryProtect on its own fuse. The Xantrex PROwatt SW 2000i provides 230 V pure-sine power through an RCD/RCBO-protected consumer unit.
+The installed solar array is wired 2S2P and feeds a 60 A MPPT controller. A Sterling Pro Charge Ultra 12 V / 60 A charger is planned for shore power. A Sterling Power BaBy 15 A bidirectional DC-DC is planned to replace the installed Voltanic 60 A unit; it provides low-current alternator charging and starter battery maintenance from surplus solar. The installed 12 V bank is to supply DC loads through a fuse panel, with the inverter on its own fuse. The Xantrex PROwatt SW 2000i provides 230 V pure-sine power through an RCD/RCBO-protected consumer unit.
 
-The induction hob and kettle are limited to 1.5 kW each and must not run together: either load is already close to the inverter's continuous rating, and both together would overload it. The final battery chemistry and capacity are unresolved. The component notes compare the Fullriver DC115-12 and Lucas LSLC125-12 AGM batteries, warn against mixing different models in one permanent parallel bank, and set out the case for a matched pair or a LiFePO4 bank.
+The induction hob and kettle are limited to 1.5 kW each and must not run together: either load is already close to the inverter's continuous rating, and both together would overload it. The installed leisure bank is an Eco-Worthy EnergyTrek 12 V 314 Ah LiFePO4 battery with a 200 A BMS, Bluetooth monitoring and low-temperature protection. Its 200 A continuous rating covers the 1.5 kW loads, but the inverter's 3000 W surge is above the battery's 240 A/10 s peak, so the surge behaviour still needs testing. The Fullriver DC115-12 and Lucas LSLC125-12 pages are retained as AGM research history.
 
 ### Heating and ventilation
 
@@ -94,7 +95,7 @@ The [Dashboard](00%20-%20Project/Dashboard.md) is the entry point. The [Project 
 
 3. **No hot water and a shower that does not heat it.** A calorifier would add plumbing, weight, freeze risk and cost. The project instead uses a kettle for hot water and keeps the kitchen cold-water only. Shower water is either ambient or preheated and mixed down to 45 °C or below. The water system is simpler, but shower temperature depends on careful preheating.
 
-4. **A 2 kW inverter against an undecided battery bank.** The inverter can deliver 2 kW continuously, but a small AGM bank would suffer voltage sag and rapid depletion under that load. The design caps the hob and kettle at 1.5 kW each and prohibits running them together, while the component notes compare a matched AGM pair with LiFePO4. The load rules are settled; the bank itself is not.
+4. **A 2 kW inverter against a finite battery bank.** The inverter can deliver 2 kW continuously, and the installed 314 Ah LiFePO4 bank has a 200 A BMS. The continuous load is about 185 A, within the BMS rating but with little headroom for other DC loads, while the 3000 W surge is above the battery's 240 A/10 s peak. The design caps the hob and kettle at 1.5 kW each and prohibits running them together; the inverter surge still needs testing.
 
 5. **Moisture behind waterproof cladding near a diesel heater.** The PVC cladding and plywood backing are vapour-tight, so moisture can form behind them if the wall is cold. The design uses battens, insulation behind the plywood, sealed penetrations, sealed plywood edges and a heat shield. The selected black PVC is supplied as Class 0 fire rated to EN 13501-1 B-s3,d0; the certificate and heater clearance still need verification. This addresses condensation and clearance without treating the supplier claim as installed evidence.
 
@@ -107,11 +108,13 @@ The project has produced installed hardware and a substantial design record, but
 | Area | Current evidence |
 | --- | --- |
 | Solar | Four 200 W panels installed; 2S2P wiring and 60 A MPPT recorded. No generation logs are included. |
+| Leisure battery | Eco-Worthy EnergyTrek 314 Ah LiFePO4 installed; 200 A BMS, Bluetooth and low-temperature protection recorded. Paid price and inverter surge behaviour are not yet recorded. |
+| DC-DC charging | A Voltanic 60 A DC-DC is installed. A Sterling BaBy 15 A bidirectional unit has been selected to replace it and provide starter maintenance; it is not yet fitted. |
 | Diesel heating | Airtronic D4 and 802 controller mounted. The shower drying branch and changeover damper are not installed. |
 | Furniture | Table modelled, toolpathed and CNC-cut; legs and stiffener cut and fitted. |
 | Shower, toilet, water and electrical distribution | Requirements, bills of materials and decision records only. No installation, water-use, thermal or electrical performance data. |
 
-No automated test suite exists because this is a documentation and fabrication project. The main recorded outcomes are the installed solar array, the mounted heater and controller, the fitted table parts, and a cross-linked design record that identifies conflicting manufacturer data and unresolved safety questions. The Loopz specifications and the battery bank remain the most significant unverified assumptions.
+No automated test suite exists because this is a documentation and fabrication project. The main recorded outcomes are the installed solar array, the installed LiFePO4 leisure battery, the mounted heater and controller, the fitted table parts, and a cross-linked design record that identifies conflicting manufacturer data and unresolved safety questions. The Loopz specifications and the inverter surge margin remain the most significant unverified assumptions.
 
 ## Getting Started
 
@@ -152,7 +155,7 @@ The dated baseline for the current wet-area phase is maintained in the [Project 
 - [ ] Install the diesel-heater drying branch, changeover damper, diffuser and heat shield.
 - [ ] Source and mount the underslung fresh and grey tanks.
 - [ ] Resolve tank insulation, heating and winterising.
-- [ ] Decide the final battery chemistry and capacity, then complete the 12 V and 230 V load schedule.
+- [ ] Replace the installed 60 A DC-DC with the Sterling BaBy 15 A unit, then complete the 12 V and 230 V load schedule and verify the inverter surge against the battery BMS.
 - [ ] Specify and install the kitchen sink, filtration, induction hob, fridge and ventilation.
 - [ ] Verify the fire certificate for the black PVC cladding and confirm heater clearance.
 - [ ] Design safe roof access for solar and vent maintenance without a permanent ladder.
@@ -182,7 +185,7 @@ TheUglyDuckling/
 - [Obsidian](https://obsidian.md/) for the linked Markdown vault, Kanban board and Task Gantt timeline.
 - [FreeCAD](https://www.freecad.org/) for parametric models and fabrication exports.
 - [KiCad](https://www.kicad.org/) for the electrical schematic and PCB design.
-- Product references and supplier links for Hamwells, Eberspächer, Xantrex, Sterling Power, Victron Energy, Fullriver, Lucas and Voltanic are recorded in the relevant system pages and the [Shopping List](00%20-%20Project/Shopping%20List.md).
+- Product references and supplier links for Hamwells, Eberspächer, Xantrex, Sterling Power, Eco-Worthy, Fullriver, Lucas and Voltanic are recorded in the relevant system pages and the [Shopping List](00%20-%20Project/Shopping%20List.md).
 
 Product names and trademarks remain the property of their respective owners. Component specifications are quoted from manufacturer material and supplier pages; where sources disagree, the discrepancy is recorded in the page rather than resolved by assumption.
 
