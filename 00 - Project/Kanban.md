@@ -28,7 +28,7 @@ kanban-plugin: board
 - [ ] Ask Autocraft: 60 L fitment and hatch orientation, bracket adaptation, drill positions, actual capacities and pump/filter contents
 - [ ] Shortlist ≤1.5 kW kettles with a verified current draw [[K01 Select kitchen appliances|K01]]
 - [ ] Compare water filters and kitchen extractor options [[K01 Select kitchen appliances|K01]]
-- [ ] Confirm the BaBy's 15 A/19 A rating, warranty and reverse-charge current with Sterling; check the existing lugs, fuse holders and ignition feed [[E03 Order battery, charger, inverter and protection|E03]]
+- [ ] Confirm the BB1225's price, warranty, reverse-charge current, about 30 A versus 50 A fuse figure and terminal size with Sterling; check the existing lugs, fuse holders and ignition feed [[E03 Order battery, charger, inverter and protection|E03]]
 
 ## READY — BUY NOW
 
@@ -38,7 +38,7 @@ kanban-plugin: board
 - [ ] Fire blanket and electrical/kitchen extinguisher
 - [ ] Kettle ≤1.5 kW once the current draw is verified
 - [ ] Loopz spare microfilter, descaler and squeegee — bundle with the Loopz order
-- [ ] Sterling BaBy 15 A bidirectional DC-DC — £149; order after the specification and wiring checks, then remove the Voltanic 60 A unit
+- [ ] Sterling BB1225 25 A DC-DC — £190.80; order after the specification and wiring checks, then remove the Voltanic 60 A unit
 - [ ] Sell or retain the removed Voltanic 60 A DC-DC
 
 ## ORDERED — AWAITING DELIVERY
@@ -67,7 +67,7 @@ kanban-plugin: board
 - [x] Choose JA Seals Multi Seal for the Loopz base perimeter
 - [x] Install the Eco-Worthy 314 Ah LiFePO4 leisure battery
 - [x] Remove the old lead-acid auxiliary system and split-charge relays
-- [x] Choose the Sterling BaBy 15 A bidirectional DC-DC as the replacement for the 60 A unit
+- [x] Choose the Sterling BB1225 25 A DC-DC as the replacement for the 60 A unit (superseding the BB1215 BaBy)
 
 %% kanban:settings
 ```

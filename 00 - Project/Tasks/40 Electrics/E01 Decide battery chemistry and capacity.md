@@ -5,7 +5,7 @@ start: 2026-11-02
 end: 2026-11-15
 effort_days: 1
 progress: 100
-updated: 2026-11-05
+updated: 2026-11-13
 ---
 
 # E01 Decide battery chemistry and capacity
@@ -27,7 +27,7 @@ The leisure battery bank chemistry and capacity are chosen.
 - Installed bank: [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]], 12.8 V, 314 Ah, 4,019 Wh, 200 A BMS, Bluetooth, low-temperature protection.
 - The old lead-acid auxiliary system and split-charge relays have been removed. The DC-DC charger is the only alternator-to-leisure path.
 - The 200 A BMS is adequate for the 1.5 kW loads, but the Xantrex 3000 W surge is above the battery's 240 A/10 s peak. Test it in E02.
-- The MPPT, Pro Charge Ultra and BaBy must all use a LiFePO4 profile.
+- The MPPT, Pro Charge Ultra and BB1225 must all use a LiFePO4 profile.
 - The AGM component pages remain as research history.
 
 ## Links

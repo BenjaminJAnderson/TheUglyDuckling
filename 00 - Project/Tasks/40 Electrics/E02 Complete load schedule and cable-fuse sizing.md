@@ -7,7 +7,7 @@ effort_days: 1
 progress: 0
 after:
   - "FS:[[E01 Decide battery chemistry and capacity]]"
-updated: 2026-11-05
+updated: 2026-11-13
 ---
 
 # E02 Complete load schedule and cable-fuse sizing
@@ -30,8 +30,8 @@ The 12 V and 230 V load schedule is complete, with cable sizes and fuse ratings 
 
 - The induction hob and kettle are limited to 1.5 kW each and must not run together.
 - Include the tank heating, extractors, heater and Loopz. The Boxio toilet has no electrical load.
-- The BaBy manual recommends 4 mm² cable and 25 A fuses for the 15 A unit; upsize for runs over about 3 m.
-- Replace the removed 60 A DC-DC's fuses with 25 A fuses and check whether the existing lugs fit the BaBy's 6.1 mm terminals.
+- The BB1225 manual specifies 6 mm² / 10 AWG cable and about 30 A fuses at both batteries; some mode diagrams show 50 A, so confirm the final fuse rating.
+- Replace the removed 60 A DC-DC's fuses with about 30 A fuses and check whether the existing lugs fit the BB1225 terminals; the manual does not state the terminal diameter.
 - The Xantrex 2000 W inverter draws about 185 A continuously and about 278 A at its 3000 W surge. The battery's BMS is 200 A continuous and 240 A for 10 seconds; test the surge and keep the 1.5 kW appliance limit.
 
 ## Links
@@ -40,4 +40,4 @@ The 12 V and 230 V load schedule is complete, with cable sizes and fuse ratings 
 - [[Water]]
 - [[Project Plan]]
 - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
-- [[Sterling Power BaBy 15A DC-DC Charger]]
+- [[Sterling Power BB1225 25A DC-DC Charger]]

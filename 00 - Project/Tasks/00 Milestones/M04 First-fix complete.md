@@ -10,7 +10,7 @@ after:
   - "FS:[[E05 Install charger, inverter, consumer unit and circuits]]"
   - "FS:[[V04 Install roof vent, extractor and duct]]"
   - "FS:[[V05 Install heater branch, diffuser, heat shield and CO alarm]]"
-updated: 2026-11-05
+updated: 2026-11-13
 ---
 
 # M04 First-fix complete
@@ -20,7 +20,7 @@ updated: 2026-11-05
 - [ ] Shower floor support and wall frame complete
 - [ ] Tank mounts, water routes and pump installed
 - [ ] Battery bank, protection, DC-DC charger, shore charger, inverter and consumer unit installed
-- [ ] Existing 60 A DC-DC removed; BaBy installed with 25 A fusing, ignition feed and temperature sensor
+- [ ] Existing 60 A DC-DC removed; BB1225 installed with about 30 A fusing, ignition feed and temperature sensor
 - [ ] DC and AC circuits first-fixed and labelled
 - [ ] Roof vent, extractor duct and heater branch installed
 - [ ] First-fix inspection passed

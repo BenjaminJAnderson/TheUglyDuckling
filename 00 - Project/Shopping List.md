@@ -1,7 +1,7 @@
 ---
 tags: [project, shopping]
 status: active
-updated: 2026-11-05
+updated: 2026-11-13
 ---
 
 # Shopping List
@@ -12,7 +12,7 @@ Procurement actions are scheduled in [[Project Plan]] and tracked in the `Tasks/
 
 ## Budget summary
 
-All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet and the Sterling BaBy DC-DC have current purchase prices; the cladding price is shown inc VAT for three sheets. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
+All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet and the Sterling BB1225 DC-DC have current purchase prices; the cladding price is shown inc VAT for three sheets. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
 
 | Category | Priced | Estimated cost | Confidence | Notes |
 | --- | --- | --- | --- | --- |
@@ -22,8 +22,8 @@ All figures are estimates until quotes are recorded. Only the Loopz Plus, the Au
 | Kitchen | — | TBC | Low | Sink, hob and fridge shortlisted; prices TBC |
 | Water and waste | Autocraft 75 L fresh kit £252.40; 60 L waste tank £205 | £457.40 + TBC | Medium | 60 L fitment and bracket adaptation unconfirmed; waste fittings, sensors, heating and pump/filter checks TBC |
 | Toilet | Boxio complete set £249.99 | £249.99 + TBC | Medium | No dedicated vent; optional refill bundle/spare canister not included; retention and cleaning TBC |
-| Electrical core | Eco-Worthy 314 Ah LiFePO4 installed (paid price TBC); Sterling BaBy 15 A £149 | £149 + TBC | Medium | Battery installed; DC-DC shortlisted; other electrical items unpriced |
-| **Total** | **£1,823.35** | **£1,823.35 + TBC** | | Excludes the installed battery's paid price and the removed 60 A DC-DC's resale value |
+| Electrical core | Eco-Worthy 314 Ah LiFePO4 installed (paid price TBC); Sterling BB1225 25 A £190.80 | £190.80 + TBC | Medium | Battery installed; DC-DC shortlisted; other electrical items unpriced |
+| **Total** | **£1,865.15** | **£1,865.15 + TBC** | | Excludes the installed battery's paid price and the removed 60 A DC-DC's resale value |
 
 Do not commit to a budget total until the `RESEARCH — SOURCE & PRICE` cards on [[Kanban]] are complete. Contingency is TBC; review it at [[M01 Design freeze]]. The optional £32.99 refill bundle and £32.99 spare 7 L canister are not included in the total. Record the installed battery's paid price and any proceeds from selling the removed Voltanic 60 A DC-DC when known.
 
@@ -38,7 +38,7 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | 3 | Boxio | BOXIO TOILET XL MAX+ complete set, refill bundle if required, spare 7 L canister if required, retention and cleaning | [[T03 Order toilet, refills and spares\|T03]] | 2026-11-23 | TBC |
 | 4 | Autocraft | 75 L fresh kit (topfill black, universal brackets, pump/filter), 60 L waste tank with Sprinter/Crafter brackets, waste inlets, breather, drain tap, Easy Drain kit if required, extra fill/breather/waste hose | [[W03 Order tanks, pump, filter and fittings\|W03]] | 2026-11-23 | TBC |
 | 5 | Plumbing and filtration | Fresh drain tap, level sensors, PEX/John Guest, valves, accumulator, filters, HepvO, heater mats and insulation | [[W03 Order tanks, pump, filter and fittings\|W03]] | 2026-11-23 | TBC |
-| 6 | Electrical | Battery installed; main fuse, isolation switch, busbars, charger, inverter, consumer unit, RCBOs, cable, lugs and labels; Sterling BaBy 15 A DC-DC, 25 A fuses, fuse holders, 4–6 mm² cable and ignition-feed fuse | [[E03 Order battery, charger, inverter and protection\|E03]] | 2026-11-23 | TBC |
+| 6 | Electrical | Battery installed; main fuse, isolation switch, busbars, charger, inverter, consumer unit, RCBOs, cable, lugs and labels; Sterling BB1225 25 A DC-DC, 30 A fuses, fuse holders, 6 mm² cable and ignition-feed fuse | [[E03 Order battery, charger, inverter and protection\|E03]] | 2026-11-23 | TBC |
 | 7 | Timber and panels | 3×2 CLS, plywood backing, 2 mm black PVC cladding, PVC adhesive, H-trims, stainless fixings, sealant and threshold | [[S03 Order shower kit\|S03]] | 2026-11-23 | TBC |
 | 8 | Kitchen appliances | Sink, tap, filter, hob, fridge, kettle and extractor | [[K02 Order kitchen appliances\|K02]] | 2026-11-23 | TBC |
 | 9 | Ventilation | Shower extractor, roof vent, duct and passive inlet | [[V03 Order ventilation and heater branch components\|V03]] | 2026-11-23 | TBC |
@@ -50,10 +50,10 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | Item | Qty | Spec / Model | Supplier / Link | Price | Status | Notes | Page |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eco-Worthy EnergyTrek battery | 1 | 12 V 314 Ah LiFePO4, 4,019 Wh, 200 A BMS, Bluetooth, low-temperature protection | [Eco-Worthy](https://uk.eco-worthy.com/products/eco-worthy-12v-300ah-lifepo4-lithium-battery-bluetooth-with-soc-leds-and-low-temp-protection?currency=GBP&country=GB&variant=47914078830832) | £409.99 current; paid TBC | installed | Listing URL says 300 Ah; product page says 314 Ah | [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]] |
-| Sterling BaBy 15 A DC-DC | 1 | BB1215, SKU `BABY`, bidirectional, 12 V–12 V, 5–15 A | [Sterling Power](https://sterling-power.com/products/baby?variant=56896771424630) | £149 inc VAT | shortlisted | 19 A maximum per manual; 4 mm² and 25 A fuses; confirm warranty | [[Sterling Power BaBy 15A DC-DC Charger]] |
-| 25 A fuse and holder | 2 | Input and output protection | TBC | TBC | research | One close to each battery | [[Sterling Power BaBy 15A DC-DC Charger]] |
-| DC-DC cable | TBC | 4–6 mm², length TBC | TBC | TBC | research | Upsize for runs over 3 m | [[Sterling Power BaBy 15A DC-DC Charger]] |
-| Ignition feed fuse | 1 | 2–5 A, engine-only live | TBC | TBC | research | Do not use an accessory circuit | [[Sterling Power BaBy 15A DC-DC Charger]] |
+| Sterling BB1225 25 A DC-DC | 1 | BB1225, 12 V–12 V, 25 A, reverse charging | [Sterling Power](https://sterling-power.com/products/bb1220-reverse-charge-jump-start-assistance-copy) | £190.80 inc VAT | shortlisted | 6 mm² / 10 AWG and about 30 A fuses; 2-year manual warranty; confirm price | [[Sterling Power BB1225 25A DC-DC Charger]] |
+| 30 A fuse and holder | 2 | Input and output protection | TBC | TBC | research | One close to each battery; some diagrams show 50 A | [[Sterling Power BB1225 25A DC-DC Charger]] |
+| DC-DC cable | TBC | 6 mm² / 10 AWG, length TBC | TBC | TBC | research | Check voltage drop on long runs | [[Sterling Power BB1225 25A DC-DC Charger]] |
+| Ignition feed fuse | 1 | 2–5 A, engine-only live | TBC | TBC | research | Do not use an accessory circuit | [[Sterling Power BB1225 25A DC-DC Charger]] |
 | Battery main fuse and isolation | 1 set | Rating TBC against 200 A BMS | TBC | TBC | research | Close to battery positive | [[Electrics Overview]] |
 
 ## Shower — shortlisted
@@ -168,7 +168,7 @@ No dedicated toilet vent, fan, flexible hose or external cowl is required.
 | Item | Qty | Notes | Page |
 | --- | --- | --- | --- |
 | Old lead-acid auxiliary battery system and split-charge relays | TBC | Removed before the LiFePO4 install; disposal or resale TBC. | [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]] |
-| Voltanic 60 A DC-DC charger | 1 | Removed from service; to be sold or retained. Do not reuse its 60 A fuses with the BaBy. Resale proceeds TBC. | [[Sterling Power BaBy 15A DC-DC Charger]] |
+| Voltanic 60 A DC-DC charger | 1 | Removed from service; to be sold or retained. Do not reuse its 60 A fuses with the BB1225. Resale proceeds TBC. | [[Sterling Power BB1225 25A DC-DC Charger]] |
 
 ## Installed
 
@@ -191,4 +191,4 @@ No dedicated toilet vent, fan, flexible hose or external cowl is required.
 - [[Diesel Heater]]
 - [[Electrics Overview]]
 - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
-- [[Sterling Power BaBy 15A DC-DC Charger]]
+- [[Sterling Power BB1225 25A DC-DC Charger]]

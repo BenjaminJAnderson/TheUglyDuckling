@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical, inverter]
 status: research
-updated: 2026-11-05
+updated: 2026-11-13
 ---
 
 # Xantrex PROwatt SW 2000i Inverter
@@ -244,7 +244,7 @@ Current system:
 - Leisure battery:
     - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
 - Alternator charging:
-    - [[Sterling Power BaBy 15A DC-DC Charger]] planned replacement for the installed 60 A unit
+    - [[Sterling Power BB1225 25A DC-DC Charger]] planned 25 A replacement for the installed 60 A unit
 - Charger:
     - Pro Charge Ultra 12V-60A planned
 - Solar:
@@ -316,7 +316,7 @@ use direct 12V circuits instead.
 
 - [[Electrics Overview]]
 - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
-- [[Sterling Power BaBy 15A DC-DC Charger]]
+- [[Sterling Power BB1225 25A DC-DC Charger]]
 - [[Sterling Power Pro Charge Ultra 12V 60A]]
 - [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]] — AGM research history
 - [[Lucas LSLC125-12 AGM Leisure Battery]] — AGM research history

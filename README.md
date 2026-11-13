@@ -28,7 +28,7 @@ The project combines an existing vehicle platform with a documented design packa
 - **Separating toilet:** A portable BOXIO TOILET XL MAX+ complete set that can be moved out of the shower compartment. It has 7 L urine and 8 L solids capacity, a 40 × 30 cm footprint, 45 cm height with the Solo Up base and no dedicated vent. Stock is unconfirmed.
 - **Water storage:** Underslung 75 L fresh and 60 L waste tanks, with an internal topfill behind the kitchen sink; insulation and heating are still to be resolved.
 - **Cold-water kitchen:** A stainless sink, 1.5 kW induction hob, 30 L drawer fridge and a 1.5 kW maximum kettle, all limited by the inverter and battery budget.
-- **Electrical system (partly installed):** The installed 314 Ah LiFePO4 bank is supported by a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger and a planned Sterling BaBy 15 A bidirectional DC-DC to replace the installed 60 A unit for alternator charging and starter maintenance.
+- **Electrical system (partly installed):** The installed 314 Ah LiFePO4 bank is supported by a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger and a planned Sterling BB1225 25 A DC-DC to replace the installed 60 A unit for alternator charging and starter maintenance.
 - **Drying branch:** An 89 mm duct from the diesel heater to the shower, switched by a changeover damper so the same heater can warm the living space or dry the wet area.
 - **Shower ventilation:** A new 12 V roof extractor with humidity sensing or timer control and a new roof vent; the existing black roof extractor is not reused.
 
@@ -65,7 +65,7 @@ There is no hot-water system, no calorifier and no black-water tank. Hot water c
 
 ### Electrical architecture
 
-The installed solar array is wired 2S2P and feeds a 60 A MPPT controller. A Sterling Pro Charge Ultra 12 V / 60 A charger is planned for shore power. A Sterling Power BaBy 15 A bidirectional DC-DC is planned to replace the installed Voltanic 60 A unit; it provides low-current alternator charging and starter battery maintenance from surplus solar. The installed 12 V bank is to supply DC loads through a fuse panel, with the inverter on its own fuse. The Xantrex PROwatt SW 2000i provides 230 V pure-sine power through an RCD/RCBO-protected consumer unit.
+The installed solar array is wired 2S2P and feeds a 60 A MPPT controller. A Sterling Pro Charge Ultra 12 V / 60 A charger is planned for shore power. A Sterling Power BB1225 25 A DC-DC is planned to replace the installed Voltanic 60 A unit; it provides low-current alternator charging and starter battery maintenance from surplus solar. The installed 12 V bank is to supply DC loads through a fuse panel, with the inverter on its own fuse. The Xantrex PROwatt SW 2000i provides 230 V pure-sine power through an RCD/RCBO-protected consumer unit.
 
 The induction hob and kettle are limited to 1.5 kW each and must not run together: either load is already close to the inverter's continuous rating, and both together would overload it. The installed leisure bank is an Eco-Worthy EnergyTrek 12 V 314 Ah LiFePO4 battery with a 200 A BMS, Bluetooth monitoring and low-temperature protection. Its 200 A continuous rating covers the 1.5 kW loads, but the inverter's 3000 W surge is above the battery's 240 A/10 s peak, so the surge behaviour still needs testing. The Fullriver DC115-12 and Lucas LSLC125-12 pages are retained as AGM research history.
 
@@ -109,7 +109,7 @@ The project has produced installed hardware and a substantial design record, but
 | --- | --- |
 | Solar | Four 200 W panels installed; 2S2P wiring and 60 A MPPT recorded. No generation logs are included. |
 | Leisure battery | Eco-Worthy EnergyTrek 314 Ah LiFePO4 installed; 200 A BMS, Bluetooth and low-temperature protection recorded. Paid price and inverter surge behaviour are not yet recorded. |
-| DC-DC charging | A Voltanic 60 A DC-DC is installed. A Sterling BaBy 15 A bidirectional unit has been selected to replace it and provide starter maintenance; it is not yet fitted. |
+| DC-DC charging | A Voltanic 60 A DC-DC is installed. A Sterling BB1225 25 A unit has been selected to replace it and provide starter maintenance; it is not yet fitted. |
 | Diesel heating | Airtronic D4 and 802 controller mounted. The shower drying branch and changeover damper are not installed. |
 | Furniture | Table modelled, toolpathed and CNC-cut; legs and stiffener cut and fitted. |
 | Shower, toilet, water and electrical distribution | Requirements, bills of materials and decision records only. No installation, water-use, thermal or electrical performance data. |
@@ -155,7 +155,7 @@ The dated baseline for the current wet-area phase is maintained in the [Project 
 - [ ] Install the diesel-heater drying branch, changeover damper, diffuser and heat shield.
 - [ ] Source and mount the underslung fresh and grey tanks.
 - [ ] Resolve tank insulation, heating and winterising.
-- [ ] Replace the installed 60 A DC-DC with the Sterling BaBy 15 A unit, then complete the 12 V and 230 V load schedule and verify the inverter surge against the battery BMS.
+- [ ] Replace the installed 60 A DC-DC with the Sterling BB1225 25 A unit, then complete the 12 V and 230 V load schedule and verify the inverter surge against the battery BMS.
 - [ ] Specify and install the kitchen sink, filtration, induction hob, fridge and ventilation.
 - [ ] Verify the fire certificate for the black PVC cladding and confirm heater clearance.
 - [ ] Design safe roof access for solar and vent maintenance without a permanent ladder.

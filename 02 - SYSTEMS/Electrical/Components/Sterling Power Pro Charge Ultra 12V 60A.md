@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical, charger, shore-power]
 status: research
-updated: 2026-11-05
+updated: 2026-11-13
 ---
 
 # Sterling Power Pro Charge Ultra 12V 60A
@@ -252,7 +252,7 @@ Your overall charging architecture is shaping up roughly like this:
                          │
                          │
                          ▼
-Alternator ──► Sterling BaBy 15 A ──► Battery Bank ◄── Pro Charge Ultra
+Alternator ──► Sterling BB1225 25 A ──► Battery Bank ◄── Pro Charge Ultra
                                       ▲
                                       │
                                  230V Shore
@@ -274,11 +274,11 @@ So the Pro Charge Ultra is **one of three major charging sources** you're planni
 
 1. ☀️ **Solar** → Voltanic panels + MPPT
     
-2. 🚐 **Engine/alternator** → Sterling BaBy 15 A bidirectional DC-DC
+2. 🚐 **Engine/alternator** → Sterling BB1225 25 A DC-DC
     
 3. 🔌 **Shore power** → Sterling Pro Charge Ultra
 
-The Pro Charge Ultra has three isolated outputs and can maintain the starter battery on shore power. The BaBy adds starter maintenance from solar when off-grid. Use the BaBy's ignition-feed mode so the Pro Charge Ultra's starter output cannot raise the starter voltage and trigger forward charging through the BaBy. Both chargers should use a LiFePO4 profile, and each output should be fused.
+The Pro Charge Ultra has three isolated outputs and can maintain the starter battery on shore power. The BB1225 adds starter maintenance from solar when off-grid. Use the BB1225's ignition-feed mode so the Pro Charge Ultra's starter output cannot raise the starter voltage and trigger forward charging through the BB1225. Both chargers should use a LiFePO4 profile, and each output should be fused.
     
 
 That's a very sensible arrangement for an expedition-style ambulance because you aren't dependent on any single charging method.
@@ -389,7 +389,7 @@ The installed Eco-Worthy 314 Ah LiFePO4 bank has a 200 A maximum charge current,
 
 - [[Electrics Overview]]
 - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
-- [[Sterling Power BaBy 15A DC-DC Charger]]
+- [[Sterling Power BB1225 25A DC-DC Charger]]
 - [[Xantrex PROwatt SW 2000i Inverter]]
 - [[Fullriver DC115-12 AGM Deep-Cycle Leisure Battery]] — AGM research history
 - [[Lucas LSLC125-12 AGM Leisure Battery]] — AGM research history
