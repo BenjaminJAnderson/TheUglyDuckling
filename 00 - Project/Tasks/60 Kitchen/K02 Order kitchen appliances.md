@@ -8,7 +8,7 @@ progress: 0
 after:
   - "FS:[[M01 Design freeze]]"
   - "FS:[[K01 Select kitchen appliances]]"
-updated: 2026-10-29
+updated: 2026-11-14
 ---
 
 # K02 Order kitchen appliances
@@ -21,7 +21,7 @@ The kitchen appliances and fittings are ordered with delivery dates recorded.
 
 - [ ] Sink, tap and filter ordered
 - [ ] Induction hob ordered
-- [ ] Drawer fridge ordered
+- [ ] Sterling F50 fridge/freezer ordered
 - [ ] Kettle ordered
 - [ ] Sink waste, trap and air-admittance valve ordered
 - [ ] Kitchen extractor and grease filter ordered

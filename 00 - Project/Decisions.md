@@ -1,7 +1,7 @@
 ---
 tags: [project, decisions]
 status: active
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Decisions
@@ -292,6 +292,33 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 
 **Consequences:** At 25 A on the 314 Ah bank the charge rate is about 0.080C: roughly 6.3 hours for 50% depth of discharge and 10 hours for 80%. The BB1225 is therefore a maintenance and trickle source, not the bulk charger; solar remains primary. Select the Lithium I profile, which uses 14.4 V absorption and lists 13.8 V float, but the manual also states that lithium profiles use live output voltage, so confirm the float behaviour. The 0 °C lithium trip is conservative and matches the battery's stated charging range. Reverse charging maintains the starter battery at about 13.4 V and engages at 13.5 V on lithium, so a full LiFePO4 bank at rest may not maintain it overnight. Use ignition-feed mode to stop the Pro Charge Ultra's starter output from triggering forward charging. Replace the 60 A fuses with about 30 A fuses; the manual's connector page says 30 A while some mode diagrams show 50 A. The manual does not state the terminal diameter, so check whether the existing lugs fit before reusing the heavy cable. The supplied 2023 manual states a 2-year warranty while current Sterling Saturn listings state 5 years, so confirm with the supplier. See [[Sterling Power BB1225 25A DC-DC Charger]], [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]], [[E05 Install charger, inverter, consumer unit and circuits]] and [[Shopping List]].
 
+## 2026-11-14 — Sterling Power F50 50 L fridge/freezer for the kitchen
+
+**Context:** The kitchen documentation assumed a roughly 30 L drawer-style 12/24 V compressor fridge, but no model had been selected. The kitchen needs a larger cold-storage volume and a freezer compartment, and a conventional under-worktop unit fits the planned galley layout.
+
+**Options considered:**
+- Sterling Power / AMPS 20.7 L drawer fridge.
+- Sterling Power / AMPS F50 conventional 50 L fridge/freezer.
+- Sterling Power / AMPS conventional 90 L fridge.
+- Continue researching other 12/24 V compressor fridges.
+
+**Decision:** Select the **Sterling Power / AMPS F50 50 L conventional fridge/freezer**, SKU `F50`, at **£238.80 inc VAT**, as the kitchen fridge. It is a 12/24 V unit with an LG compressor, rated at **60 W** (about **5 A at 12 V** or **3 A at 24 V**), measuring **380 × 479 × 532 mm**. It has separate fridge (**0–8 °C**) and freezer (**-12 to -20 °C**) compartments, a digital display and AMPS app control, internal lighting, a reversible door hinge, E-mark E24 certification and a three-year warranty.
+
+**Consequences:** The kitchen layout changes from a drawer fridge to a conventional under-worktop unit, so the carcass, door swing and worktop clearance must accommodate the 532 mm height and 479 mm depth. Front and rear ventilation clearances must be taken from the F50 instructions; the manual is stored in the vault as `Sterling Power F50 Fridge Instructions.pdf` and linked from [[Kitchen]]. The 60 W load is added to the DC load schedule, with the duty cycle still to be measured. The £238.80 price raises the priced shopping-list total to £2,103.95 before the bin selection below. Stock and lead time are not yet confirmed, so the fridge remains `shortlisted` until ordered. The 24 V rating is not used on this 12 V system. See [[Kitchen]] and [[Shopping List]].
+
+## 2026-11-14 — IKEA HÅLLBAR 10 L bins for waste and recycling
+
+**Context:** The kitchen needs separate lidded bins for general waste and recycling that fit the compact galley and can be secured while travelling. The previous BOM left both bins unspecified.
+
+**Options considered:**
+- Two IKEA HÅLLBAR bins in the 3 L, 10 L, 22 L or 35 L sizes.
+- Generic freestanding bins.
+- A built-in cabinet bin system.
+
+**Decision:** Use **two IKEA HÅLLBAR 10 L bins with lids**, light grey, article `803.980.58`, at **£7 each (£14 total)**. Each bin has a removable lid, bag-retaining ring, folding handle and sorting sticker. The upper outer dimensions are **263 × 212 mm**, the lower outer dimensions are **201 × 147 mm**, and the height is **326 mm**. The bins are stackable and can be freestanding or integrated into a cabinet or drawer.
+
+**Consequences:** The 326 mm height and tapered footprint must be checked against the planned under-sink or cabinet space, and the bins need a travel restraint because the lids are removable rather than latched. The bucket, lid, hinge and ring are polypropylene with at least 50% recycled content; the handle is reinforced polyamide with at least 20% recycled content. They remain `shortlisted` until ordered. The £14 raises the priced shopping-list total to £2,117.95. See [[Kitchen]] and [[Shopping List]].
+
 ## Related
 
 - [[Dashboard]]
@@ -299,6 +326,7 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 - [[Kanban]]
 - [[Shopping List]]
 - [[Kitchen, Shower & Toilet]]
+- [[Kitchen]]
 - [[Shower]]
 - [[Toilet]]
 - [[Water]]

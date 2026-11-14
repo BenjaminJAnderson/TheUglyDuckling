@@ -10,7 +10,7 @@ after:
   - "FS:[[W04 Install tanks, pipework and pump]]"
   - "FS:[[E05 Install charger, inverter, consumer unit and circuits]]"
   - "FS:[[K02 Order kitchen appliances]]"
-updated: 2026-10-29
+updated: 2026-11-14
 ---
 
 # K04 Install sink, hob, fridge, extractor and test
@@ -24,7 +24,7 @@ The kitchen is installed, connected and safe to use.
 - [ ] Sink, tap and filter fitted
 - [ ] Sink waste, trap and air-admittance valve connected
 - [ ] Induction hob fitted with isolation and RCBO
-- [ ] Drawer fridge fitted, latched and ventilated
+- [ ] Fridge/freezer fitted, latched and ventilated
 - [ ] Extractor and task lighting fitted
 - [ ] 12 V and 230 V sockets fitted
 - [ ] Water connections leak-tested
@@ -35,6 +35,7 @@ The kitchen is installed, connected and safe to use.
 
 - Do not run the hob and kettle together.
 - Check the fridge ventilation front and rear.
+- Set the fridge door hinge to suit the cabinet layout and confirm clearance.
 
 ## Links
 

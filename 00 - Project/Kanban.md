@@ -1,20 +1,21 @@
 ---
+
 kanban-plugin: board
+
 ---
 
 ## BACKLOG — DECIDE
 
-- [ ] P0 — Confirm Loopz specification in writing [[S01 Confirm Loopz specifications with Hamwells|S01]]
-- [ ] P1 — Confirm the 2 mm black PVC cladding, plywood backing and fire certificate; request a sample [[S02 Select shower panel product and fire rating|S02]]
 - [ ] P1 — Confirm 60 L waste-tank fitment, Sprinter-bracket adaptation and the internal fill route on the 2019 Ducato/WAS chassis [[W01 Select tanks, dimensions and mounting points|W01]]
 - [ ] P1 — Research 12 V thermal heating mats or pads for the underslung tanks; compare thermostats, power draw and frost protection, then choose the insulation and heating method [[W02 Define tank insulation and heating|W02]]
 - [ ] P1 — Complete the load schedule and cable/fuse sizing [[E02 Complete load schedule and cable-fuse sizing|E02]]
 - [ ] P1 — Check the Xantrex 3000 W surge against the 200 A battery BMS and confirm the 1.5 kW appliance limit [[E02 Complete load schedule and cable-fuse sizing|E02]]
 - [ ] P1 — Choose the shower extractor and roof-vent location [[V01 Select shower extractor and roof vent|V01]]
 - [ ] P1 — Choose heater damper, diffuser, ducting, heat shield and CO alarm [[V02 Select heater damper, diffuser, ducting and heat shield|V02]]
-- [ ] P1 — Choose kitchen sink, tap, filter and extractor; confirm hob, fridge and kettle [[K01 Select kitchen appliances|K01]]
+- [ ] P1 — Choose kitchen sink, tap, filter and extractor; confirm hob and kettle [[K01 Select kitchen appliances|K01]]
 - [ ] P2 — Confirm 60 L waste inlet and hatch positions, 75 L pump/filter contents and drain tap spec [[W03 Order tanks, pump, filter and fittings|W03]]
 - [ ] P2 — Resolve safe roof access for the vent installation (blocks [[V04 Install roof vent, extractor and duct|V04]])
+
 
 ## RESEARCH — SOURCE & PRICE
 
@@ -30,6 +31,7 @@ kanban-plugin: board
 - [ ] Compare water filters and kitchen extractor options [[K01 Select kitchen appliances|K01]]
 - [ ] Confirm the BB1225's price, warranty, reverse-charge current, about 30 A versus 50 A fuse figure and terminal size with Sterling; check the existing lugs, fuse holders and ignition feed [[E03 Order battery, charger, inverter and protection|E03]]
 
+
 ## READY — BUY NOW
 
 - [ ] Loopz Plus — £763; order once the S01 written confirmation is received
@@ -37,13 +39,20 @@ kanban-plugin: board
 - [ ] CO alarm
 - [ ] Fire blanket and electrical/kitchen extinguisher
 - [ ] Kettle ≤1.5 kW once the current draw is verified
+- [ ] Sterling F50 50 L fridge/freezer — £238.80; order with the kitchen batch after stock and lead-time confirmation
+- [ ] Two IKEA HÅLLBAR 10 L bins — £14; buy with the kitchen storage after checking cabinet clearance
 - [ ] Loopz spare microfilter, descaler and squeegee — bundle with the Loopz order
 - [ ] Sterling BB1225 25 A DC-DC — £190.80; order after the specification and wiring checks, then remove the Voltanic 60 A unit
 - [ ] Sell or retain the removed Voltanic 60 A DC-DC
 
+
 ## ORDERED — AWAITING DELIVERY
 
+
+
 ## RECEIVED — CHECK
+
+
 
 ## LATER PHASE
 
@@ -53,8 +62,11 @@ kanban-plugin: board
 - [ ] Research a low-power dehumidifier for winter
 - [ ] Research a removable roof step or ladder for occasional access
 
+
 ## COMPLETE
 
+- [ ] P0 — Confirm Loopz specification in writing [[S01 Confirm Loopz specifications with Hamwells|S01]]
+- [ ] P1 — Confirm the 2 mm black PVC cladding, plywood backing and fire certificate; request a sample [[S02 Select shower panel product and fire rating|S02]]
 - [x] Install 800 W solar array
 - [x] Cancel roof decking and ladder
 - [x] Split kitchen, shower and toilet documentation
@@ -68,6 +80,11 @@ kanban-plugin: board
 - [x] Install the Eco-Worthy 314 Ah LiFePO4 leisure battery
 - [x] Remove the old lead-acid auxiliary system and split-charge relays
 - [x] Choose the Sterling BB1225 25 A DC-DC as the replacement for the 60 A unit (superseding the BB1215 BaBy)
+- [x] Choose the Sterling F50 50 L fridge/freezer for the kitchen
+- [x] Choose two IKEA HÅLLBAR 10 L bins for waste and recycling
+
+
+
 
 %% kanban:settings
 ```

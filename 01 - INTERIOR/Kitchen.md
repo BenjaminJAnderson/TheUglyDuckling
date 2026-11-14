@@ -1,14 +1,14 @@
 ---
 tags: [interior, kitchen]
 status: planning
-updated: 2026-11-05
+updated: 2026-11-14
 ---
 
 # Kitchen
 
 ## Overview
 
-The kitchen is a compact cold-water galley with an induction hob, a drawer-style 12/24 V compressor fridge and a kettle for hot water. There is no hot-water plumbing and no recirculating tap.
+The kitchen is a compact cold-water galley with an induction hob, a 50 L 12/24 V compressor fridge/freezer and a kettle for hot water. There is no hot-water plumbing and no recirculating tap.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 - Drinking-water filtration, preferably with a dedicated tap.
 - One induction cooking zone, limited to 1.5 kW.
 - A kettle limited to 1.5 kW.
-- A drawer-style 12/24 V compressor fridge.
+- A 50 L 12/24 V compressor fridge/freezer with separate fridge and freezer compartments.
 - Dry-food, crockery, cutlery and cookware storage.
 - General, recycling and food-waste bins.
 - Task lighting and under-cabinet lighting.
@@ -30,7 +30,7 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 - Base cabinets with a worktop and upstand/splashback.
 - Sink on the worktop, draining to the grey tank.
 - Induction hob with a heat-resistant splashback and an extractor above or beside it.
-- Drawer fridge below the worktop with ventilation front and rear.
+- Conventional 50 L fridge/freezer below the worktop with ventilation front and rear. The door hinge is reversible and is set left or right at installation.
 - Pantry and drawer storage around the appliances.
 - Bins in a pull-out or dedicated cupboard.
 
@@ -52,16 +52,20 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 
 ### Fridge
 
-- Drawer-style 12/24 V compressor fridge, approximately 30 L.
+- **Sterling Power / AMPS F50**, 50 L conventional galley fridge/freezer.
+- 12/24 V DC with an LG compressor; **60 W**, about **5 A at 12 V** or **3 A at 24 V**. The build uses the 12 V rating.
+- Dimensions **380 W × 479 D × 532 H mm**.
+- Separate fridge and freezer compartments, each settable from the digital display or the AMPS app: fridge **0–8 °C**, freezer **-12 to -20 °C**.
+- Internal light, reversible left/right door hinge and E-mark E24 certification. Three-year warranty.
 - Dedicated DC fuse/breaker.
-- Ventilation grilles at the base and top of the cabinet.
+- Ventilation grilles at the base and top of the cabinet, with rear clearance as required by the F50 instructions.
 - Condensate drain to a small container or the grey tank.
 - Travel latch or strap.
+- The F50 instructions PDF is stored in the vault for installation and clearance details: [[Sterling Power F50 Fridge Instructions.pdf|F50 instructions (PDF)]].
 
 ### Waste and storage
 
-- General waste bin.
-- Recycling bin.
+- Two **IKEA HÅLLBAR 10 L bins with lids**, one for general waste and one for recycling. They are stackable, freestanding or cabinet-mounted, with a removable lid, bag-retaining ring and folding handle.
 - Food-waste/compost caddy.
 - Cutlery drawer organiser.
 - Plate and cup holders.
@@ -82,11 +86,14 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 
 - Exact sink, tap and drinking-water filter.
 - Extractor type: recirculating charcoal filter or ducted to outside.
-- Fridge model and final ventilation path.
+- Fridge ventilation clearances, rear air path and carcass fit.
+- Fridge door swing and worktop/cabinet clearance.
+- Fridge stock and lead time.
+- Fridge duty cycle for the DC load schedule.
 - Kettle model and verified power draw.
 - Whether the induction hob and kettle can run from the installed 314 Ah LiFePO4 bank without unacceptable voltage sag or a BMS trip.
 - Worktop material and edge sealing.
-- Final drawer and bin layout.
+- Final drawer layout and HÅLLBAR bin placement, cabinet clearance (326 mm high) and travel retention.
 
 ## BOM
 
@@ -138,7 +145,7 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 
 | Item | Qty | Spec / Model | Supplier / Link | Price | Status | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Drawer fridge | 1 | 12/24 V compressor, ~30 L | [Ampsystems](https://ampsystems.co.uk/products/12v-24v-fridge-and-freezer-30l-drawer) | TBC | shortlisted | |
+| Fridge/freezer | 1 | Sterling F50, 50 L, 12/24 V, 60 W, 380 × 479 × 532 mm | [Sterling Power](https://sterling-power.com/products/12v-24v-fridges) | £238.80 inc VAT | shortlisted | Conventional fridge/freezer; LG compressor; app control; 3-year warranty; stock/lead time TBC |
 | Fridge mounting / latch | 1 | TBC | TBC | TBC | idea | |
 | Ventilation grilles | 2 | TBC | TBC | TBC | idea | Base and top |
 | DC fuse / breaker | 1 | Rating per fridge | TBC | TBC | idea | |
@@ -148,8 +155,7 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 
 | Item | Qty | Spec / Model | Supplier / Link | Price | Status | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| General waste bin | 1 | TBC | TBC | TBC | idea | |
-| Recycling bin | 1 | TBC | TBC | TBC | idea | |
+| Waste and recycling bins | 2 | IKEA HÅLLBAR 10 L with lid, light grey, 803.980.58; upper outer 263 × 212 × 326 mm | [IKEA](https://www.ikea.com/gb/en/p/hallbar-bin-with-lid-light-grey-80398058/) | £14 (2 × £7) | shortlisted | One waste, one recycling; removable lid, bag ring and folding handle; placement and retention TBC |
 | Food-waste / compost caddy | 1 | TBC | TBC | TBC | idea | |
 | Bin liners | TBC | Compostable where possible | TBC | TBC | idea | |
 | 12 V / USB sockets | TBC | TBC | TBC | TBC | idea | |
@@ -161,15 +167,18 @@ The kitchen is a compact cold-water galley with an induction hob, a drawer-style
 
 ## Shopping list
 
-See [[Shopping List]]. Shortlisted items: sink, induction hob, drawer fridge.
+See [[Shopping List]]. Shortlisted items: sink, induction hob, Sterling F50 fridge/freezer, two IKEA HÅLLBAR bins.
 
 ## Links
 
 - [Garvee sink](https://garvee.co.uk/products/garvee-kitchen-sink-24x18x9-stainless-steel-single-bowl-kitchen-pho_354q0x44)
 - [Vevor sinks](https://www.vevor.co.uk/stainless-steel-built-in-kitchen-sink-c_43093)
 - [Sterling IH2L induction hob](https://sterling-power.com/products/ih2l)
-- [Ampsystems 12/24 V fridges](https://ampsystems.co.uk/products/12v-24v-fridges)
-- [Ampsystems 30 L drawer fridge](https://ampsystems.co.uk/products/12v-24v-fridge-and-freezer-30l-drawer)
+- [Sterling Power F50 50 L fridge/freezer](https://sterling-power.com/products/12v-24v-fridges)
+- [[Sterling Power F50 Fridge Instructions.pdf|Sterling F50 instructions (PDF)]]
+- [AMPS fridge app — Google Play](https://play.google.com/store/search?q=AMPS%20fridge&c=apps&hl=en_GB)
+- [AMPS fridge app — App Store](https://apps.apple.com/nz/app/amps-fridges/id6770928165)
+- [IKEA HÅLLBAR 10 L bin with lid](https://www.ikea.com/gb/en/p/hallbar-bin-with-lid-light-grey-80398058/)
 - [Fiamma 70 L fresh tank](https://thecampervanshop.co.uk/product/fiamma-70-l-fresh-water-tank/)
 - [Autocraft 75 L fresh tank kit](https://autocraftmotorcaravans.co.uk/product/75-litre-campervan-fresh-water-tank-kit/)
 - [Autocraft 60 L Sprinter/Crafter tank kit](https://autocraftmotorcaravans.co.uk/product/60-litre-campervan-fresh-water-tank-kit-for-mercedes-sprinter-2006-vw-crafter-2006-2017/)

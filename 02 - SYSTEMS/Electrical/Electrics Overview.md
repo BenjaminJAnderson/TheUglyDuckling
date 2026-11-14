@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical]
 status: planning
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Electrics Overview
@@ -25,7 +25,7 @@ Sterling 60 A charger ─┘        │
                                 ├──► Xantrex 2000 W inverter ──► 230 V sockets
                                 │
                                 └──► DC fuse panel
-                                       ├── Kitchen fridge
+                                       ├── Kitchen fridge/freezer
                                        ├── Water pump
                                        ├── Loopz Plus (60 W)
                                        ├── Diesel heater
@@ -72,7 +72,7 @@ Typical 12 V loads:
 | Loopz Plus shower | 60 W / ~5 A | Only while showering |
 | Diesel heater | TBC | Installed; fuse per Eberspächer manual |
 | Water pump | TBC | Intermittent |
-| Drawer fridge | TBC | Compressor cycling |
+| 50 L fridge/freezer | 60 W / ~5 A at 12 V | Compressor cycling; confirm duty cycle. The 24 V rating is not used on this 12 V system. |
 | Extractor fans | TBC | Intermittent |
 | Lighting | TBC | LED |
 | USB sockets | TBC | Small |
@@ -133,6 +133,7 @@ The 2000 W inverter is close to its continuous limit with either the hob or the 
 - Whether the manual's lithium float statement means Lithium I holds a float or a live output voltage.
 - Whether a shunt or system battery monitor will be added.
 - Inverter cable size, fuse rating and isolation switch.
+- Fridge/freezer duty cycle for the load schedule.
 - Whether the induction hob and kettle can run from the bank without unacceptable voltage sag.
 - 230 V socket layout.
 - Solar cable entry, isolation and fusing.

@@ -27,7 +27,7 @@ The project combines an existing vehicle platform with a documented design packa
 - **Recirculating shower:** A Hamwells Loopz Plus with a semi-permanent base, battened walls and removable waterproof trim. The unit has been shortlisted, not purchased.
 - **Separating toilet:** A portable BOXIO TOILET XL MAX+ complete set that can be moved out of the shower compartment. It has 7 L urine and 8 L solids capacity, a 40 × 30 cm footprint, 45 cm height with the Solo Up base and no dedicated vent. Stock is unconfirmed.
 - **Water storage:** Underslung 75 L fresh and 60 L waste tanks, with an internal topfill behind the kitchen sink; insulation and heating are still to be resolved.
-- **Cold-water kitchen:** A stainless sink, 1.5 kW induction hob, 30 L drawer fridge and a 1.5 kW maximum kettle, all limited by the inverter and battery budget.
+- **Cold-water kitchen:** A stainless sink, 1.5 kW induction hob, 50 L 12/24 V Sterling F50 fridge/freezer and a 1.5 kW maximum kettle, all limited by the inverter and battery budget.
 - **Electrical system (partly installed):** The installed 314 Ah LiFePO4 bank is supported by a Xantrex PROwatt SW 2000i inverter, Sterling Pro Charge Ultra 60 A shore charger and a planned Sterling BB1225 25 A DC-DC to replace the installed 60 A unit for alternator charging and starter maintenance.
 - **Drying branch:** An 89 mm duct from the diesel heater to the shower, switched by a changeover damper so the same heater can warm the living space or dry the wet area.
 - **Shower ventilation:** A new 12 V roof extractor with humidity sensing or timer control and a new roof vent; the existing black roof extractor is not reused.

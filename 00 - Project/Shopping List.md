@@ -1,7 +1,7 @@
 ---
 tags: [project, shopping]
 status: active
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Shopping List
@@ -12,18 +12,18 @@ Procurement actions are scheduled in [[Project Plan]] and tracked in the `Tasks/
 
 ## Budget summary
 
-All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet and the Sterling BB1225 DC-DC have current purchase prices; the cladding price is shown inc VAT for three sheets. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
+All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet, the Sterling F50 fridge/freezer, the IKEA HÅLLBAR bins and the Sterling BB1225 DC-DC have current purchase prices; the cladding price is shown inc VAT for three sheets. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
 
 | Category | Priced | Estimated cost | Confidence | Notes |
 | --- | --- | --- | --- | --- |
 | Shower unit and build | Loopz Plus £763; PVC cladding £179.96 inc VAT; JA Seals trim £24 inc VAT | £966.96 + TBC | Low | Plywood, adhesive, other trims, fixings and floor support unquoted |
 | Shower ventilation | — | TBC | Low | Extractor and roof vent models TBC |
 | Diesel-heater branch | — | TBC | Low | Eberspächer parts, heat shield and CO alarm unquoted |
-| Kitchen | — | TBC | Low | Sink, hob and fridge shortlisted; prices TBC |
+| Kitchen | Sterling F50 fridge/freezer £238.80; IKEA HÅLLBAR bins £14 | £252.80 + TBC | Low | Fridge and bins priced; sink, hob, kettle and extractor shortlisted or TBC |
 | Water and waste | Autocraft 75 L fresh kit £252.40; 60 L waste tank £205 | £457.40 + TBC | Medium | 60 L fitment and bracket adaptation unconfirmed; waste fittings, sensors, heating and pump/filter checks TBC |
 | Toilet | Boxio complete set £249.99 | £249.99 + TBC | Medium | No dedicated vent; optional refill bundle/spare canister not included; retention and cleaning TBC |
 | Electrical core | Eco-Worthy 314 Ah LiFePO4 installed (paid price TBC); Sterling BB1225 25 A £190.80 | £190.80 + TBC | Medium | Battery installed; DC-DC shortlisted; other electrical items unpriced |
-| **Total** | **£1,865.15** | **£1,865.15 + TBC** | | Excludes the installed battery's paid price and the removed 60 A DC-DC's resale value |
+| **Total** | **£2,117.95** | **£2,117.95 + TBC** | | Excludes the installed battery's paid price and the removed 60 A DC-DC's resale value |
 
 Do not commit to a budget total until the `RESEARCH — SOURCE & PRICE` cards on [[Kanban]] are complete. Contingency is TBC; review it at [[M01 Design freeze]]. The optional £32.99 refill bundle and £32.99 spare 7 L canister are not included in the total. Record the installed battery's paid price and any proceeds from selling the removed Voltanic 60 A DC-DC when known.
 
@@ -112,7 +112,8 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | --- | --- | --- | --- | --- | --- | --- |
 | Induction hob | 1 | Sterling IH2L, max 1.5 kW | [Sterling Power](https://sterling-power.com/products/ih2l) | TBC | shortlisted | [[Kitchen]] |
 | Stainless sink | 1 | 24 × 18 × 9 in single bowl | [Garvee](https://garvee.co.uk/products/garvee-kitchen-sink-24x18x9-stainless-steel-single-bowl-kitchen-pho_354q0x44) | TBC | shortlisted | [[Kitchen]] |
-| Drawer fridge | 1 | 12/24 V compressor, 30 L drawer | [Ampsystems](https://ampsystems.co.uk/products/12v-24v-fridge-and-freezer-30l-drawer) | TBC | shortlisted | [[Kitchen]] |
+| Fridge/freezer | 1 | Sterling F50, 50 L, 12/24 V, 60 W, 380 × 479 × 532 mm | [Sterling Power](https://sterling-power.com/products/12v-24v-fridges) | £238.80 inc VAT | shortlisted | [[Kitchen]] |
+| Waste and recycling bins | 2 | IKEA HÅLLBAR 10 L with lid, light grey, 803.980.58; upper outer 263 × 212 × 326 mm | [IKEA](https://www.ikea.com/gb/en/p/hallbar-bin-with-lid-light-grey-80398058/) | £14 (2 × £7) | shortlisted | [[Kitchen]] |
 | Low-wattage kettle | 1 | ≤1.5 kW, inverter-compatible | TBC | TBC | research | [[Kitchen]] |
 | Kitchen extractor and grease filter | 1 set | Ducted or recirculating | TBC | TBC | research | [[Kitchen]] |
 | Drinking-water tap/filter | 1 | Optional | TBC | TBC | idea | [[Kitchen]] |

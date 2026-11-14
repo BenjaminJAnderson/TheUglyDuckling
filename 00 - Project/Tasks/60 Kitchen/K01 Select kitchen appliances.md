@@ -5,7 +5,7 @@ start: 2026-11-02
 end: 2026-11-15
 effort_days: 1
 progress: 0
-updated: 2026-10-29
+updated: 2026-11-14
 ---
 
 # K01 Select kitchen appliances
@@ -19,13 +19,14 @@ The sink, tap, filter, hob, fridge and kettle are chosen within the power budget
 - [ ] Sink and tap chosen
 - [ ] Drinking-water filter and optional tap chosen
 - [ ] Induction hob confirmed at 1.5 kW maximum
-- [ ] Drawer fridge chosen
+- [x] 50 L fridge/freezer chosen
 - [ ] Kettle confirmed at 1.5 kW maximum
 - [ ] Power demand added to the load schedule
 - [ ] [[Kitchen]] BOM and [[Decisions]] updated
 
 ## Notes
 
+- The Sterling F50 50 L fridge/freezer is selected, subject to stock and lead-time confirmation.
 - The hob and kettle must not run together.
 - Check the inverter surge rating for both loads.
 
