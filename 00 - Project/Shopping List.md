@@ -1,7 +1,7 @@
 ---
 tags: [project, shopping]
 status: active
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Shopping List
@@ -12,20 +12,21 @@ Procurement actions are scheduled in [[Project Plan]] and tracked in the `Tasks/
 
 ## Budget summary
 
-All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet, the Sterling F50 fridge/freezer, the IKEA HÅLLBAR bins and the Sterling BB1225 DC-DC have current purchase prices; the cladding price is shown inc VAT for three sheets. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
+All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet, the Sterling F50 fridge/freezer, the IKEA HÅLLBAR bins, the Sterling BB1225 DC-DC and the Nofer clotheslines have current purchase prices; the cladding price is shown inc VAT for three sheets. The MaxxFan Dome Plus is shortlisted at ~£104–£119 but is not included in the total until a supplier is chosen. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
 
 | Category | Priced | Estimated cost | Confidence | Notes |
 | --- | --- | --- | --- | --- |
 | Shower unit and build | Loopz Plus £763; PVC cladding £179.96 inc VAT; JA Seals trim £24 inc VAT | £966.96 + TBC | Low | Plywood, adhesive, other trims, fixings and floor support unquoted |
-| Shower ventilation | — | TBC | Low | Extractor and roof vent models TBC |
+| Shower ventilation | — | ~£104–£119 (shortlisted) + TBC | Low | MaxxFan Dome Plus shortlisted; sealant, fixings, cable and mounting ring unquoted; not included in the total until a supplier is chosen |
+| Shower drying | 3 × Nofer 09058.B at £29.99 inc VAT = £89.97 | £89.97 + TBC | Medium | Noggins, stainless fixings and sealant TBC; layout and opposite-support inclusion to confirm |
 | Diesel-heater branch | — | TBC | Low | Eberspächer parts, heat shield and CO alarm unquoted |
 | Kitchen | Sterling F50 fridge/freezer £238.80; IKEA HÅLLBAR bins £14 | £252.80 + TBC | Low | Fridge and bins priced; sink, hob, kettle and extractor shortlisted or TBC |
 | Water and waste | Autocraft 75 L fresh kit £252.40; 60 L waste tank £205 | £457.40 + TBC | Medium | 60 L fitment and bracket adaptation unconfirmed; waste fittings, sensors, heating and pump/filter checks TBC |
 | Toilet | Boxio complete set £249.99 | £249.99 + TBC | Medium | No dedicated vent; optional refill bundle/spare canister not included; retention and cleaning TBC |
 | Electrical core | Eco-Worthy 314 Ah LiFePO4 installed (paid price TBC); Sterling BB1225 25 A £190.80 | £190.80 + TBC | Medium | Battery installed; DC-DC shortlisted; other electrical items unpriced |
-| **Total** | **£2,117.95** | **£2,117.95 + TBC** | | Excludes the installed battery's paid price and the removed 60 A DC-DC's resale value |
+| **Total** | **£2,207.92** | **£2,207.92 + TBC** | | Excludes the installed battery's paid price, the shortlisted MaxxFan and the removed 60 A DC-DC's resale value |
 
-Do not commit to a budget total until the `RESEARCH — SOURCE & PRICE` cards on [[Kanban]] are complete. Contingency is TBC; review it at [[M01 Design freeze]]. The optional £32.99 refill bundle and £32.99 spare 7 L canister are not included in the total. Record the installed battery's paid price and any proceeds from selling the removed Voltanic 60 A DC-DC when known.
+Do not commit to a budget total until the `RESEARCH — SOURCE & PRICE` cards on [[Kanban]] are complete. Contingency is TBC; review it at [[M01 Design freeze]]. The optional £32.99 refill bundle and £32.99 spare 7 L canister are not included in the total. The three Nofer clotheslines (3 × £29.99 = £89.97 inc VAT) are included. The shortlisted MaxxFan Dome Plus (~£104–£119) is not included in the total until a supplier is chosen. Record the installed battery's paid price and any proceeds from selling the removed Voltanic 60 A DC-DC when known.
 
 ## Supplier order batches
 
@@ -41,9 +42,12 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | 6 | Electrical | Battery installed; main fuse, isolation switch, busbars, charger, inverter, consumer unit, RCBOs, cable, lugs and labels; Sterling BB1225 25 A DC-DC, 30 A fuses, fuse holders, 6 mm² cable and ignition-feed fuse | [[E03 Order battery, charger, inverter and protection\|E03]] | 2026-11-23 | TBC |
 | 7 | Timber and panels | 3×2 CLS, plywood backing, 2 mm black PVC cladding, PVC adhesive, H-trims, stainless fixings, sealant and threshold | [[S03 Order shower kit\|S03]] | 2026-11-23 | TBC |
 | 8 | Kitchen appliances | Sink, tap, filter, hob, fridge, kettle and extractor | [[K02 Order kitchen appliances\|K02]] | 2026-11-23 | TBC |
-| 9 | Ventilation | Shower extractor, roof vent, duct and passive inlet | [[V03 Order ventilation and heater branch components\|V03]] | 2026-11-23 | TBC |
+| 9 | Ventilation | MaxxFan Dome Plus, butyl tape, lap sealant, 159 mm hole saw, 5 A fuse, cable and passive inlet | [[V03 Order ventilation and heater branch components\|V03]] | 2026-11-23 | TBC |
 | 10 | Safety and general | Fire blanket, extinguisher, screws and consumables | TBC | TBC | TBC |
 | 11 | JA Seals | Multi Seal 2.5 m for the Loopz base perimeter | [[S03 Order shower kit\|S03]] | 2026-11-23 | TBC |
+| 12 | Nofer UK | 3 × CLASSIC retractable clothesline 09058.B | [[S03 Order shower kit\|S03]] | 2026-11-23 | 4–6 working days |
+
+Nofer delivery is 4–6 working days. The £89.97 clothesline order is below the £350 free-delivery threshold, so a delivery charge may apply; confirm at checkout.
 
 ## Electrical — charging and protection
 
@@ -65,8 +69,9 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | 2 mm black PVC cladding | 3 | 3050 × 1220 × 2 mm; SKU B2104; Class 0 | [Hygienic Plastic Supplies](https://www.hygienicplastic.co.uk/product/black-pvc-10-x-4-x-2mm-3050-x-1220-x-2mm-wall-cladding-sheet/) | £49.99 + VAT each | shortlisted | [[Shower]] |
 | Plywood backing | 3 | 1970 × 700 mm; thickness/grade TBC | TBC | TBC | research | [[Shower]] |
 | JA Seals Multi Seal 2.5 m | 1 | Garage-door compression seal, gaps up to 25 mm; tape and screws | [JA Seals](https://www.jaseals.co.uk/multi-seal-25m_165) | £24 inc VAT | shortlisted | [[Shower]] |
-| New shower extractor | 1 | 12 V, humidity sensor/timer | TBC | TBC | research | [[Shower]] |
-| Roof vent / cowl | 1 | New penetration; insect mesh and backdraught shutter | TBC | TBC | research | [[Shower]] |
+| MaxxFan Dome Plus | 1 | `00-03810B`, black, LED, 12 V, ~200 CFM, 159 mm cutout | [Maxxair](https://www.maxxair.com/products/fans/maxxfan-dome-plus-00-03810B/) | ~£104–£119 | shortlisted | [[MaxxFan Dome Plus]] |
+| Roof vent / cowl | — | Integral to MaxxFan | — | — | cancelled | [[MaxxFan Dome Plus]] |
+| Retractable clothesline | 3 | Nofer CLASSIC 09058.B, AISI 304, Ø90 × 55 mm, 2.2 m nylon cord | [Nofer](https://www.nofer.co.uk/classic-series/classic-series-retractable-clothesline) | £29.99 inc VAT each | shortlisted | [[Shower]] |
 | 12 V socket and fuse | 1 set | 7.5–10 A; outside cubicle | TBC | TBC | idea | [[Shower]] |
 | Drain hose and fittings | 1 set | To grey tank; removable coupling | TBC | TBC | idea | [[Shower]] |
 | HepvO / P-trap | 1 | Loopz drain | TBC | TBC | research | [[Water]] |
@@ -76,6 +81,11 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | Item | Qty | Spec / Model | Supplier / Link | Price | Status | Page |
 | --- | --- | --- | --- | --- | --- | --- |
 | PVC adhesive | 1 | Suitable for PVC/plywood | TBC | TBC | research | [[Shower]] |
+| Butyl tape and lap sealant | 1 set | Aluminium-compatible; no solvents/polysulfide | TBC | TBC | idea | [[MaxxFan Dome Plus]] |
+| 159 mm hole saw / cutter | 1 | Deep enough for ~94 mm | TBC | TBC | idea | [[MaxxFan Dome Plus]] |
+| 12 V cable and 5 A fuse | 1 set | 2-core 1.0–1.5 mm²; circuit protection | TBC | TBC | idea | [[MaxxFan Dome Plus]] |
+| Plywood mounting ring / noggins | 1 set | Around 159 mm opening | TBC | TBC | idea | [[MaxxFan Dome Plus]] |
+| Clothesline noggins/blocking | 1 set | Behind ply at each fixing point | TBC | TBC | idea | [[Shower]] |
 | H-trims / edge trims | TBC | PVC or aluminium | TBC | TBC | idea | [[Shower]] |
 | Stainless screws, sealing washers and rivnuts | TBC | Into battens and ribs | TBC | TBC | idea | [[Shower]] |
 | Neutral-cure silicone | TBC | Waterproof, mould-resistant | TBC | TBC | idea | [[Shower]] |
@@ -83,7 +93,7 @@ Target dates reflect the compressed 23–26 November 2026 order window in [[Proj
 | Floor support / levelling | TBC | With 1° fall to drain | TBC | TBC | idea | [[Shower]] |
 | Threshold / ramp | 1 | For 10 cm base height | TBC | TBC | idea | [[Shower]] |
 | Insulation | TBC | Behind plywood | TBC | TBC | idea | [[Shower]] |
-| IP65 light and switch | 1 | 12 V | TBC | TBC | idea | [[Shower]] |
+| IP65 light and switch | — | Superseded by MaxxFan LED ring | — | — | cancelled | [[MaxxFan Dome Plus]] |
 | Curtain and rail | 1 | Fixed into battens | TBC | TBC | idea | [[Shower]] |
 | Mirror, shelf, hooks, towel rail | TBC | TBC | TBC | TBC | idea | [[Shower]] |
 | Grab handle | 1 | TBC | TBC | TBC | idea | [[Shower]] |
@@ -187,6 +197,7 @@ No dedicated toilet vent, fan, flexible hose or external cowl is required.
 - [[Kanban]]
 - [[Kitchen]]
 - [[Shower]]
+- [[MaxxFan Dome Plus]]
 - [[Toilet]]
 - [[Water]]
 - [[Diesel Heater]]

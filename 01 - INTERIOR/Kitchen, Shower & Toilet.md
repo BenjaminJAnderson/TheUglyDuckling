@@ -1,7 +1,7 @@
 ---
 tags: [interior, wet-area, moc]
 status: planning
-updated: 2026-11-05
+updated: 2026-11-16
 ---
 
 # Kitchen, Shower & Toilet
@@ -15,6 +15,7 @@ This is the entry point for the kitchen, shower and toilet build. The three area
 - The **Loopz Plus shower base** forms the floor of the shower compartment.
 - The shower compartment walls are 3×2 CLS battens at 300 mm centres with plywood-backed 2 mm black PVC cladding, three walls approximately 1970 × 700 mm, sealed with a **JA Seals Multi Seal** compression trim fixed to the walls around the Loopz base.
 - A new **roof extractor** vents the shower.
+- Three retractable clotheslines provide hanging space for drying clothes in the shower compartment.
 - The **Eberspächer D4 diesel heater** can be switched between the living space and the shower for drying.
 - The **Boxio XL MAX+ separating toilet is portable** and can be moved out of the shower compartment when the shower is in use. There is no dedicated toilet vent; odour control relies on the plug/odour trap, hemp litter and the compartment extractor.
 - The **kitchen is cold-water only**. Hot water comes from a kettle.

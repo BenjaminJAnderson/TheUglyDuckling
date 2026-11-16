@@ -10,11 +10,11 @@ kanban-plugin: board
 - [ ] P1 — Research 12 V thermal heating mats or pads for the underslung tanks; compare thermostats, power draw and frost protection, then choose the insulation and heating method [[W02 Define tank insulation and heating|W02]]
 - [ ] P1 — Complete the load schedule and cable/fuse sizing [[E02 Complete load schedule and cable-fuse sizing|E02]]
 - [ ] P1 — Check the Xantrex 3000 W surge against the 200 A battery BMS and confirm the 1.5 kW appliance limit [[E02 Complete load schedule and cable-fuse sizing|E02]]
-- [ ] P1 — Choose the shower extractor and roof-vent location [[V01 Select shower extractor and roof vent|V01]]
+- [ ] P1 — Confirm the MaxxFan Dome Plus details and roof-vent location [[V01 Select shower extractor and roof vent|V01]]
 - [ ] P1 — Choose heater damper, diffuser, ducting, heat shield and CO alarm [[V02 Select heater damper, diffuser, ducting and heat shield|V02]]
 - [ ] P1 — Choose kitchen sink, tap, filter and extractor; confirm hob and kettle [[K01 Select kitchen appliances|K01]]
 - [ ] P2 — Confirm 60 L waste inlet and hatch positions, 75 L pump/filter contents and drain tap spec [[W03 Order tanks, pump, filter and fittings|W03]]
-- [ ] P2 — Resolve safe roof access for the vent installation (blocks [[V04 Install roof vent, extractor and duct|V04]])
+- [ ] P2 — Resolve safe roof access for the vent installation (blocks [[V04 Install shower extractor and roof vent|V04]])
 
 
 ## RESEARCH — SOURCE & PRICE
@@ -23,6 +23,8 @@ kanban-plugin: board
 - [ ] Confirm lead times for the Loopz, tanks, panels and electrical core; battery installed
 - [ ] P1 — Confirm Boxio XL MAX+ stock and lead time, then order the complete set, refills and spares [[T03 Order toilet, refills and spares|T03]]
 - [ ] P1 — Confirm JA Seals Multi Seal rubber type, profile, mould resistance and wet-area suitability; measure the Loopz base-to-wall gap [[S03 Order shower kit|S03]]
+- [ ] P1 — Confirm MaxxFan Dome Plus price/stock, sleeve and guard contents, LED IP rating and roof-skin fixing [[V01 Select shower extractor and roof vent|V01]]
+- [ ] P2 — Confirm three clothesline positions/heights, fixing screw size and opposite-support inclusion [[S03 Order shower kit|S03]]
 - [ ] Split the M02 orders into supplier batches and set target order dates
 - [ ] Specify and price electrical small parts: fuses, cable, lugs, busbars, consumer unit, RCBOs and labels [[E02 Complete load schedule and cable-fuse sizing|E02]]
 - [ ] Specify and price plumbing and fixing consumables: PEX/John Guest, valves, sealant, stainless fixings, trims and insulation
@@ -42,6 +44,7 @@ kanban-plugin: board
 - [ ] Sterling F50 50 L fridge/freezer — £238.80; order with the kitchen batch after stock and lead-time confirmation
 - [ ] Two IKEA HÅLLBAR 10 L bins — £14; buy with the kitchen storage after checking cabinet clearance
 - [ ] Loopz spare microfilter, descaler and squeegee — bundle with the Loopz order
+- [ ] 3 × Nofer CLASSIC 09058.B retractable clotheslines — £89.97; order with the shower kit after layout confirmation
 - [ ] Sterling BB1225 25 A DC-DC — £190.80; order after the specification and wiring checks, then remove the Voltanic 60 A unit
 - [ ] Sell or retain the removed Voltanic 60 A DC-DC
 

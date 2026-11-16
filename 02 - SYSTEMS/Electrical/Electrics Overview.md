@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical]
 status: planning
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Electrics Overview
@@ -73,7 +73,8 @@ Typical 12 V loads:
 | Diesel heater | TBC | Installed; fuse per Eberspächer manual |
 | Water pump | TBC | Intermittent |
 | 50 L fridge/freezer | 60 W / ~5 A at 12 V | Compressor cycling; confirm duty cycle. The 24 V rating is not used on this 12 V system. |
-| Extractor fans | TBC | Intermittent |
+| Shower extractor/light (MaxxFan Dome Plus) | 24 W / ~2 A | Single speed; 5 A circuit fuse; intermittent |
+| Kitchen extractor | TBC | Intermittent |
 | Lighting | TBC | LED |
 | USB sockets | TBC | Small |
 
@@ -111,6 +112,7 @@ The 2000 W inverter is close to its continuous limit with either the hob or the 
 
 - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
 - [[Sterling Power BB1225 25A DC-DC Charger]]
+- [[MaxxFan Dome Plus]]
 - [[Diesel Heater]]
 - [[Xantrex PROwatt SW 2000i Inverter]]
 - [[Sterling Power Pro Charge Ultra 12V 60A]]
@@ -134,6 +136,7 @@ The 2000 W inverter is close to its continuous limit with either the hob or the 
 - Whether a shunt or system battery monitor will be added.
 - Inverter cable size, fuse rating and isolation switch.
 - Fridge/freezer duty cycle for the load schedule.
+- Confirm the MaxxFan Dome Plus current with the LED; allow a 5 A circuit fuse.
 - Whether the induction hob and kettle can run from the bank without unacceptable voltage sag.
 - 230 V socket layout.
 - Solar cable entry, isolation and fusing.

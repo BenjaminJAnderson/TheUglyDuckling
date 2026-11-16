@@ -1,7 +1,7 @@
 ---
 tags: [exterior, roof]
 status: installed
-updated: 2026-10-21
+updated: 2026-11-16
 ---
 
 # Roof
@@ -48,7 +48,7 @@ Existing and planned penetrations:
 - Black nipple.
 - Antenna.
 - Solar cable entry.
-- New shower extractor roof vent (position TBC).
+- New MaxxFan Dome Plus shower extractor penetration, 159 mm circular (position TBC). The lid opens about 100 mm above the roof; keep it clear of solar panels and roof fittings.
 - Diesel heater combustion air and exhaust terminations.
 - Future kitchen and toilet vents.
 
@@ -57,7 +57,7 @@ All penetrations must be sealed with a suitable UV-stable sealant and, where pos
 ## Open questions
 
 - Exact solar cable entry point.
-- Where to put the new shower extractor roof vent, clear of the solar panels and existing penetrations.
+- Where to put the new 159 mm MaxxFan Dome Plus penetration, clear of the solar panels, roof ribs and existing penetrations; consider reusing the old black extractor opening with a sealed adapter plate.
 - Vent locations for the kitchen, shower and toilet.
 - Whether the white dome and black nipple stay.
 - How to access the roof for maintenance without a permanent ladder.
@@ -71,7 +71,7 @@ All penetrations must be sealed with a suitable UV-stable sealant and, where pos
 | Aluminium extrusion | TBC | Black anodised | TBC | TBC | installed | Solar mounting |
 | Roof sealant | TBC | UV-stable | TBC | TBC | idea | See [[Caulking]] |
 | Cable entry gland | 1 | Weatherproof | TBC | TBC | idea | |
-| New shower extractor vent | 1 | Roof cowl, insect mesh, backdraught shutter | TBC | TBC | research | See [[Shower]] |
+| MaxxFan Dome Plus | 1 | `00-03810B`, black, LED, 12 V, ~200 CFM, 159 mm cutout | [Maxxair](https://www.maxxair.com/products/fans/maxxfan-dome-plus-00-03810B/) | ~£104–£119 | shortlisted | Direct roof mount; see [[MaxxFan Dome Plus]] |
 | Vent cowls / rain caps | TBC | For future vents | TBC | TBC | research | |
 | Metal decking | — | — | — | — | cancelled | No longer required |
 | Metal grate | — | — | — | — | cancelled | No longer required |
@@ -82,6 +82,7 @@ All penetrations must be sealed with a suitable UV-stable sealant and, where pos
 - [[Caulking]]
 - [[Ladder]]
 - [[Ventilation & Moisture]]
+- [[MaxxFan Dome Plus]]
 - [[Diesel Heater]]
 - [[Electrics Overview]]
 - [[Dashboard]]

@@ -1,7 +1,7 @@
 ---
 tags: [systems, ventilation, moisture]
 status: planning
-updated: 2026-11-02
+updated: 2026-11-16
 ---
 
 # Ventilation & Moisture
@@ -13,7 +13,7 @@ Ventilation is critical in a sealed ambulance. Cooking, showering, drying gear a
 ## Requirements
 
 - Kitchen extractor for cooking fumes, grease and moisture.
-- Shower extractor for steam, with a **new roof vent**.
+- Shower extractor for steam, direct roof-mounted, with integrated lighting.
 - Compartment ventilation for toilet odour and moisture; no dedicated toilet vent.
 - Passive or controlled inlet air.
 - A ducted heat supply from the diesel heater to the shower for drying.
@@ -33,11 +33,14 @@ Ventilation is critical in a sealed ambulance. Cooking, showering, drying gear a
 
 ### Shower
 
-- **New 12 V extractor fan**; do not reuse the existing black roof extractor.
-- Humidity sensor or timer, plus a manual boost switch.
-- Duct to a **new roof vent** with a cowl, insect mesh and backdraught shutter.
-- Insulated duct to reduce condensation.
-- Passive air inlet so the extractor can move air.
+- **MaxxFan Dome Plus `00-03810B`** (black, integrated LED) shortlisted; see [[MaxxFan Dome Plus]].
+- Compact 12 V exhaust-only fan, ~200 CFM, single speed, manual on/off and manual lift lid.
+- No humidity sensor or timer; the requirement was relaxed to manual control on 2026-11-16.
+- Direct roof mount through the shower ceiling; no separate duct, cowl or backdraught shutter.
+- The ceiling build-up is ~93.6 mm (5.6 mm ply/PVC + 38 mm battens + 50 mm sandwich roof); trim the sleeve to about 117 mm.
+- Seal with butyl tape and a compatible self-levelling lap sealant; seal the interior garnish ring with neutral-cure silicone.
+- Passive air inlet sized for ~200 CFM; a sealed compartment will starve the fan.
+- Keep the fan, wiring and sleeve clear of the heater duct and check solar and roof-rib clearances.
 - Wipe down and squeegee the compartment after use.
 
 ### Drying room and diesel heater
@@ -53,6 +56,7 @@ The Eberspächer Airtronic D4 is already installed. See [[Diesel Heater]].
 - High-temperature, closable diffuser in the shower.
 - High-temperature ducting, clamps and a heat shield.
 - CO alarm.
+- Three Nofer retractable clotheslines provide hanging space in the shower; see [[Shower#Clothes drying — retractable lines]].
 
 ### Toilet
 
@@ -77,6 +81,8 @@ The Eberspächer Airtronic D4 is already installed. See [[Diesel Heater]].
 3. Direct heater air to the shower, with a vent open and a small circulation fan if needed.
 4. Finish with a short extract to remove the moist air.
 
+Hang clothes on the three retractable lines while the extractor and heater are running, without blocking the air path.
+
 Heat alone is not enough: moisture needs a path out of the compartment.
 
 ## Condensation and insulation
@@ -96,10 +102,15 @@ Heat alone is not enough: moisture needs a path out of the compartment.
 | --- | --- | --- | --- | --- | --- | --- |
 | Kitchen extractor | 1 | Ducted or recirculating | TBC | TBC | research | |
 | Grease filter | 1 | TBC | TBC | TBC | idea | |
-| Shower extractor | 1 | 12 V, humidity sensor/timer | TBC | TBC | research | New unit |
-| Shower roof vent / cowl | 1 | New penetration | TBC | TBC | research | Insect mesh and backdraught shutter |
-| Extractor duct | TBC | Insulated | TBC | TBC | idea | |
-| Passive air inlet | 1 | TBC | TBC | TBC | idea | |
+| Shower extractor / light | 1 | MaxxFan Dome Plus `00-03810B`, black, LED, 12 V, ~200 CFM | [Maxxair](https://www.maxxair.com/products/fans/maxxfan-dome-plus-00-03810B/) | ~£104–£119 | shortlisted | See [[MaxxFan Dome Plus]]; manual control |
+| Butyl tape and lap sealant | 1 set | Aluminium-compatible | TBC | TBC | idea | Roof flange |
+| 159 mm hole saw / cutter | 1 | Deep enough for ~94 mm | TBC | TBC | idea | |
+| 12 V cable and 5 A fuse | 1 set | 2-core 1.0–1.5 mm² | TBC | TBC | idea | Circuit protection |
+| Plywood mounting ring / noggins | 1 set | Around 159 mm opening | TBC | TBC | idea | |
+| Shower roof vent / cowl | — | Integral to MaxxFan | — | — | cancelled | No separate cowl |
+| Extractor duct | — | Not required | — | — | cancelled | Direct roof mount |
+| Retractable clotheslines | 3 | Nofer CLASSIC 09058.B, AISI 304, 2.2 m cord | [Nofer](https://www.nofer.co.uk/classic-series/classic-series-retractable-clothesline) | £29.99 inc VAT each | shortlisted | See [[Shower]] |
+| Passive air inlet | 1 | Sized for ~200 CFM | TBC | TBC | idea | |
 | 89 mm heater duct | TBC | High-temperature | [Eberspacher ducting](https://eberspacherdirect.com/eberspacher-ducting/) | TBC | idea | See [[Diesel Heater]] |
 | Heater changeover damper | 1 | Living space or shower | TBC | TBC | research | Do not dead-end heater |
 | High-temperature diffuser | 1 | Closable | [Eberspacher outlets](https://eberspacherdirect.com/eberspacher-outlets/) | TBC | research | |
@@ -115,9 +126,10 @@ Heat alone is not enough: moisture needs a path out of the compartment.
 
 ## Open questions
 
-- New extractor model, duct route and roof-vent location.
+- Confirm MaxxFan Dome Plus price/stock, sleeve and guard contents, LED IP rating, roof fixing and location; see [[MaxxFan Dome Plus]].
 - Heater changeover damper type and duct route.
 - Confirm the compartment extractor is adequate for toilet odour; there is no dedicated toilet vent.
+- Confirm the three clothesline positions/heights and clearances to the extractor and heater diffuser.
 - Roof/wall vent locations and roof penetrations.
 - Heating and insulation strategy.
 - Whether a dehumidifier is needed.
@@ -127,6 +139,7 @@ Heat alone is not enough: moisture needs a path out of the compartment.
 
 - [[Kitchen]]
 - [[Shower]]
+- [[MaxxFan Dome Plus]]
 - [[Toilet]]
 - [[Water]]
 - [[Electrics Overview]]

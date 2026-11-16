@@ -8,7 +8,7 @@ progress: 0
 after:
   - "FS:[[M01 Design freeze]]"
   - "FS:[[V02 Select heater damper, diffuser, ducting and heat shield]]"
-updated: 2026-10-29
+updated: 2026-11-16
 ---
 
 # V03 Order ventilation and heater branch components
@@ -19,8 +19,8 @@ The ventilation and heater branch parts are ordered with delivery dates recorded
 
 ## Done when
 
-- [ ] Shower extractor and roof vent ordered
-- [ ] Extractor duct, clamps and insulation ordered
+- [ ] MaxxFan Dome Plus ordered
+- [ ] Butyl tape, lap sealant, 159 mm hole saw, 5 A fuse and cable ordered
 - [ ] 89 mm heater duct and changeover damper ordered
 - [ ] Diffuser, heat shield and CO alarm ordered
 - [ ] 76 mm return duct and grille ordered
@@ -28,10 +28,12 @@ The ventilation and heater branch parts are ordered with delivery dates recorded
 
 ## Notes
 
+- The MaxxFan is a direct roof mount; no separate extractor duct, cowl or backdraught shutter is required.
 - Confirm high-temperature ratings for every part near the heater outlet.
 
 ## Links
 
+- [[MaxxFan Dome Plus]]
 - [[Ventilation & Moisture]]
 - [[Diesel Heater]]
 - [[Shopping List]]

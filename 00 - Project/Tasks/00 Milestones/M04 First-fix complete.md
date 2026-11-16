@@ -8,9 +8,9 @@ after:
   - "FS:[[S05 Install wall frame, noggins and insulation]]"
   - "FS:[[W04 Install tanks, pipework and pump]]"
   - "FS:[[E05 Install charger, inverter, consumer unit and circuits]]"
-  - "FS:[[V04 Install roof vent, extractor and duct]]"
+  - "FS:[[V04 Install shower extractor and roof vent]]"
   - "FS:[[V05 Install heater branch, diffuser, heat shield and CO alarm]]"
-updated: 2026-11-13
+updated: 2026-11-16
 ---
 
 # M04 First-fix complete
@@ -22,7 +22,7 @@ updated: 2026-11-13
 - [ ] Battery bank, protection, DC-DC charger, shore charger, inverter and consumer unit installed
 - [ ] Existing 60 A DC-DC removed; BB1225 installed with about 30 A fusing, ignition feed and temperature sensor
 - [ ] DC and AC circuits first-fixed and labelled
-- [ ] Roof vent, extractor duct and heater branch installed
+- [ ] Shower extractor, roof vent and heater branch installed
 - [ ] First-fix inspection passed
 - [ ] Photos recorded before closing the walls
 

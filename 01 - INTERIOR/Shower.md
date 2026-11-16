@@ -1,7 +1,7 @@
 ---
 tags: [interior, shower, water, ventilation]
 status: planning
-updated: 2026-11-04
+updated: 2026-11-16
 ---
 
 # Shower
@@ -23,7 +23,8 @@ The shower compartment also acts as the **drying room**, heated by a duct from t
 - A 12 V DC supply for the Loopz (60 W maximum), with the socket outside the cubicle.
 - A way to fill the 6 L reservoir with fresh water.
 - A gravity drain from the Loopz to the 60 L grey tank.
-- A new roof extractor for steam and moisture.
+- A new roof extractor for steam and moisture, with integral lighting.
+- Hanging space for drying clothes (three retractable lines).
 - A ducted heat supply from the diesel heater, with a changeover switch between the living space and the shower.
 - No hot-water plumbing.
 
@@ -120,13 +121,18 @@ There is no hot-water system. The Loopz does not heat water.
 - The manual requires the power adapter to be in a dry environment.
 - Isolate the circuit when the unit is removed.
 
-### Ventilation — new roof extractor
+### Ventilation — MaxxFan Dome Plus
 
-- New 12 V extractor fan; do not reuse the existing black roof extractor.
-- Humidity sensor or timer, plus a manual boost switch.
-- Duct to a new roof vent with a cowl, insect mesh and backdraught shutter.
-- Support the duct and insulate it to reduce condensation.
-- Provide a passive air inlet so the extractor can move air.
+- **MaxxFan Dome Plus `00-03810B`** (black, integrated LED ring), shortlisted 2026-11-16. See [[MaxxFan Dome Plus]].
+- Compact 12 V exhaust-only fan, ~200 CFM, single speed, manual on/off and manual lift lid.
+- No humidity sensor or timer; the previous requirement was relaxed to manual control on 2026-11-16.
+- Direct roof mount through the shower ceiling. No separate duct, cowl or backdraught shutter; the fan forms the roof terminal.
+- Cutout 159 mm. The 5.6 mm ply/PVC + 38 mm battens + 50 mm sandwich roof gives ~93.6 mm; trim the extension sleeve to about 117 mm (93.6 mm + 23.8 mm LED garnish allowance).
+- Seal the flange with butyl tape and a compatible self-levelling lap sealant; seal the garnish ring to the ceiling with neutral-cure silicone.
+- Power: 12 V DC, ~2 A / 24 W, 5 A circuit fuse. Controls are at the ceiling; provide an isolator outside the cubicle if convenient.
+- Open the lid before running the fan; do not run with the lid closed.
+- Provide a passive air inlet sized for ~200 CFM; a sealed compartment will starve the fan.
+- Keep the fan, wiring and sleeve clear of the diesel-heater duct/diffuser and check solar-panel and roof-rib clearances.
 - Dry the compartment after use to prevent mould.
 
 ### Drying room — diesel heater
@@ -144,6 +150,21 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 - CO alarm.
 - Suggested drying sequence: squeegee walls → extract 10–15 minutes → heat/circulate with the vent open → short extract to remove moist air.
 
+### Clothes drying — retractable lines
+
+- **3 × Nofer CLASSIC 09058.B retractable clotheslines**, AISI 304 polished stainless steel, Ø90 × 55 mm deep, 2.2 m nylon cord, **£29.99 inc VAT each (£89.97 total)**, 12-month warranty. See [Nofer](https://www.nofer.co.uk/classic-series/classic-series-retractable-clothesline).
+- The unit is designed to mount between two opposite walls with a maximum span of 2.2 m. The shower's opposite walls are about 700 mm apart, well within the limit.
+- The 2.2 m cord is much longer than the ~700 mm span; at short extension the line tension may be lower. Check that it supports wet clothes without sagging and that the opposite support holds the line taut.
+- Plan three units at even spacing, with the cases on one wall and the opposite supports on the other. A practical layout is three lines at different heights, evenly spaced vertically, so longer items hang from the upper lines; confirm whether you prefer this or three lines side-by-side at one height.
+- Fix through the 2 mm PVC and plywood into the 3×2 CLS battens. Add noggins behind the ply at every fixing point where the unit does not align with a batten; do not rely on the plywood alone.
+- Pre-drill the PVC, use stainless screws and sealing washers long enough to bite into the batten, and seal every penetration with neutral-cure silicone.
+- Allow the screw to pass through the 2 mm PVC and plywood and bite at least 20–25 mm into the batten; confirm the ply thickness and screw size before ordering.
+- Mount as high as practical so clothes hang clear of the Loopz base and floor. Check clearance to the ceiling, [[MaxxFan Dome Plus]], heater diffuser, shower head/hose, Loopz controls, toilet and curtain rail. The case protrudes 55 mm from the wall.
+- The line exits at the centre of the 90 mm case, so set the case centre at the intended line height.
+- Confirm the opposite support/hook is included. If not, source a stainless support and fix it to a batten/noggin.
+- AISI 304 is suitable for a fresh-water shower. Clean with a stainless-steel cleaner and avoid chloride or bleach-based cleaners. The nylon cord may stretch; check the tension and fixings with wet clothes.
+- Retract the lines when not in use. They are for drying, not for use during showering.
+
 ### Travel and vibration
 
 - Use mechanical fixings into the battens and structural ribs for the plywood backing; bond the PVC to the plywood with a suitable adhesive and fix the edges as confirmed.
@@ -151,7 +172,8 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 - Allow expansion gaps at panel edges and cover with trims.
 - Use flexible sealant, not rigid grout.
 - Secure the Loopz, shower head, hose, control panel and deck.
-- Support the extractor duct, heater duct and drain hose with clamps.
+- Retract the clotheslines fully for travel and check the cases and opposite supports remain secure.
+- Support the heater duct and drain hose with clamps. The MaxxFan is a direct roof mount with no extractor duct.
 - Avoid sharp edges, kinks and rubbing points.
 - Check fixings after the first few trips.
 
@@ -163,7 +185,8 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 - H-trim, edge-trim and adhesive specification.
 - Confirm the Multi Seal rubber type, mould resistance, profile and wet-area suitability with JA Seals.
 - Measure the Loopz base-to-wall gap and confirm the 2.5 m trim covers it with enough corner allowance.
-- Extractor fan model and roof-vent location.
+- Confirm MaxxFan Dome Plus price/stock, sleeve and guard contents, LED IP rating, roof fixing and location; see [[MaxxFan Dome Plus]].
+- Confirm the three clothesline positions and heights (side-by-side or stacked), fixing screw size, opposite-support inclusion and clearances to the MaxxFan, heater diffuser, shower head and Loopz controls.
 - Heater changeover damper/vent type and duct route.
 - Confirm Loopz maximum water temperature and weight with Hamwells.
 - Confirm the Loopz deck is suitable for the intended users (100 kg limit).
@@ -194,8 +217,10 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 | Curtain and rail | 1 | TBC | TBC | TBC | idea | Fix into battens |
 | Mirror | 1 | Anti-fog optional | TBC | TBC | idea | |
 | Shelf / hooks / towel rail | TBC | TBC | TBC | TBC | idea | |
+| Retractable clothesline | 3 | Nofer CLASSIC 09058.B, AISI 304, Ø90 × 55 mm, 2.2 m nylon cord | [Nofer](https://www.nofer.co.uk/classic-series/classic-series-retractable-clothesline) | £29.99 inc VAT each | shortlisted | 3 units; fix into battens/noggins; layout TBC |
+| Clothesline noggins/blocking | 1 set | Behind ply at each fixing point | TBC | TBC | idea | Where units do not align with battens |
 | Grab handle | 1 | TBC | TBC | TBC | idea | |
-| IP65 light and switch | 1 | 12 V | TBC | TBC | idea | |
+| IP65 light and switch | — | Superseded by MaxxFan LED ring | — | — | cancelled | Confirm LED IP rating |
 | Access panel | 1 | Drain and connections | TBC | TBC | idea | |
 
 ### Water, power and ventilation
@@ -211,11 +236,20 @@ The Eberspächer Airtronic D4 is already mounted. See [[Diesel Heater]].
 | Grey-tank inlet | 1 | TBC | TBC | TBC | idea | |
 | HepvO / P-trap | 1 | Waterless or conventional | TBC | TBC | research | Stop smells |
 | Grey-tank vent | 1 | TBC | TBC | TBC | idea | |
-| New extractor fan | 1 | 12 V, humidity sensor/timer | TBC | TBC | research | Not the old roof unit |
-| Extractor duct | TBC | Insulated | TBC | TBC | idea | |
-| Roof vent / cowl | 1 | New penetration | TBC | TBC | research | Insect mesh and backdraught shutter |
-| Duct clamps | TBC | TBC | TBC | TBC | idea | |
-| Passive air inlet | 1 | TBC | TBC | TBC | idea | |
+| MaxxFan Dome Plus | 1 | `00-03810B`, black, LED, 12 V, ~200 CFM, 159 mm cutout | [Maxxair](https://www.maxxair.com/products/fans/maxxfan-dome-plus-00-03810B/) | ~£104–£119 | shortlisted | See [[MaxxFan Dome Plus]]; manual control |
+| Butyl tape | 1 | Flange groove | TBC | TBC | idea | Roof seal |
+| Self-levelling lap sealant | 1 | Dicor 501LSW / Sikaflex 715 or equivalent | TBC | TBC | idea | Aluminium-compatible; no solvents/polysulfide |
+| 159 mm hole saw / cutter | 1 | Deep enough for ~94 mm | TBC | TBC | idea | Cut from both sides if needed |
+| 12 V cable | TBC | 2-core, 1.0–1.5 mm² | TBC | TBC | idea | Fan and LED |
+| 5 A fuse and holder | 1 | Circuit protection | TBC | TBC | idea | Fan has internal 5 A GMA |
+| 12 V isolator | 1 | Outside cubicle, optional | TBC | TBC | idea | |
+| Plywood mounting ring / noggins | 1 set | Around 159 mm opening | TBC | TBC | idea | Garnish-ring screws |
+| Cable gland / sealed entry | 1 | For 12 V cable | TBC | TBC | idea | Drip loop |
+| Rivnuts / mounting plate | TBC | If roof-skin purchase is inadequate | TBC | TBC | research | 50 mm sandwich |
+| Extractor duct | — | Not required | — | — | cancelled | Direct roof mount |
+| Roof vent / cowl | — | Integral to MaxxFan | — | — | cancelled | No separate cowl/backdraught shutter |
+| Duct clamps | — | Not required | — | — | cancelled | |
+| Passive air inlet | 1 | Sized for ~200 CFM | TBC | TBC | idea | |
 
 ### Diesel-heater drying branch
 
@@ -253,6 +287,10 @@ See [[Shopping List]].
 - [Hamwells downloads](https://hamwells.com/pages/downloads)
 - [Black PVC cladding sheet](https://www.hygienicplastic.co.uk/product/black-pvc-10-x-4-x-2mm-3050-x-1220-x-2mm-wall-cladding-sheet/)
 - [JA Seals Multi Seal 2.5 m](https://www.jaseals.co.uk/multi-seal-25m_165)
+- [Maxxair MaxxFan Dome Plus](https://www.maxxair.com/products/fans/maxxfan-dome-plus-00-03810B/)
+- [[MaxxFan Dome Installation Instructions.pdf|MaxxFan Dome instructions (PDF)]]
+- [Nofer CLASSIC retractable clothesline](https://www.nofer.co.uk/classic-series/classic-series-retractable-clothesline)
+- [[Nofer 09058.B Clothesline Data Sheet.pdf|Nofer 09058.B data sheet (PDF)]]
 - [Eberspächer Airtronic D4](https://eberspacherdirect.com/eberspacher-airtronic-d4-heater-12v-mk1/)
 - [Eberspächer ducting](https://eberspacherdirect.com/eberspacher-ducting/)
 - [Eberspächer outlets](https://eberspacherdirect.com/eberspacher-outlets/)
@@ -264,6 +302,7 @@ See [[Shopping List]].
 - [[Water]]
 - [[Electrics Overview]]
 - [[Ventilation & Moisture]]
+- [[MaxxFan Dome Plus]]
 - [[Diesel Heater]]
 - [[Roof]]
 - [[Decisions]]

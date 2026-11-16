@@ -1,7 +1,7 @@
 ---
 tags: [project, dashboard]
 status: active
-updated: 2026-11-13
+updated: 2026-11-16
 ---
 
 # The Ugly Duckling — Project Dashboard
@@ -49,6 +49,7 @@ Ambulance conversion into a self-sustaining, off-grid liveaboard.
 
 - [[Water]]
 - [[Ventilation & Moisture]]
+  - [[MaxxFan Dome Plus]]
 - [[Diesel Heater]]
 - [[Electrics Overview]]
   - [[Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery]]
@@ -77,7 +78,8 @@ Ambulance conversion into a self-sustaining, off-grid liveaboard.
 - Boxio TOILET XL MAX+ separating toilet, portable within the wet area; 7 L urine / 8 L solids, 45 cm with Solo Up, 5.8 kg, no dedicated vent.
 - Loopz Plus recirculating shower, semi-permanent installation.
 - Shower walls: 3×2 CLS at 300 mm centres with plywood-backed 2 mm black PVC cladding; three walls approximately 1970 × 700 mm; JA Seals Multi Seal compression trim around the Loopz base.
-- New roof extractor for the shower.
+- MaxxFan Dome Plus roof extractor/light for the shower (shortlisted).
+- Three Nofer retractable clotheslines for drying in the shower (shortlisted).
 - Eberspächer D4 diesel heater with 802 controller; changeover between living space and shower drying.
 - No hot-water system; kettle only.
 - No roof decking and no ladder.

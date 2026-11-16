@@ -1,7 +1,7 @@
 ---
 tags: [project, decisions]
 status: active
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Decisions
@@ -117,6 +117,8 @@ A running log of significant build and documentation decisions.
 **Decision:** Install a new 12 V shower extractor with humidity sensor/timer and a new roof vent.
 
 **Consequences:** A new roof penetration, duct, cowl, insect mesh and backdraught shutter are required. The roof layout must avoid the solar panels and existing penetrations.
+
+**Superseded (partially) 2026-11-16:** The humidity sensor/timer requirement was relaxed to manual control. The MaxxFan Dome Plus `00-03810B` is shortlisted as a direct roof-mounted extractor/light; see the entry below.
 
 ## 2026-10-21 — Diesel heater drying branch with changeover
 
@@ -319,6 +321,32 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 
 **Consequences:** The 326 mm height and tapered footprint must be checked against the planned under-sink or cabinet space, and the bins need a travel restraint because the lids are removable rather than latched. The bucket, lid, hinge and ring are polypropylene with at least 50% recycled content; the handle is reinforced polyamide with at least 20% recycled content. They remain `shortlisted` until ordered. The £14 raises the priced shopping-list total to £2,117.95. See [[Kitchen]] and [[Shopping List]].
 
+## 2026-11-16 — MaxxFan Dome Plus for shower extraction and lighting
+
+**Context:** The shower needs a new extractor, and the previous design required a humidity sensor or timer, a separate roof vent, a duct, a cowl and a separate IP65 light. The preferred solution is a compact combined light and extractor. The shower ceiling is a dropped ceiling of about 5.6 mm PVC/ply, 38 mm battens and a 50 mm aluminium sandwich roof, giving about 93.6 mm from the shower ceiling to the exterior roof. The MaxxFan Dome Plus `00-03810B` is a 6¼" cutout, 12 V exhaust-only fan with an integrated LED ring and a manual lift lid; the manual is P/N `11-90056`.
+
+**Options considered:**
+- MaxxFan Dome Plus `00-03810B` as a combined direct-mounted extractor and light.
+- A ducted 12 V extractor with a humidity sensor/timer, separate roof vent, cowl and IP65 light.
+- Another compact roof or sidewall fan.
+
+**Decision:** Shortlist the **MaxxFan Dome Plus `00-03810B`** (black, integrated LED) at approximately **£104–£119** as the preferred shower extractor/light. Use the integrated LED as the shower light and remove the separate IP65 light. Relax the humidity sensor/timer requirement to manual control: the fan is single-speed with manual on/off and a manual lift lid. Use a direct roof mount through the shower ceiling, with no separate duct, cowl or backdraught shutter. The nominal 93.6 mm build-up needs the extension sleeve trimmed to about **117 mm** (93.6 mm plus 23.8 mm for the LED garnish ring). Seal the flange with butyl tape and a compatible self-levelling lap sealant, and seal the interior garnish ring with neutral-cure silicone.
+
+**Consequences:** The installation is simpler than the ducted design and provides ventilation and lighting in one fitting. However, the fan must be switched on manually and the lid opened before use; there is no humidity sensor, timer, thermostat or wall control. The fan draws about 2 A / 24 W and needs a 5 A circuit fuse. The design depends on a 159 mm roof penetration clear of the solar array, roof ribs and existing penetrations. Before ordering, confirm the sleeve and guard contents, the LED IP rating, the actual current and airflow, roof-skin screw purchase, sealant compatibility, headroom below the handle and the passive inlet. If the checks fail, revert to a ducted humidity-sensing extractor and a separate IP65 light. See [[MaxxFan Dome Plus]], [[Shower]] and [[Shopping List]].
+
+## 2026-11-16 — Nofer retractable clotheslines for shower drying
+
+**Context:** The shower compartment is also the drying room, but it had no hanging space. Three retractable lines are wanted at even spacing to dry clothes. The walls are 2 mm PVC on plywood over 3×2 CLS battens, so the fixings must reach the battens or added noggins.
+
+**Options considered:**
+- Three Nofer CLASSIC 09058.B retractable clotheslines.
+- Fixed stainless rails or hooks.
+- A freestanding drying rack.
+
+**Decision:** Use **3 × Nofer CLASSIC 09058.B retractable clotheslines**, AISI 304 polished stainless steel, Ø90 × 55 mm, 2.2 m nylon cord, at **£29.99 inc VAT each (£89.97 total)**. Mount them between the two opposite walls across the ~700 mm shower width, at even spacing. Confirm whether the lines are side-by-side at one height or stacked at three heights. Fix through the 2 mm PVC and plywood into the battens; add noggins behind the ply wherever the fixing points do not align with a batten. Use stainless screws and sealing washers and seal every penetration with neutral-cure silicone.
+
+**Consequences:** The priced shopping-list total rises to **£2,207.92** before the shortlisted MaxxFan. The installation needs three case fixings and three opposite supports, all on battens or noggins. The cases protrude 55 mm, so check clearance to the shower head, Loopz controls, heater diffuser, MaxxFan and toilet, and set the height to give clothes useful drop. Confirm that the opposite support is included; if not, source a stainless support. AISI 304 is suitable for fresh water but needs regular stainless-steel cleaner and no chloride/bleach cleaners. The nylon cord may stretch, so check the fixings and tension with wet clothes. See [[Shower]] and [[Shopping List]].
+
 ## Related
 
 - [[Dashboard]]
@@ -328,6 +356,7 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 - [[Kitchen, Shower & Toilet]]
 - [[Kitchen]]
 - [[Shower]]
+- [[MaxxFan Dome Plus]]
 - [[Toilet]]
 - [[Water]]
 - [[Ventilation & Moisture]]

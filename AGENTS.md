@@ -17,7 +17,8 @@ Current phase: **kitchen, shower and toilet area**, plus the supporting water, w
   - The Loopz base slides into place and is sealed with a **JA Seals Multi Seal 2.5 m** compression trim fixed to the walls; the base remains free for servicing. Confirm the rubber type and wet-area suitability before ordering.
   - The unit can be removed for servicing or storage.
   - Design figures: 60 W / 5 A, 10 kg unit plus 6 kg water, 45 °C maximum water temperature, 100 kg maximum deck load.
-- **Shower ventilation:** new 12 V roof extractor with humidity sensor/timer. The old black roof extractor is not reused.
+- **Shower ventilation:** new 12 V roof extractor. MaxxFan Dome Plus `00-03810B` (black, integrated LED) shortlisted; manual on/off and manual lift lid, no humidity sensor/timer (requirement relaxed 2026-11-16). Direct roof mount, 159 mm cutout; ~93.6 mm build-up and ~117 mm trimmed sleeve. Confirm price/stock, sleeve/guard contents, LED IP rating and roof fixing before ordering.
+- **Shower drying:** 3 × Nofer CLASSIC 09058.B retractable clotheslines, AISI 304, Ø90 × 55 mm, 2.2 m nylon cord, £29.99 inc VAT each. Mounted between the two opposite walls across the ~700 mm shower width at even spacing; fix through the PVC/ply into battens or added noggins with stainless screws and sealed penetrations. Confirm layout/height, opposite-support inclusion and clearances before ordering.
 - **Diesel heater:** Eberspächer Airtronic D4 12 V Mk1 with 802 controller, already mounted.
   - 89 mm hot-air duct to the shower through a changeover damper, so the heater can supply either the living space or the shower.
   - 76 mm return air from the dry living space, not the shower.

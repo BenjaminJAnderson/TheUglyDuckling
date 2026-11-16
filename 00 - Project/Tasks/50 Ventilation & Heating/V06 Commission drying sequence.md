@@ -7,7 +7,7 @@ effort_days: 1
 progress: 0
 after:
   - "FS:[[M06 Toilet and kitchen installed]]"
-updated: 2026-10-29
+updated: 2026-11-16
 ---
 
 # V06 Commission drying sequence
@@ -18,8 +18,8 @@ The shower extractor and heater drying branch work together as a controlled dryi
 
 ## Done when
 
-- [ ] Extractor humidity sensor or timer tested
-- [ ] Manual boost tested
+- [ ] MaxxFan manual lid, fan and LED tested
+- [ ] Fan control and isolation tested
 - [ ] Heater changeover damper tested in both positions
 - [ ] Diffuser airflow tested
 - [ ] CO alarm tested
@@ -30,9 +30,11 @@ The shower extractor and heater drying branch work together as a controlled dryi
 
 - Suggested sequence: squeegee, extract 10–15 minutes, heat with vent open, short final extract.
 - Confirm the heater is never dead-ended.
+- The MaxxFan has no humidity sensor or timer; open the lid and switch it on manually.
 
 ## Links
 
+- [[MaxxFan Dome Plus]]
 - [[Ventilation & Moisture]]
 - [[Diesel Heater]]
 - [[Shower]]
