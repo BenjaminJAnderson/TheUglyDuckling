@@ -1,7 +1,7 @@
 ---
 tags: [project, decisions]
 status: active
-updated: 2026-11-16
+updated: 2026-11-18
 ---
 
 # Decisions
@@ -346,6 +346,20 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 **Decision:** Use **3 × Nofer CLASSIC 09058.B retractable clotheslines**, AISI 304 polished stainless steel, Ø90 × 55 mm, 2.2 m nylon cord, at **£29.99 inc VAT each (£89.97 total)**. Mount them between the two opposite walls across the ~700 mm shower width, at even spacing. Confirm whether the lines are side-by-side at one height or stacked at three heights. Fix through the 2 mm PVC and plywood into the battens; add noggins behind the ply wherever the fixing points do not align with a batten. Use stainless screws and sealing washers and seal every penetration with neutral-cure silicone.
 
 **Consequences:** The priced shopping-list total rises to **£2,207.92** before the shortlisted MaxxFan. The installation needs three case fixings and three opposite supports, all on battens or noggins. The cases protrude 55 mm, so check clearance to the shower head, Loopz controls, heater diffuser, MaxxFan and toilet, and set the height to give clothes useful drop. Confirm that the opposite support is included; if not, source a stainless support. AISI 304 is suitable for fresh water but needs regular stainless-steel cleaner and no chloride/bleach cleaners. The nylon cord may stretch, so check the fixings and tension with wet clothes. See [[Shower]] and [[Shopping List]].
+
+## 2026-11-18 — VEVOR 40 cm top-mount stainless sink
+
+**Context:** The kitchen BOM had a 24 × 18 × 9 in (about 610 mm wide) Garvee single-bowl sink as the only shortlisted model, with no recorded price, stock or installation details. A narrower sink suits the compact galley and leaves more worktop, so a priced 400 mm two-model comparison was made.
+
+**Options considered:**
+- Garvee 24 × 18 × 9 in stainless single bowl, unpriced.
+- VEVOR 40 cm top-mount 304 stainless single bowl (`QRSSCTSPDC40TOW17V0`).
+- AliExpress single-bowl alternative.
+- Continue researching other sinks.
+
+**Decision:** Select the **VEVOR 40 cm top-mount single-bowl sink**, SKU `QRSSCTSPDC40TOW17V0`, model `T404519RS0`, at **£68.90**. It is 304 stainless steel, **400 × 450 × 190 mm** externally, with a **370 × 420 mm** internal bowl, a **3 mm** rim and a weight of **4.5 kg**. The drain hole is offset, the base has a quick-drain profile, and the supplied drain kit has two side pipe inlets. Sound-deadening pads and an anti-condensation base coat are fitted. The rim has tap and soap-dispenser holes. It is a drop-in top mount, sealed to the worktop with neutral-cure silicone.
+
+**Consequences:** The sink is 210 mm narrower than the Garvee candidate, so the worktop layout and carcass can be re-planned around a smaller opening. The listing gives a 370 × 420 mm cutout, identical to the internal bowl size, so the supplied saw template must be checked before the worktop is cut. A review reports no fixing clips in the box, so the contents need checking on receipt. The product page shows the variant as both out of stock and in stock, so availability must be confirmed before ordering. Confirm the drain offset direction suits the trap and grey-tank route, the tap-hole size suits the chosen cold tap, and whether the second hole can take the optional drinking-water filter tap. The 40 mm sink inlet to the 60 L grey tank and the fill-point spill path are unchanged. The £68.90 price raises the priced shopping-list total to **£2,276.82**. The sink remains `shortlisted` until ordered. See [[Kitchen]] and [[Shopping List]].
 
 ## Related
 

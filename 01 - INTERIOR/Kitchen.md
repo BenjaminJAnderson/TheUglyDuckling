@@ -1,7 +1,7 @@
 ---
 tags: [interior, kitchen]
 status: planning
-updated: 2026-11-14
+updated: 2026-11-18
 ---
 
 # Kitchen
@@ -33,6 +33,16 @@ The kitchen is a compact cold-water galley with an induction hob, a 50 L 12/24 V
 - Conventional 50 L fridge/freezer below the worktop with ventilation front and rear. The door hinge is reversible and is set left or right at installation.
 - Pantry and drawer storage around the appliances.
 - Bins in a pull-out or dedicated cupboard.
+
+### Sink
+
+- **VEVOR 40 cm top-mount single-bowl sink**, 304 stainless steel, SKU `QRSSCTSPDC40TOW17V0`, model `T404519RS0`.
+- External **400 × 450 × 190 mm** (width × depth × bowl depth); internal bowl **370 × 420 mm**; **3 mm** rim; **4.5 kg**.
+- The listing gives a **370 × 420 mm** cutout, which is the same as the internal bowl size. Confirm the cutout against the supplied saw template before cutting the worktop.
+- Offset drain hole with a quick-drain base and an included drain kit with two side pipe inlets.
+- Sound-deadening pads and an anti-condensation base coat.
+- Top mount, sealed with neutral-cure silicone. A customer review reports no fixing clips are supplied, so check the contents on receipt.
+- Tap and soap-dispenser holes in the rim; confirm the cold tap and optional filter tap fit these openings.
 
 ### Water
 
@@ -84,7 +94,11 @@ The kitchen is a compact cold-water galley with an induction hob, a 50 L 12/24 V
 
 ## Open questions
 
-- Exact sink, tap and drinking-water filter.
+- Exact tap and drinking-water filter.
+- Sink stock and lead time: the product page shows both out of stock and in stock.
+- Sink cutout against the supplied template; the listing's 370 × 420 mm matches the internal bowl size.
+- Sink drain offset direction relative to the trap, and the tap-hole size for the chosen tap.
+- Whether the second rim hole can take the drinking-water filter tap.
 - Extractor type: recirculating charcoal filter or ducted to outside.
 - Fridge ventilation clearances, rear air path and carcass fit.
 - Fridge door swing and worktop/cabinet clearance.
@@ -114,18 +128,18 @@ The kitchen is a compact cold-water galley with an induction hob, a 50 L 12/24 V
 
 ### Sink and cold water
 
-| Item | Qty | Spec / Model | Supplier / Link | Price | Status | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Stainless sink | 1 | 24 × 18 × 9 in single bowl | [Garvee](https://garvee.co.uk/products/garvee-kitchen-sink-24x18x9-stainless-steel-single-bowl-kitchen-pho_354q0x44) | TBC | shortlisted | [Vevor alternative](https://www.vevor.co.uk/stainless-steel-built-in-kitchen-sink-c_43093) |
-| Deep mesh strainer | 1 | TBC | TBC | TBC | shortlisted | |
-| Sink waste and trap | 1 | TBC | TBC | TBC | idea | |
-| Cold-water tap | 1 | TBC | TBC | TBC | idea | No hot supply |
-| Flexible supply hose | 1 | TBC | TBC | TBC | idea | |
-| Isolation valve | 1 | TBC | TBC | TBC | idea | |
-| Drinking-water filter | 1 | Sediment + carbon | TBC | TBC | research | Optional |
-| Drinking-water tap | 1 | TBC | TBC | TBC | idea | Optional |
-| Sink drain pipe | 1 | TBC | TBC | TBC | idea | To grey tank |
-| Air-admittance valve | 1 | TBC | TBC | TBC | idea | |
+| Item                  | Qty | Spec / Model               | Supplier / Link                                                                                                      | Price | Status      | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| --------------------- | --- | -------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stainless sink | 1 | VEVOR 40 cm top mount, 304 stainless, 400 × 450 × 190 mm, 4.5 kg | [VEVOR](https://www.vevor.co.uk/commercial-sinks-c_10620/vevor-40cm-kitchen-sink-top-mount-single-bowl-drop-in-basin-stainless-steel-bar-p_010418170336) | £68.90 | shortlisted | Stock and 370 × 420 mm cutout TBC; drain kit and two side inlets included<br>[Garvee alternative](https://garvee.co.uk/products/garvee-kitchen-sink-24x18x9-stainless-steel-single-bowl-kitchen-pho_354q0x44)<br>[Vevor category](https://www.vevor.co.uk/stainless-steel-built-in-kitchen-sink-c_43093)<br>[AliExpress alternative](https://www.aliexpress.com/item/1005009127515210.html?spm=a2g0o.productlist.main.10.6fd1128ddDvo3w&algo_pvid=9b1fc4c5-0947-4bf6-ad90-ae19a62053bb&algo_exp_id=9b1fc4c5-0947-4bf6-ad90-ae19a62053bb-9&pdp_ext_f=%7B%22order%22%3A%223%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%21109.92%2151.39%21%21%21937.08%21438.10%21%402103810f17949485057384590e1060%2112000048012130346%21sea%21UK%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Ad2170aaa%3Bm03_new_user%3A-29895&curPageLogUid=9NIEWiAndVU8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009127515210%7C_p_origin_prod%3A) |
+| Deep mesh strainer    | 1   | TBC                        | TBC                                                                                                                  | TBC   | shortlisted |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sink waste and trap   | 1   | TBC                        | TBC                                                                                                                  | TBC   | idea        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Cold-water tap        | 1   | TBC                        | TBC                                                                                                                  | TBC   | idea        | No hot supply                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Flexible supply hose  | 1   | TBC                        | TBC                                                                                                                  | TBC   | idea        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Isolation valve       | 1   | TBC                        | TBC                                                                                                                  | TBC   | idea        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Drinking-water filter | 1   | Sediment + carbon          | TBC                                                                                                                  | TBC   | research    | Optional                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Drinking-water tap    | 1   | TBC                        | TBC                                                                                                                  | TBC   | idea        | Optional                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sink drain pipe       | 1   | TBC                        | TBC                                                                                                                  | TBC   | idea        | To grey tank                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Air-admittance valve  | 1   | TBC                        | TBC                                                                                                                  | TBC   | idea        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 ### Cooking
 
@@ -171,8 +185,9 @@ See [[Shopping List]]. Shortlisted items: sink, induction hob, Sterling F50 frid
 
 ## Links
 
-- [Garvee sink](https://garvee.co.uk/products/garvee-kitchen-sink-24x18x9-stainless-steel-single-bowl-kitchen-pho_354q0x44)
-- [Vevor sinks](https://www.vevor.co.uk/stainless-steel-built-in-kitchen-sink-c_43093)
+- [VEVOR 40 cm stainless sink](https://www.vevor.co.uk/commercial-sinks-c_10620/vevor-40cm-kitchen-sink-top-mount-single-bowl-drop-in-basin-stainless-steel-bar-p_010418170336)
+- [Garvee 24 × 18 × 9 in sink (alternative)](https://garvee.co.uk/products/garvee-kitchen-sink-24x18x9-stainless-steel-single-bowl-kitchen-pho_354q0x44)
+- [Vevor sink category](https://www.vevor.co.uk/stainless-steel-built-in-kitchen-sink-c_43093)
 - [Sterling IH2L induction hob](https://sterling-power.com/products/ih2l)
 - [Sterling Power F50 50 L fridge/freezer](https://sterling-power.com/products/12v-24v-fridges)
 - [[Sterling Power F50 Fridge Instructions.pdf|Sterling F50 instructions (PDF)]]

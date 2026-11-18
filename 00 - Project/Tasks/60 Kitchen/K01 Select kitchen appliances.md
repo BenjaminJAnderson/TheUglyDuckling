@@ -4,8 +4,8 @@ status: todo
 start: 2026-11-02
 end: 2026-11-15
 effort_days: 1
-progress: 0
-updated: 2026-11-14
+progress: 25
+updated: 2026-11-18
 ---
 
 # K01 Select kitchen appliances
@@ -16,7 +16,8 @@ The sink, tap, filter, hob, fridge and kettle are chosen within the power budget
 
 ## Done when
 
-- [ ] Sink and tap chosen
+- [x] Sink chosen
+- [ ] Tap chosen
 - [ ] Drinking-water filter and optional tap chosen
 - [ ] Induction hob confirmed at 1.5 kW maximum
 - [x] 50 L fridge/freezer chosen
@@ -27,6 +28,7 @@ The sink, tap, filter, hob, fridge and kettle are chosen within the power budget
 ## Notes
 
 - The Sterling F50 50 L fridge/freezer is selected, subject to stock and lead-time confirmation.
+- The VEVOR 40 cm top-mount 304 stainless sink is selected at £68.90; confirm stock and the 370 × 420 mm cutout against the supplied template before ordering. The tap, filter and extractor remain open.
 - The hob and kettle must not run together.
 - Check the inverter surge rating for both loads.
 
