@@ -29,7 +29,7 @@ The kitchen appliances and fittings are ordered with delivery dates recorded.
 
 ## Notes
 
-- Confirm the hob and kettle are within the 1.5 kW limits.
+- Confirm the IH1L cutout, remote position and kettle rating are within the 1.5 kW limits.
 
 ## Links
 

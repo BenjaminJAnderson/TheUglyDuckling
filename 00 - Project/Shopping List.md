@@ -12,7 +12,7 @@ Procurement actions are scheduled in [[Project Plan]] and tracked in the `Tasks/
 
 ## Budget summary
 
-All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet, the Sterling F50 fridge/freezer, the VEVOR 40 cm sink, the IKEA HÅLLBAR bins, the Sterling BB1225 DC-DC and the Nofer clotheslines have current purchase prices; the cladding price is shown inc VAT for three sheets. The MaxxFan Dome Plus is shortlisted at ~£104–£119 but is not included in the total until a supplier is chosen. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
+All figures are estimates until quotes are recorded. Only the Loopz Plus, the Autocraft tanks, the PVC cladding, the JA Seals trim, the Boxio toilet, the Sterling F50 fridge/freezer, the VEVOR 40 cm sink, the Sterling IH1L induction hob, the IKEA HÅLLBAR bins, the Sterling BB1225 DC-DC and the Nofer clotheslines have current purchase prices; the cladding price is shown inc VAT for three sheets. The MaxxFan Dome Plus is shortlisted at ~£104–£119 but is not included in the total until a supplier is chosen. The installed Eco-Worthy battery's paid price is not recorded, so the current list price is shown as a reference only. The installed diesel heater is excluded.
 
 | Category | Priced | Estimated cost | Confidence | Notes |
 | --- | --- | --- | --- | --- |
@@ -20,13 +20,13 @@ All figures are estimates until quotes are recorded. Only the Loopz Plus, the Au
 | Shower ventilation | — | ~£104–£119 (shortlisted) + TBC | Low | MaxxFan Dome Plus shortlisted; sealant, fixings, cable and mounting ring unquoted; not included in the total until a supplier is chosen |
 | Shower drying | 3 × Nofer 09058.B at £29.99 inc VAT = £89.97 | £89.97 + TBC | Medium | Noggins, stainless fixings and sealant TBC; layout and opposite-support inclusion to confirm |
 | Diesel-heater branch | — | TBC | Low | Eberspächer parts, heat shield and CO alarm unquoted |
-| Kitchen | Sterling F50 fridge/freezer £238.80; VEVOR 40 cm sink £68.90; IKEA HÅLLBAR bins £14 | £321.70 + TBC | Low | Fridge, sink and bins priced; hob, kettle and extractor shortlisted or TBC |
+| Kitchen | Sterling F50 fridge/freezer £238.80; VEVOR 40 cm sink £68.90; Sterling IH1L hob £67.20; IKEA HÅLLBAR bins £14 | £388.90 + TBC | Low | Fridge, sink, hob and bins priced; kettle and extractor shortlisted or TBC |
 | Water and waste | Autocraft 75 L fresh kit £252.40; 60 L waste tank £205 | £457.40 + TBC | Medium | 60 L fitment and bracket adaptation unconfirmed; waste fittings, sensors, heating and pump/filter checks TBC |
 | Toilet | Boxio complete set £249.99 | £249.99 + TBC | Medium | No dedicated vent; optional refill bundle/spare canister not included; retention and cleaning TBC |
 | Electrical core | Eco-Worthy 314 Ah LiFePO4 installed (paid price TBC); Sterling BB1225 25 A £190.80 | £190.80 + TBC | Medium | Battery installed; DC-DC shortlisted; other electrical items unpriced |
-| **Total** | **£2,276.82** | **£2,276.82 + TBC** | | Excludes the installed battery's paid price, the shortlisted MaxxFan and the removed 60 A DC-DC's resale value |
+| **Total** | **£2,344.02** | **£2,344.02 + TBC** | | Excludes the installed battery's paid price, the shortlisted MaxxFan and the removed 60 A DC-DC's resale value |
 
-Do not commit to a budget total until the `RESEARCH — SOURCE & PRICE` cards on [[Kanban]] are complete. Contingency is TBC; review it at [[M01 Design freeze]]. The optional £32.99 refill bundle and £32.99 spare 7 L canister are not included in the total. The three Nofer clotheslines (3 × £29.99 = £89.97 inc VAT) are included, as is the VEVOR 40 cm sink (£68.90). The shortlisted MaxxFan Dome Plus (~£104–£119) is not included in the total until a supplier is chosen. Record the installed battery's paid price and any proceeds from selling the removed Voltanic 60 A DC-DC when known.
+Do not commit to a budget total until the `RESEARCH — SOURCE & PRICE` cards on [[Kanban]] are complete. Contingency is TBC; review it at [[M01 Design freeze]]. The optional £32.99 refill bundle and £32.99 spare 7 L canister are not included in the total. The three Nofer clotheslines (3 × £29.99 = £89.97 inc VAT) are included, as are the VEVOR 40 cm sink (£68.90) and the Sterling IH1L hob (£67.20). The shortlisted MaxxFan Dome Plus (~£104–£119) is not included in the total until a supplier is chosen. Record the installed battery's paid price and any proceeds from selling the removed Voltanic 60 A DC-DC when known.
 
 ## Supplier order batches
 
@@ -120,7 +120,7 @@ Nofer delivery is 4–6 working days. The £89.97 clothesline order is below the
 
 | Item | Qty | Spec / Model | Supplier / Link | Price | Status | Page |
 | --- | --- | --- | --- | --- | --- | --- |
-| Induction hob | 1 | Sterling IH2L, max 1.5 kW | [Sterling Power](https://sterling-power.com/products/ih2l) | TBC | shortlisted | [[Kitchen]] |
+| Induction hob | 1 | Sterling IH1L, 1000 W built-in, Ø195 mm plate, wired remote; SKU `IH1L` | [Sterling Power](https://sterling-power.com/products/ih1l-1?variant=56210735890806) | £67.20 inc VAT | shortlisted | 186 mm cutout; 100 mm clear bench; dedicated 13 A supply; may take a few days to ship | [[Kitchen]] |
 | Stainless sink | 1 | VEVOR 40 cm top mount, 304 stainless, 400 × 450 × 190 mm; SKU `QRSSCTSPDC40TOW17V0` | [VEVOR](https://www.vevor.co.uk/commercial-sinks-c_10620/vevor-40cm-kitchen-sink-top-mount-single-bowl-drop-in-basin-stainless-steel-bar-p_010418170336) | £68.90 | shortlisted | Stock and 370 × 420 mm cutout TBC; drain kit included | [[Kitchen]] |
 | Fridge/freezer | 1 | Sterling F50, 50 L, 12/24 V, 60 W, 380 × 479 × 532 mm | [Sterling Power](https://sterling-power.com/products/12v-24v-fridges) | £238.80 inc VAT | shortlisted | [[Kitchen]] |
 | Waste and recycling bins | 2 | IKEA HÅLLBAR 10 L with lid, light grey, 803.980.58; upper outer 263 × 212 × 326 mm | [IKEA](https://www.ikea.com/gb/en/p/hallbar-bin-with-lid-light-grey-80398058/) | £14 (2 × £7) | shortlisted | [[Kitchen]] |

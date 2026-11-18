@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical, battery, lithium]
 status: installed
-updated: 2026-11-13
+updated: 2026-11-18
 ---
 
 # Eco-Worthy EnergyTrek 12V 314Ah LiFePO4 Battery
@@ -70,7 +70,7 @@ The listing URL says 300 Ah, but the product page and specification table state 
 - The 200 A BMS supports 200 A continuous discharge and 240 A for 10 seconds.
 - A 2 kW inverter load at 12 V is about 185 A after allowing for efficiency, within the 200 A continuous rating but with little headroom for other DC loads.
 - The Xantrex PROwatt SW 2000i has a 3000 W surge for 5 seconds, roughly 278 A at 12 V. That exceeds the battery's 240 A/10 s peak. Test the inverter surge against the BMS before relying on the full inverter rating.
-- The 1.5 kW hob and kettle limit draws about 139 A each and remains comfortably within the BMS rating. Do not run them together.
+- The 1.5 kW kettle draws about 139 A after efficiency losses and the 1.0 kW Sterling IH1L hob about 93 A; both remain comfortably within the BMS rating. Do not run them together.
 
 ## Installation notes
 

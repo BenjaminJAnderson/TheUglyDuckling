@@ -1,7 +1,7 @@
 ---
 tags: [systems, electrical]
 status: planning
-updated: 2026-11-16
+updated: 2026-11-18
 ---
 
 # Electrics Overview
@@ -52,7 +52,7 @@ The installed Voltanic 60 A DC-DC is to be removed and sold. The BB1225 is a low
 - The product URL says 300 Ah, but the product page and specification table state 314 Ah; confirm the exact model.
 - The previous lead-acid auxiliary system and split-charge relays have been removed. The DC-DC is the only alternator-to-leisure path.
 - The MPPT, Pro Charge Ultra and BB1225 must all use a LiFePO4 profile. The battery's maximum charging voltage is 14.6 V; the BB1225 Lithium I profile uses 14.4 V absorption and lists 13.8 V float, but the manual also states that lithium profiles use live output voltage, so confirm the float behaviour.
-- The 2000 W inverter and 1.5 kW induction/kettle loads are demanding for the bank. The 200 A BMS is adequate for the 1.5 kW loads, but the inverter's 3000 W surge is above the battery's 240 A/10 s peak; test before relying on the full inverter rating.
+- The 2000 W inverter and the 1.5 kW kettle are demanding for the bank. The 200 A BMS is adequate for the 1.5 kW kettle or the 1.0 kW hob, but the inverter's 3000 W surge is above the battery's 240 A/10 s peak; test before relying on the full inverter rating.
 - The Fullriver DC115-12 and Lucas LSLC125-12 pages are retained as AGM research history, not as the installed bank.
 
 ## 12 V distribution
@@ -91,11 +91,11 @@ Typical 12 V loads:
 
 | Load | Rating | Notes |
 | --- | --- | --- |
-| Induction hob | 1.5 kW max | Inverter-powered; do not run with kettle |
+| Induction hob (Sterling IH1L) | 1.0 kW max | Inverter-powered; do not run with kettle |
 | Kettle | 1.5 kW max | Inverter-powered; do not run with hob |
 | 230 V sockets | TBC | Small electronics and chargers |
 
-The 2000 W inverter is close to its continuous limit with either the hob or the kettle. Both together will overload it.
+The 2000 W inverter is close to its continuous limit with the 1.5 kW kettle; the 1.0 kW hob leaves more headroom. Running both together will overload it.
 
 ## Protection and safety
 

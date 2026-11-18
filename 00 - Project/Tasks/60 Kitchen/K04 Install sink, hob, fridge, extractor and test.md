@@ -34,6 +34,9 @@ The kitchen is installed, connected and safe to use.
 ## Notes
 
 - Do not run the hob and kettle together.
+- Cut the 186 mm circular hob opening with 100 mm clear worktop around it, then fit the IH1L and its wired remote in a dry, splash-free position.
+- Give the hob a dedicated 13 A outlet; no 10 A or lower plug and no multiplug. Confirm the 65 mm body depth clears the drawer or carcass below.
+- Check the 12 cm wall clearance, fan clearance and 12–20 cm ferrous pan base. Do not exceed about 11 kg on the plate.
 - Check the fridge ventilation front and rear.
 - Set the fridge door hinge to suit the cabinet layout and confirm clearance.
 

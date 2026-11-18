@@ -361,6 +361,20 @@ The fresh tank keeps a **topfill** design. The fill point moves **inside**, to a
 
 **Consequences:** The sink is 210 mm narrower than the Garvee candidate, so the worktop layout and carcass can be re-planned around a smaller opening. The listing gives a 370 × 420 mm cutout, identical to the internal bowl size, so the supplied saw template must be checked before the worktop is cut. A review reports no fixing clips in the box, so the contents need checking on receipt. The product page shows the variant as both out of stock and in stock, so availability must be confirmed before ordering. Confirm the drain offset direction suits the trap and grey-tank route, the tap-hole size suits the chosen cold tap, and whether the second hole can take the optional drinking-water filter tap. The 40 mm sink inlet to the 60 L grey tank and the fill-point spill path are unchanged. The £68.90 price raises the priced shopping-list total to **£2,276.82**. The sink remains `shortlisted` until ordered. See [[Kitchen]] and [[Shopping List]].
 
+## 2026-11-18 — Sterling IH1L 1000 W built-in induction hob
+
+**Context:** The kitchen cooking section named the Sterling IH2L 1.5 kW built-in hob, but no price or installation detail had been recorded. The inverter is 2000 W and the kettle remains a 1.5 kW load, so a lower-power hob reduces the worst-case 230 V load and leaves more headroom. A compact circular built-in hob also suits the small galley worktop.
+
+**Options considered:**
+- Sterling IH2L, 1000 W rectangular built-in, 250 × 210 mm.
+- Sterling IH1L, 1000 W circular built-in with a wired remote.
+- Sterling IH1 or IHP portable hob.
+- Another low-power induction hob.
+
+**Decision:** Select the **Sterling IH1L** built-in single induction hob at **£67.20 inc VAT**. It is 230 V AC, 50 Hz, with a **1000 W** maximum and eight power settings from 200 W to 1000 W. The A-grade black crystal plate is **Ø195 mm** over a **Ø180 mm** body that sits about **65 mm** below the worktop. The worktop cutout is **186 mm**, with **100 mm** of clear worktop around it. Controls are on a supplied wired remote, **135 × 61 × 15 mm**. The unit has a 1.5 m AC cable with a Schuko plug and UK adaptor, eight temperature settings from 80 °C to 240 °C, overheat/voltage/current protection, and stops after 1 minute without a pan or 1 hour without operation.
+
+**Consequences:** The previous kitchen page listed the IH2L as 1.5 kW; the current Sterling listing gives the IH2 as 2000 W and the IH2L as 1000 W, so the old label was wrong and is corrected here. The 1000 W maximum is below the existing 1.5 kW appliance limit, so the hob no longer sits close to the inverter's continuous rating; the kettle is now the larger load and the two must still not run together. The IH1L manual recommends a 1000 W inverter for P1–P6 and 1500 W for P7–P8, so confirm the top two settings on the installed 2000 W inverter. A dedicated 13 A outlet is required; 10 A or lower plugs and multiplugs are not permitted. The circular cutout, 100 mm clear worktop and 65 mm body depth must be set out before the worktop is cut, and the manual's 20 mm worktop, 50 mm and 125 mm details need confirming against the chosen worktop. The remote needs a dry, splash-free mounting position and cable route. Pans must be ferrous with a 12–20 cm base. Keep 12 cm from walls and the fan clear, and do not exceed about 11 kg on the plate. The product may take a few days to ship. The separate `Manual_IH1` PDF supplied in Downloads covers the 1500 W IH1, not the IH1L, so the correct IH1L manual was downloaded and both are stored in `Attachments/`. The £67.20 price raises the priced shopping-list total to **£2,344.02**. The hob remains `shortlisted` until ordered. See [[Kitchen]] and [[Shopping List]].
+
 ## Related
 
 - [[Dashboard]]

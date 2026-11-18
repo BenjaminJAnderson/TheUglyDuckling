@@ -54,11 +54,20 @@ The kitchen is a compact cold-water galley with an induction hob, a 50 L 12/24 V
 
 ### Cooking and hot water
 
-- Induction hob: **Sterling IH2L**, limited to **1.5 kW**.
+- Induction hob: **Sterling IH1L**, built-in single circular hob, **1000 W maximum**, with a wired remote control.
+- 230 V AC, 50 Hz. Eight power settings from **200 W to 1000 W** and eight temperature settings from **80 °C to 240 °C**. The IH1L manual's power table lists an inverter requirement of 1000 W for P1–P6 and 1500 W for P7–P8.
+- A-grade black crystal plate **Ø195 mm** over a **Ø180 mm** body. The body sits about **65 mm** below the worktop and the listing gives an overall height of 82 mm.
+- **186 mm** circular worktop cutout, with **100 mm** of clear worktop around the opening. Use the supplied template or the manual dimensions, not a scaled drawing.
+- The controls are on the supplied wired remote, **135 × 61 × 15 mm**; choose a dry mounting position outside the splash zone and consider the cable route.
+- **1.5 m** AC cable with a Schuko plug and UK adaptor. Use a dedicated 13 A outlet; do not use a 10 A or lower plug or a multiplug.
+- Pan base must be ferrous and **12–20 cm** diameter. The hob stops after 1 minute without a pan and after 1 hour without operation.
+- Keep at least **12 cm** from walls and keep the fan and vents clear. Do not use it on a metal surface and do not exceed about 11 kg on the plate.
+- The 1000 W maximum is below the 1.5 kW appliance limit, so the hob leaves more inverter headroom than the superseded 1.5 kW IH2L.
 - Kettle: **1.5 kW maximum**, inverter-compatible.
-- Do not run the hob and kettle at the same time.
-- The inverter is 2000 W, so both loads are close to its continuous limit. Check surge ratings, cable size and fuse ratings.
+- Do not run the hob and kettle at the same time. The kettle is now the larger load.
+- The inverter is 2000 W; check surge ratings, cable size and fuse ratings.
 - A low-wattage travel kettle is preferred over a standard 3 kW kettle.
+- The **IH1L instructions** are stored in the vault: [[Sterling Power IH1L Induction Hob Instructions.pdf|IH1L instructions (PDF)]]. The separately supplied `Manual_IH1` PDF covers the 1500 W IH1 model, not the IH1L; use the IH1L manual for the cutout, clearances and settings.
 
 ### Fridge
 
@@ -105,7 +114,11 @@ The kitchen is a compact cold-water galley with an induction hob, a 50 L 12/24 V
 - Fridge stock and lead time.
 - Fridge duty cycle for the DC load schedule.
 - Kettle model and verified power draw.
-- Whether the induction hob and kettle can run from the installed 314 Ah LiFePO4 bank without unacceptable voltage sag or a BMS trip.
+- Whether the 1.5 kW kettle can run from the installed 314 Ah LiFePO4 bank without unacceptable voltage sag or a BMS trip, with the 1000 W hob as an additional load.
+- Hob remote-control mounting position and cable route; the remote is wired, not wireless.
+- Worktop thickness against the manual's 20 mm detail, and the 100 mm clearances around the 186 mm cutout.
+- The manual's 50 mm and 125 mm under-bench dimensions; confirm what they represent with Sterling.
+- Confirm the P7–P8 inverter requirement of 1500 W and whether both top settings are usable on the 2000 W inverter.
 - Worktop material and edge sealing.
 - Final drawer layout and HÅLLBAR bin placement, cabinet clearance (326 mm high) and travel retention.
 
@@ -143,17 +156,17 @@ The kitchen is a compact cold-water galley with an induction hob, a 50 L 12/24 V
 
 ### Cooking
 
-| Item | Qty | Spec / Model | Supplier / Link | Price | Status | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Induction hob | 1 | Sterling IH2L, max 1.5 kW | [Sterling Power](https://sterling-power.com/products/ih2l) | TBC | shortlisted | Inverter-powered |
-| Hob isolation switch | 1 | 230 V, double-pole | TBC | TBC | idea | |
-| RCBO for hob circuit | 1 | 230 V | TBC | TBC | idea | |
-| Kettle | 1 | ≤1.5 kW | TBC | TBC | research | Standard 3 kW kettles are unsuitable |
-| Induction-compatible cookware | TBC | TBC | TBC | TBC | idea | |
-| Extractor fan / cooker hood | 1 | 12 V or 230 V | TBC | TBC | research | Ducted or charcoal filter |
-| Grease filter | 1 | TBC | TBC | TBC | idea | |
-| Fire blanket | 1 | TBC | TBC | TBC | idea | |
-| Fire extinguisher | 1 | Suitable for electrical/kitchen fires | TBC | TBC | idea | |
+| Item                          | Qty | Spec / Model                          | Supplier / Link                                            | Price | Status      | Notes                                |
+| ----------------------------- | --- | ------------------------------------- | ---------------------------------------------------------- | ----- | ----------- | ------------------------------------ |
+| Induction hob                 | 1   | Sterling IH1L, 1000 W, built-in, Ø195 mm, wired remote | [Sterling Power](https://sterling-power.com/products/ih1l-1?variant=56210735890806) | £67.20 inc VAT | shortlisted | 186 mm cutout; 100 mm clear bench; dedicated 13 A supply; may take a few days to ship |
+| Hob isolation switch          | 1   | 230 V, double-pole                    | TBC                                                        | TBC   | idea        |                                      |
+| RCBO for hob circuit          | 1   | 230 V                                 | TBC                                                        | TBC   | idea        |                                      |
+| Kettle                        | 1   | ≤1.5 kW                               | TBC                                                        | TBC   | research    | Standard 3 kW kettles are unsuitable |
+| Induction-compatible cookware | TBC | TBC                                   | TBC                                                        | TBC   | idea        |                                      |
+| Extractor fan / cooker hood   | 1   | 12 V or 230 V                         | TBC                                                        | TBC   | research    | Ducted or charcoal filter            |
+| Grease filter                 | 1   | TBC                                   | TBC                                                        | TBC   | idea        |                                      |
+| Fire blanket                  | 1   | TBC                                   | TBC                                                        | TBC   | idea        |                                      |
+| Fire extinguisher             | 1   | Suitable for electrical/kitchen fires | TBC                                                        | TBC   | idea        |                                      |
 
 ### Fridge
 
@@ -188,7 +201,9 @@ See [[Shopping List]]. Shortlisted items: sink, induction hob, Sterling F50 frid
 - [VEVOR 40 cm stainless sink](https://www.vevor.co.uk/commercial-sinks-c_10620/vevor-40cm-kitchen-sink-top-mount-single-bowl-drop-in-basin-stainless-steel-bar-p_010418170336)
 - [Garvee 24 × 18 × 9 in sink (alternative)](https://garvee.co.uk/products/garvee-kitchen-sink-24x18x9-stainless-steel-single-bowl-kitchen-pho_354q0x44)
 - [Vevor sink category](https://www.vevor.co.uk/stainless-steel-built-in-kitchen-sink-c_43093)
-- [Sterling IH2L induction hob](https://sterling-power.com/products/ih2l)
+- [Sterling IH1L induction hob](https://sterling-power.com/products/ih1l-1?variant=56210735890806)
+- [[Sterling Power IH1L Induction Hob Instructions.pdf|Sterling IH1L instructions (PDF)]]
+- [[Sterling Power IH1 Induction Hob Instructions.pdf|Sterling IH1 instructions (PDF, 1500 W model)]]
 - [Sterling Power F50 50 L fridge/freezer](https://sterling-power.com/products/12v-24v-fridges)
 - [[Sterling Power F50 Fridge Instructions.pdf|Sterling F50 instructions (PDF)]]
 - [AMPS fridge app — Google Play](https://play.google.com/store/search?q=AMPS%20fridge&c=apps&hl=en_GB)

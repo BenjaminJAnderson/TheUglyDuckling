@@ -28,7 +28,7 @@ The 12 V and 230 V load schedule is complete, with cable sizes and fuse ratings 
 
 ## Notes
 
-- The induction hob and kettle are limited to 1.5 kW each and must not run together.
+- The kettle is limited to 1.5 kW and the selected Sterling IH1L hob to 1000 W; they must not run together. Use the IH1L manual's 1500 W inverter recommendation for P7–P8 when sizing.
 - Include the tank heating, extractors, heater and Loopz. The Boxio toilet has no electrical load.
 - The BB1225 manual specifies 6 mm² / 10 AWG cable and about 30 A fuses at both batteries; some mode diagrams show 50 A, so confirm the final fuse rating.
 - Replace the removed 60 A DC-DC's fuses with about 30 A fuses and check whether the existing lugs fit the BB1225 terminals; the manual does not state the terminal diameter.

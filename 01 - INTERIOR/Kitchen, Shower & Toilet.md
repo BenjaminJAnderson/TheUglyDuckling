@@ -1,7 +1,7 @@
 ---
 tags: [interior, wet-area, moc]
 status: planning
-updated: 2026-11-16
+updated: 2026-11-18
 ---
 
 # Kitchen, Shower & Toilet
@@ -19,7 +19,7 @@ This is the entry point for the kitchen, shower and toilet build. The three area
 - The **Eberspächer D4 diesel heater** can be switched between the living space and the shower for drying.
 - The **Boxio XL MAX+ separating toilet is portable** and can be moved out of the shower compartment when the shower is in use. There is no dedicated toilet vent; odour control relies on the plug/odour trap, hemp litter and the compartment extractor.
 - The **kitchen is cold-water only**. Hot water comes from a kettle.
-- The **induction hob and kettle are limited to 1.5 kW each** and run from the inverter.
+- The **Sterling IH1L induction hob is 1.0 kW** and the **kettle is limited to 1.5 kW**; both run from the inverter and must not be used together.
 
 ## Area pages
 
@@ -53,7 +53,7 @@ This is the entry point for the kitchen, shower and toilet build. The three area
 - Confirm the JA Seals Multi Seal rubber type and wet-area suitability, and measure the Loopz base-to-wall gap.
 - Where will the Loopz drain connect to the grey tank?
 - What tank insulation and heating method will prevent freezing?
-- Will the 1.5 kW induction hob and 1.5 kW kettle be usable on the installed 314 Ah LiFePO4 bank and inverter without tripping the BMS?
+- Will the 1.0 kW IH1L hob and 1.5 kW kettle be usable on the installed 314 Ah LiFePO4 bank and inverter without tripping the BMS?
 
 ## Related
 

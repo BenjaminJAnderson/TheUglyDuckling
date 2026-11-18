@@ -12,7 +12,7 @@ kanban-plugin: board
 - [ ] P1 — Check the Xantrex 3000 W surge against the 200 A battery BMS and confirm the 1.5 kW appliance limit [[E02 Complete load schedule and cable-fuse sizing|E02]]
 - [ ] P1 — Confirm the MaxxFan Dome Plus details and roof-vent location [[V01 Select shower extractor and roof vent|V01]]
 - [ ] P1 — Choose heater damper, diffuser, ducting, heat shield and CO alarm [[V02 Select heater damper, diffuser, ducting and heat shield|V02]]
-- [ ] P1 — Choose kitchen tap, filter and extractor; confirm hob and kettle [[K01 Select kitchen appliances|K01]]
+- [ ] P1 — Choose kitchen tap, filter and extractor; confirm kettle [[K01 Select kitchen appliances|K01]]
 - [ ] P2 — Confirm 60 L waste inlet and hatch positions, 75 L pump/filter contents and drain tap spec [[W03 Order tanks, pump, filter and fittings|W03]]
 - [ ] P2 — Resolve safe roof access for the vent installation (blocks [[V04 Install shower extractor and roof vent|V04]])
 
@@ -43,6 +43,7 @@ kanban-plugin: board
 - [ ] Kettle ≤1.5 kW once the current draw is verified
 - [ ] Sterling F50 50 L fridge/freezer — £238.80; order with the kitchen batch after stock and lead-time confirmation
 - [ ] VEVOR 40 cm stainless sink — £68.90; order with the kitchen batch after stock and cutout confirmation
+- [ ] Sterling IH1L 1000 W induction hob — £67.20; order with the kitchen batch after cutout and ship-time confirmation
 - [ ] Two IKEA HÅLLBAR 10 L bins — £14; buy with the kitchen storage after checking cabinet clearance
 - [ ] Loopz spare microfilter, descaler and squeegee — bundle with the Loopz order
 - [ ] 3 × Nofer CLASSIC 09058.B retractable clotheslines — £89.97; order with the shower kit after layout confirmation
@@ -86,6 +87,7 @@ kanban-plugin: board
 - [x] Choose the Sterling BB1225 25 A DC-DC as the replacement for the 60 A unit (superseding the BB1215 BaBy)
 - [x] Choose the Sterling F50 50 L fridge/freezer for the kitchen
 - [x] Choose the VEVOR 40 cm stainless sink for the kitchen
+- [x] Choose the Sterling IH1L 1000 W built-in induction hob
 - [x] Choose two IKEA HÅLLBAR 10 L bins for waste and recycling
 
 
